@@ -36,7 +36,7 @@
 
 视频会演示玩客云刷机的关键流程，包括工具准备、短接识别、导入镜像和首次启动。建议新手先完整看完，再按下面图文步骤操作。
 
-- B 站视频教程：<https://www.bilibili.com/video/BV191Vb6GEoA/?vd_source=09fb7d3841aa7ad33bc7a7dbc27e8930>
+- B 站视频教程：<https://www.bilibili.com/video/BV191Vb6GEoA/>
 
 ---
 
