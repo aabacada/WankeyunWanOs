@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WanOS - 专为玩客云打造的私有云存储系统</title>
+    <meta name="description" content="WanOS 是专为玩客云打造的私有云存储系统，让玩客云焕发新春。去繁化简，极致纯粹的存储系统。">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="WanOS 首页">
+        <span class="brand-mark">W</span>
+        <span>WanOS</span>
+      </a>
+      <nav class="nav">
+        <a href="/" aria-current="page" data-short="首页">首页</a>
+        <a href="/about/" data-short="关于">关于 WanOS</a>
+        <a href="/doc.html" data-short="说明">使用说明</a>
+        <a href="/app/" data-short="APP">APP下载</a>
+        <a href="/flash/" data-short="刷机">刷机教程</a>
+        <a href="/forum/" data-short="论坛">交流论坛</a>
+        <a class="account-entry" href="/account/" data-short="登录">&#30331;&#24405;</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">OneCloud Private Storage</p>
+          <h1>专为玩客云打造的私有云存储系统 <span class="free-use-mark">● 免费使用</span></h1>
+          <p class="hero-lead">让玩客云焕发新春。</p>
+          <p class="hero-sub">去繁化简，极致纯粹的存储系统。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="/flash/">查看刷机教程</a>
+            <a class="button ghost" href="/app/">下载 APP</a>
+            <a class="button ghost" href="#features">了解功能</a>
+          </div>
+        </div>
+
+        <div class="product-shot" aria-label="WanOS 界面预览">
+          <img class="home-real-shot" src="https://wxqun988.vxjuejin.com/wanos/ChatGPT%20Image%202026%E5%B9%B45%E6%9C%8828%E6%97%A5%2019_27_20.png" alt="WanOS 桌面系统界面预览">
+        </div>
+      </section>
+
+      <section class="home-box-promo" aria-label="轻NAS小盒子展示">
+        <div class="home-box-promo-image">
+          <img src="/assets/home/light-nas-box.png" alt="轻NAS小盒子 WanOS 家庭私有云展示" loading="lazy">
+        </div>
+        <div class="home-box-promo-copy">
+          <p class="section-kicker">DIY NAS BOX</p>
+          <h2>轻NAS小盒子</h2>
+          <p>作者DIY作品</p>
+          <a class="button primary" href="https://item.taobao.com/item.htm?id=1062276197925&spm=a213gs.v2success.0.0.74e348312lrIEa" target="_blank" rel="noopener noreferrer">立即购买</a>
+        </div>
+      </section>
+
+      <section class="home-supported-section" aria-label="适配设备">
+        <p class="home-supported-note">说明：WanOS 基于 Linux / Ubuntu 系统环境定制开发，部分能力使用了开源项目，包括 HiNas、ffmpeg 和 GitHub 上的一些开源项目。</p>
+        <a class="home-supported-panel" href="/supported/">
+          <span>适配设备</span>
+          <strong>请查看我们目前已经适配的小盒子</strong>
+          <em>华为悦盒 EC6108V9C 已进入适配列表，查看设备图片和刷机包下载地址。</em>
+          <img src="/assets/devices/huawei-ec6108v9c.png" alt="华为悦盒 EC6108V9C" loading="lazy">
+        </a>
+      </section>
+
+
+      <section class="wanos-id-access" aria-label="WanOS ID 远程访问">
+        <div class="wanos-id-brand">
+          <span class="wanos-id-mark">W</span>
+          <strong>WanOS</strong>
+        </div>
+        <h2>输入你的 WanOS ID 以访问你的设备</h2>
+        <div class="wanos-id-form" role="search">
+          <input id="homeWanOSIdInput" type="text" placeholder="请输入" autocomplete="username" aria-label="WanOS ID">
+          <button id="homeWanOSIdButton" type="button" disabled>连接</button>
+        </div>
+        <p id="homeWanOSIdMessage" class="wanos-id-message" aria-live="polite"></p>
+      </section>
+
+
+
+      <section class="service-migrate-notice" aria-label="WanOS 主服务迁移公告">
+        <div class="service-migrate-copy">
+          <p class="section-kicker">Service Migration Notice</p>
+          <h2>旧版本设备请先执行主服务过渡脚本</h2>
+          <p>如果设备从 0.3.201 等旧完整包在线更新后出现 404、502、面板打不开，先通过 SSH 执行下面命令。脚本会把主服务统一迁移到 <code>wanos.service</code>，并关闭旧的 <code>alist.service</code> / <code>mybox.service</code> 冲突。</p>
+        </div>
+        <div class="service-migrate-command">
+          <code>curl -fsSL https://wanos.xyz/update/wanos/wanos-service-migrate.sh | sh</code>
+          <code>wget -O- https://wanos.xyz/update/wanos/wanos-service-migrate.sh | sh</code>
+        </div>
+      </section>
+
+      <section class="one-line-install" aria-label="WanOS 一键安装命令">
+        <div class="one-line-copy">
+          <p class="section-kicker">Linux One-line Install</p>
+          <h2>一键安装命令，自动适配 x86 / arm64 / armv7</h2>
+          <p>适合已经能 SSH 登录的 Ubuntu / Debian 系统。脚本会自动识别 CPU 架构，按 x86/amd64、arm64、armv7 下载对应 runtime 和 WanOS 主程序，完成 Web 入口、mDNS 发现和常用依赖初始化。</p>
+        </div>
+        <div class="one-line-terminal" role="group" aria-label="复制 WanOS 一键安装命令">
+          <code>curl -kfsSL https://wanos.xyz/install.sh -o /tmp/wanos-install.sh && sudo sh /tmp/wanos-install.sh</code>
+          <button class="button primary" type="button" id="installEnvOpen">适用环境</button>
+          <div class="one-line-resources" aria-label="WanOS 一键安装辅助资源">
+            <a class="one-line-resource-card" href="https://www.bilibili.com/video/BV1U7Er62EEr/" target="_blank" rel="noopener noreferrer">
+              <span class="one-line-resource-icon">▶</span>
+              <span>
+                <strong>视频教程</strong>
+                <em>查看一键安装和初始化流程</em>
+              </span>
+            </a>
+            <a class="one-line-resource-card" href="https://pan.baidu.com/s/1IjJ1GPKJbsRDJYB69uIDVQ?pwd=vjp1" target="_blank" rel="noopener noreferrer">
+              <span class="one-line-resource-icon">↓</span>
+              <span>
+                <strong>纯净版 Armbian 下载</strong>
+                <em>文件：Armbian.img</em>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="one-line-tags"><span>x86 / amd64</span><span>arm64</span><span>armv7</span><span>需要 root 权限</span></div>
+      </section>
+
+      <section class="section intro" id="features">
+        <div>
+          <p class="section-kicker">做一件事</p>
+          <h2>把玩客云变成顺手的本地存储</h2>
+        </div>
+        <p>WanOS 保留稳定底层，把使用体验集中在文件管理、外接硬盘识别、局域网访问和后续一键更新上。打开设备 IP，就像打开一台轻量电脑。</p>
+      </section>
+
+      <section class="power-story" aria-label="WanOS 低功耗卖点">
+        <div>
+          <p class="section-kicker">低功耗小服务器</p>
+          <h2>我是小盒子，也是大世界</h2>
+          <p>实测功耗约 3 瓦，全年无休电费约 18 元。一杯奶茶钱，就能让它一年 24 小时守着你的照片、视频、文件和家庭服务。</p>
+        </div>
+        <div class="power-meter">
+          <strong>3W</strong>
+          <span>约 18 元/年</span>
+        </div>
+      </section>
+
+      <section class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon storage"></span>
+          <h3>本地私有存储</h3>
+          <p>数据优先放在自己的设备和硬盘里，适合家庭资料、照片、视频和临时文件中转。</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon desktop"></span>
+          <h3>桌面式交互</h3>
+          <p>保留“我的存储”窗口、文件图标、上传下载、重命名、复制剪切等高频操作。</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon usb"></span>
+          <h3>外接盘识别</h3>
+          <p>插入 U 盘或移动硬盘后，系统自动检测并展示到存储入口，减少手工配置。</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon update"></span>
+          <h3>持续更新</h3>
+          <p>应用层可独立升级，后续可以接入一键更新能力，不必每次都重新刷完整固件。</p>
+        </article>
+      </section>
+
+      <section class="home-showcase-image" aria-label="WanOS 展示图">
+        <img src="https://wxqun988.vxjuejin.com/wanos/%E5%B7%B2%E7%94%9F%E6%88%90%E5%9B%BE%E5%83%8F%201.png" alt="WanOS 私有云系统展示图">
+      </section>
+
+      <section class="band">
+        <div>
+          <p class="section-kicker">开始使用</p>
+          <h2>准备好玩客云、烧录工具和 WanOS 镜像</h2>
+        </div>
+        <div class="band-actions">
+          <a class="button ghost" href="/app/">查看 APP 下载</a>
+          <a class="button primary" href="/flash/">进入刷机教程</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="brand" href="/" aria-label="WanOS 首页">
+            <span class="brand-mark">W</span>
+            <span>WanOS</span>
+          </a>
+          <p>专为玩客云和 ARMv7 小盒子打造的轻 NAS 私有存储系统。</p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <strong>产品</strong>
+            <a href="/about/">关于 WanOS</a>
+            <a href="/app/">APP 下载</a>
+            <a href="/flash/">刷机教程</a>
+            <a href="/devices/">成品设备</a>
+          </div>
+          <div>
+            <strong>资源</strong>
+            <a href="/doc.html">使用说明</a>
+            <a href="/system-capabilities/">系统能力</a>
+            <a href="/oauth/">登录鉴权</a>
+            <a href="/docs/wpk/">WPK &#24212;&#29992;&#24320;&#21457;&#25991;&#26723;</a><a href="/app-store/publish/">&#21457;&#24067; WPK &#24212;&#29992;</a>
+            <a href="/forum/">交流论坛</a>
+            <a href="https://wanos.xyz" target="_blank" rel="noopener">wanos.xyz</a>
+          </div>
+          <div>
+            <strong>联系</strong>
+            <span>QQ 1546912750</span>
+            <span>轻 NAS / 玩客云 / 私有云</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>Copyright © 2026 WanOS</span>
+        <span>低功耗家庭私有云系统</span>
+      </div>
+    </footer>
+  
+
+    <div class="home-launch-modal" id="homeLaunchModal" aria-hidden="true">
+      <div class="home-launch-backdrop" data-home-launch-close></div>
+      <div class="home-launch-dialog" role="dialog" aria-modal="true" aria-labelledby="homeLaunchTitle">
+        <button class="home-launch-close" type="button" data-home-launch-close aria-label="关闭">×</button>
+        <img class="home-launch-image" src="https://wxqun988.vxjuejin.com/360%E6%88%AA%E5%9B%BE20260602162746679_%E5%89%AF%E6%9C%AC.jpg" alt="小龙虾AI助手已上架应用商店">
+        <div class="home-launch-copy">
+          <p class="eyebrow">WanOS App Store</p>
+          <h2 id="homeLaunchTitle">小龙虾已上架应用商店</h2>
+          <p>打开 WanOS 应用商店，即可安装小龙虾AI助手。</p>
+          <a class="button primary" href="/app/">查看 APP 下载</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      (function() {
+        var input = document.getElementById("homeWanOSIdInput");
+        var button = document.getElementById("homeWanOSIdButton");
+        var message = document.getElementById("homeWanOSIdMessage");
+        if (!input || !button || !message) return;
+        function setLoading(loading) {
+          button.disabled = loading || !input.value.trim();
+          button.textContent = loading ? "连接中" : "连接";
+        }
+        async function connect() {
+          var id = input.value.trim();
+          if (!id) {
+            message.textContent = "请输入 WanOS ID。";
+            setLoading(false);
+            return;
+          }
+          setLoading(true);
+          message.textContent = "正在查找设备...";
+          try {
+            var res = await fetch("/api/connect/resolve?id=" + encodeURIComponent(id), { cache: "no-store" });
+            var data = await res.json().catch(function() { return {}; });
+            if (!res.ok || !data.ok || !data.public_url) throw new Error(data.error || "没有找到已绑定设备。");
+            message.textContent = "已找到设备，正在跳转...";
+            location.href = data.public_url;
+          } catch (err) {
+            message.textContent = err && err.message ? err.message : "查找失败。";
+            setLoading(false);
+          }
+        }
+        input.addEventListener("input", function() {
+          message.textContent = "";
+          setLoading(false);
+        });
+        input.addEventListener("keydown", function(event) {
+          if (event.key === "Enter") connect();
+        });
+        button.addEventListener("click", connect);
+        setLoading(false);
+      })();
+    </script>
+    <script>
+      (function() {
+        var modal = document.getElementById("homeLaunchModal");
+        if (!modal) return;
+        function show() { modal.classList.add("active"); modal.setAttribute("aria-hidden", "false"); }
+        function hide() { modal.classList.remove("active"); modal.setAttribute("aria-hidden", "true"); }
+        modal.querySelectorAll("[data-home-launch-close]").forEach(function(el) { el.addEventListener("click", hide); });
+        document.addEventListener("keydown", function(event) { if (event.key === "Escape") hide(); });
+        if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", show);
+        else show();
+      })();
+    </script>
+    <div class="support-author-fab" id="supportAuthorOpen" role="button" tabindex="0" aria-label="支持作者，持续更新">
+      <span>支持作者</span>
+    </div>
+    <div class="wechat-group-fab" id="wechatGroupOpen" role="button" tabindex="0" aria-label="打开 WanOS 微信群">
+      <span>微信群</span>
+    </div>
+    <div class="qq-group-fab" id="qqGroupOpen" role="button" tabindex="0" aria-label="打开 WanOS QQ 群">
+      <span>QQ群</span>
+    </div>
+    <div class="wechat-group-modal" id="wechatGroupModal" aria-hidden="true">
+      <div class="wechat-group-backdrop" data-wechat-close></div>
+      <div class="wechat-group-dialog" role="dialog" aria-modal="true" aria-labelledby="wechatGroupTitle">
+        <button class="wechat-group-close" type="button" data-wechat-close aria-label="关闭">×</button>
+        <div class="wechat-group-head">
+          <p class="eyebrow">WanOS WeChat</p>
+          <h2 id="wechatGroupTitle">加入 WanOS 微信群</h2>
+          <p>使用微信扫码加入群聊，获取刷机、使用和更新交流。</p>
+        </div>
+        <img class="wechat-group-qr" src="/assets/support/wechat-group.jpg" alt="WanOS 微信群二维码" loading="lazy">
+      </div>
+    </div>
+    <div class="qq-group-modal" id="qqGroupModal" aria-hidden="true">
+      <div class="qq-group-backdrop" data-qq-close></div>
+      <div class="qq-group-dialog" role="dialog" aria-modal="true" aria-labelledby="qqGroupTitle">
+        <button class="qq-group-close" type="button" data-qq-close aria-label="关闭">×</button>
+        <div class="qq-group-head">
+          <p class="eyebrow">WanOS Community</p>
+          <h2 id="qqGroupTitle">加入 WanOS QQ 群</h2>
+          <p>扫码加入新群，或在 QQ 搜索群号 1060010472，获取刷机、使用和更新交流。</p>
+        </div>
+        <img class="qq-group-qr" src="/assets/support/qq-group-727219773.png" alt="WanOS QQ 群二维码" loading="lazy">
+        <a class="button primary qq-group-link" href="#" data-qq-group="1060010472">复制群号：1060010472</a>
+      </div>
+    </div>
+    <div class="support-author-modal" id="supportAuthorModal" aria-hidden="true">
+      <div class="support-author-backdrop" data-support-close></div>
+      <div class="support-author-dialog" role="dialog" aria-modal="true" aria-labelledby="supportAuthorTitle">
+        <button class="support-author-close" type="button" data-support-close aria-label="关闭">&times;</button>
+        <div class="support-author-head">
+          <p class="eyebrow">SUPPORT WANOS</p>
+          <h2 id="supportAuthorTitle">支持作者，持续更新</h2>
+          <p>WanOS 会继续适配更多盒子、应用和远程访问能力。你的支持会用于服务器、带宽和持续开发。</p>
+        </div>
+        <div class="support-author-qrs">
+          <figure>
+            <img src="/assets/support/wechat-reward.png" alt="微信赞赏码" loading="lazy">
+            <figcaption>微信赞赏码</figcaption>
+          </figure>
+          <figure>
+            <img src="/assets/support/alipay-collection.png" alt="支付宝收款码" loading="lazy">
+            <figcaption>支付宝收款码</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <script src="/qq-group.js" defer></script>
+    <div class="install-env-modal" id="installEnvModal" aria-hidden="true">
+      <div class="install-env-backdrop" data-install-env-close></div>
+      <div class="install-env-dialog" role="dialog" aria-modal="true" aria-labelledby="installEnvTitle">
+        <button class="install-env-close" type="button" data-install-env-close aria-label="关闭">×</button>
+        <p class="eyebrow">Install Environment</p>
+        <h2 id="installEnvTitle">WanOS 一键安装适用环境</h2>
+        <dl class="install-env-list">
+          <div><dt>推荐系统</dt><dd>Ubuntu 20.04 / 22.04 LTS</dd></div>
+          <div><dt>兼容系统</dt><dd>Debian 11 / 12</dd></div>
+          <div><dt>架构要求</dt><dd>x86/amd64、arm64、armv7/armv7l</dd></div>
+          <div><dt>初始化系统</dt><dd>systemd</dd></div>
+          <div><dt>软件源</dt><dd>apt 可用</dd></div>
+          <div><dt>网络要求</dt><dd>设备能联网</dd></div>
+          <div><dt>权限要求</dt><dd>root / sudo</dd></div>
+        </dl>
+        <p class="install-env-note">WanOS 一键安装脚本会自动识别 x86/amd64、arm64、armv7 架构并下载对应组件。推荐 Ubuntu 20.04/22.04，Debian 11/12 可用；OpenWrt、CentOS 等非 apt/systemd 环境暂不保证完整兼容。</p>
+      </div>
+    </div>
+    <script>
+      (function() {
+        var modal = document.getElementById("installEnvModal");
+        var open = document.getElementById("installEnvOpen");
+        if (!modal || !open) return;
+        function show() { modal.classList.add("active"); modal.setAttribute("aria-hidden", "false"); }
+        function hide() { modal.classList.remove("active"); modal.setAttribute("aria-hidden", "true"); }
+        open.addEventListener("click", show);
+        modal.querySelectorAll("[data-install-env-close]").forEach(function(el) { el.addEventListener("click", hide); });
+        document.addEventListener("keydown", function(event) { if (event.key === "Escape") hide(); });
+      })();
+    </script>
+    <script>
+      (function(){
+        var entry=document.querySelector(".account-entry");
+        if(!entry)return;
+        try{
+          var user=JSON.parse(localStorage.getItem("wanos_forum_user")||"null");
+          if(!user||!(user.name||user.wanos_id))return;
+          if(user.avatar){
+            entry.innerHTML='<img src="'+String(user.avatar).replace(/"/g,"&quot;")+'" alt="" style="width:24px;height:24px;border-radius:50%;object-fit:cover">';
+          }else{
+            entry.textContent=String(user.name||user.wanos_id).slice(0,1).toUpperCase();
+          }
+          entry.title=user.name||user.wanos_id;
+          entry.setAttribute("data-short","账号");
+        }catch(e){}
+      })();
+    </script>
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"39c9bcf3ab5541c598860b67ef309a39","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
