@@ -1,4 +1,5 @@
 # WanOS APP 下载
+https://github.com/aabacada/wankeyunwanos/releases/tag/v2026.11.5
 
 > 手机版、电视端、电脑同步盘和苹果版入口统一整理。下载安装到手机或电视后，可连接局域网 IP、公网域名或自定义端口访问 WanOS。
 >
