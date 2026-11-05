@@ -77,12 +77,6 @@
 
 ---
 
-## 已知问题
-
-> ⚠️ **WPK 开发者工具下载链接目前失效。** `https://www.wanos.xyz/downloads/tools/WanOS-WPK-Developer-Tool.exe` 返回的是 HTML 页面而不是 exe 文件（约 24 KB）。需要工具时请到官网页面重新尝试，或直接用文档里的命令行方式打包。
-
-> 📦 **大文件不建议推到 GitHub。** `玩客云刷WanOS视频教程.mp4` 有 45 MB，接近单文件 100 MB 上限的一半；配合 `.gitignore` 排除更稳妥。
-
 ---
 
 ## 声明
