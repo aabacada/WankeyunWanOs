@@ -1,0 +1,4639 @@
+{
+  "version": "1",
+  "updated_at": "2026-07-21T16:12:47.224Z",
+  "apps": [
+    {
+      "id": "wanos-ai-assistant",
+      "name": "WanOS 智能助手",
+      "category": "系统组件",
+      "version": "2026.07.09-6",
+      "description": "独立运行的 WanOS AI 助手，可诊断系统、修复面板、重启服务、安装应用和组件，并通过 /ai 支持远程访问。",
+      "icon": "https://wanos.xyz/downloads/apps/wanos-ai-assistant/icon.png",
+      "port": 18330,
+      "path": "/",
+      "service": "wanos-ai-assistant",
+      "install_url": "https://wanos.xyz/downloads/apps/wanos-ai-assistant/install.sh",
+      "install_sha256": "6138f0ecec83fe5ba98b4a358df0d3fd5bb9a91437c921846e44923a70ab449a",
+      "update_url": "https://wanos.xyz/downloads/apps/wanos-ai-assistant/update.sh",
+      "update_sha256": "014115a884820a448adc45faeee5aace341d5ac6d00caa2f172d89020e5f1f00",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/wanos-ai-assistant/uninstall.sh",
+      "uninstall_sha256": "e1bec6b7645916bb5bb50acc19dde1cbd7c118e013c586340960cf38f254ed01",
+      "architectures": [
+        "linux-armv7",
+        "linux-arm64",
+        "linux-amd64"
+      ],
+      "packages": [
+        {
+          "arch": "linux-armv7",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-ai-assistant/wanos-ai-assistant-linux-armv7-v6",
+          "sha256": "a7b2adf16b644e5943f887c5769d7399974feee55f646a9aa07826bee2cf29ce",
+          "size": 0
+        },
+        {
+          "arch": "linux-arm64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-ai-assistant/wanos-ai-assistant-linux-arm64-v6",
+          "sha256": "e08282cd917e9ad93303f924be2468c8832505fb7794bbe1affb5637d4b46aed",
+          "size": 0
+        },
+        {
+          "arch": "linux-amd64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-ai-assistant/wanos-ai-assistant-linux-amd64-v6",
+          "sha256": "b35b8dcb8087cf5291fdb018020fee5c41ce0ee24381b736149db81fe1202788",
+          "size": 0
+        }
+      ],
+      "tags": [
+        "AI",
+        "系统修复",
+        "救援",
+        "DeepSeek"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start wanos-ai-assistant",
+          "systemctl start wanos-ai-assistant",
+          "systemctl start wanos-ai-assistant",
+          "systemctl start wanos-ai-assistant"
+        ],
+        "stop": [
+          "systemctl stop wanos-ai-assistant",
+          "systemctl stop wanos-ai-assistant",
+          "systemctl stop wanos-ai-assistant",
+          "systemctl stop wanos-ai-assistant"
+        ],
+        "check": [
+          "systemctl is-active wanos-ai-assistant",
+          "systemctl is-active wanos-ai-assistant",
+          "systemctl is-active wanos-ai-assistant",
+          "systemctl is-active wanos-ai-assistant"
+        ]
+      },
+      "downloads": 39,
+      "url": "",
+      "package_url": "",
+      "package_sha256": "",
+      "size": "",
+      "package_size": 0
+    },
+    {
+      "id": "wanos-wifi-drivers",
+      "name": "USB WiFi 驱动组件",
+      "category": "系统组件",
+      "version": "2026.07.09-8",
+      "description": "自动识别 USB 无线网卡，安装和更新 WanOS WiFi 驱动数据库、固件和内核模块，支持后续持续补充更多网卡型号。",
+      "icon": "https://wanos.xyz/downloads/apps/wanos-wifi-drivers/wifi-drivers.png",
+      "port": 18321,
+      "path": "/",
+      "url": "",
+      "service": "wanos-wifi-drivers-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/wanos-wifi-drivers/install.sh",
+      "install_sha256": "1c322f62de3aa86eb8649f349f39d0d99c4bb50b379ed7ec043e276ee187c39d",
+      "update_url": "https://wanos.xyz/downloads/apps/wanos-wifi-drivers/update.sh",
+      "update_sha256": "3be7dbb746b9b2ee4bddf238080bed85d5689cfa4e71412525782482c87c8c81",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/wanos-wifi-drivers/uninstall.sh",
+      "uninstall_sha256": "5ea96d3e0cc09e1a29242520cb1280e5e0237da697450cb5ab6546a7f2ea6ef3",
+      "architectures": [
+        "linux-armv7",
+        "linux-arm64"
+      ],
+      "packages": [
+        {
+          "arch": "linux-armv7",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/components/wifi-drivers/wanos-wifi-drivers-linux-armv7-v4.tar.gz",
+          "sha256": "f5be80cef77dee32e2a9398dd867c43cc74156465fd68ef560783aba99391d01",
+          "size": 0
+        },
+        {
+          "arch": "linux-arm64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/components/wifi-drivers/wanos-wifi-drivers-linux-arm64-v1.tar.gz",
+          "sha256": "a4d5465e5815d47928f2ce0afeb310b2b325cd8d33ae0afaec5c401998d36e6f",
+          "size": 0
+        }
+      ],
+      "tags": [
+        "系统组件",
+        "WiFi",
+        "USB网卡",
+        "驱动"
+      ],
+      "notes": [
+        "安装后会自动识别常见 USB WiFi 芯片并尝试加载对应内核模块。",
+        "后续新增网卡支持时，只需要更新此组件应用或对应架构驱动包。",
+        "如果当前内核没有对应驱动，界面会提示当前设备暂不支持该网卡。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start wanos-wifi-drivers-panel",
+          "systemctl start wanos-wifi-drivers-panel",
+          "systemctl start wanos-wifi-drivers-panel",
+          "systemctl start wanos-wifi-drivers-panel"
+        ],
+        "stop": [
+          "systemctl stop wanos-wifi-drivers-panel",
+          "systemctl stop wanos-wifi-drivers-panel",
+          "systemctl stop wanos-wifi-drivers-panel",
+          "systemctl stop wanos-wifi-drivers-panel"
+        ],
+        "check": [
+          "systemctl is-active wanos-wifi-drivers-panel",
+          "systemctl is-active wanos-wifi-drivers-panel",
+          "systemctl is-active wanos-wifi-drivers-panel",
+          "systemctl is-active wanos-wifi-drivers-panel"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "downloads": 0,
+      "size": "",
+      "package_size": 0
+    },
+    {
+      "id": "terminal",
+      "name": "终端",
+      "description": "内置 ttyd 网页终端",
+      "icon": "▸_",
+      "port": 7681,
+      "path": "/",
+      "url": "",
+      "service": "ttyd",
+      "install_url": "",
+      "install_sha256": "",
+      "uninstall_url": "",
+      "uninstall_sha256": "",
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start ttyd",
+          "systemctl start ttyd",
+          "systemctl start ttyd",
+          "systemctl start ttyd"
+        ],
+        "stop": [
+          "systemctl stop ttyd",
+          "systemctl stop ttyd",
+          "systemctl stop ttyd",
+          "systemctl stop ttyd"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active ttyd",
+          "systemctl is-active ttyd",
+          "systemctl is-active ttyd",
+          "systemctl is-active ttyd"
+        ]
+      },
+      "update_url": "",
+      "update_sha256": "",
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 0,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "tags": [],
+      "architectures": [],
+      "category": "",
+      "version": ""
+    },
+    {
+      "id": "transmission",
+      "name": "BT 下载",
+      "description": "Transmission 下载管理器",
+      "icon": "BT",
+      "port": 9091,
+      "path": "/transmission/web/index.html",
+      "url": "",
+      "service": "transmission-daemon",
+      "install_url": "",
+      "install_sha256": "",
+      "uninstall_url": "",
+      "uninstall_sha256": "",
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start transmission-daemon",
+          "systemctl start transmission-daemon",
+          "systemctl start transmission-daemon",
+          "systemctl start transmission-daemon"
+        ],
+        "stop": [
+          "systemctl stop transmission-daemon",
+          "systemctl stop transmission-daemon",
+          "systemctl stop transmission-daemon",
+          "systemctl stop transmission-daemon"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active transmission-daemon",
+          "systemctl is-active transmission-daemon",
+          "systemctl is-active transmission-daemon",
+          "systemctl is-active transmission-daemon"
+        ]
+      },
+      "update_url": "",
+      "update_sha256": "",
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 0,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "tags": [],
+      "architectures": [],
+      "category": "",
+      "version": ""
+    },
+    {
+      "id": "wanos-test-app",
+      "name": "测试应用",
+      "description": "用于验证应用商店安装、启动、桌面图标和弹窗打开闭环的 Go Web 测试应用。",
+      "icon": "TEST",
+      "port": 18090,
+      "path": "/",
+      "url": "",
+      "service": "wanos-test-app",
+      "install_url": "https://wanos.xyz/downloads/apps/wanos-test-app/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/wanos-test-app/uninstall.sh",
+      "uninstall_sha256": "a9f7bdf8bab5f5311f9ae7fc5b000361a2c01c4532c71b6a38e3ffbb80186cad",
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start wanos-test-app",
+          "systemctl start wanos-test-app",
+          "systemctl start wanos-test-app",
+          "systemctl start wanos-test-app"
+        ],
+        "stop": [
+          "systemctl stop wanos-test-app",
+          "systemctl stop wanos-test-app",
+          "systemctl stop wanos-test-app",
+          "systemctl stop wanos-test-app"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active wanos-test-app",
+          "systemctl is-active wanos-test-app",
+          "systemctl is-active wanos-test-app",
+          "systemctl is-active wanos-test-app"
+        ]
+      },
+      "update_url": "",
+      "update_sha256": "",
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 18,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "tags": [],
+      "architectures": [],
+      "category": "",
+      "version": ""
+    },
+    {
+      "id": "picoclaw",
+      "name": "小龙虾AI助手",
+      "description": "PicoClaw 轻量级 AI Agent 框架，提供 Web 控制台，可接入 QQ/Telegram 等渠道。实验性应用，需要用户自行配置大模型 API Key。",
+      "icon": "https://wanos.xyz/downloads/apps/picoclaw/longxia.png",
+      "port": 18800,
+      "path": "/",
+      "url": "",
+      "service": "picoclaw",
+      "install_url": "https://wanos.xyz/downloads/apps/picoclaw/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/picoclaw/uninstall.sh",
+      "uninstall_sha256": "7b5471bdd083e81952b3042a8d2402fc6e0500a36e15368a3f14f41146664bcf",
+      "tags": [
+        "AI",
+        "实验性",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start picoclaw",
+          "systemctl start picoclaw",
+          "systemctl start picoclaw",
+          "systemctl start picoclaw"
+        ],
+        "stop": [
+          "systemctl stop picoclaw",
+          "systemctl stop picoclaw",
+          "systemctl stop picoclaw",
+          "systemctl stop picoclaw"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active picoclaw",
+          "systemctl is-active picoclaw",
+          "systemctl is-active picoclaw",
+          "systemctl is-active picoclaw"
+        ]
+      },
+      "update_url": "",
+      "update_sha256": "",
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 118,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": "",
+      "version": ""
+    },
+    {
+      "id": "ddns-go",
+      "name": "DDNS-GO 动态域名",
+      "description": "轻量动态域名解析工具，支持 Cloudflare、阿里云、腾讯云等 DNS 服务商，提供 Web 管理面板。",
+      "icon": "https://wanos.xyz/downloads/apps/ddns-go/DDNS.png",
+      "port": 9876,
+      "path": "/",
+      "url": "",
+      "service": "ddns-go",
+      "install_url": "https://wanos.xyz/downloads/apps/ddns-go/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/ddns-go/uninstall.sh",
+      "uninstall_sha256": "78f29ecb1aaaad14c3dc1050833a3265c7978fd9e2a2c53b4b1269f5d7aa3c67",
+      "tags": [
+        "网络",
+        "DDNS",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start ddns-go",
+          "systemctl start ddns-go",
+          "systemctl start ddns-go",
+          "systemctl start ddns-go"
+        ],
+        "stop": [
+          "systemctl stop ddns-go",
+          "systemctl stop ddns-go",
+          "systemctl stop ddns-go",
+          "systemctl stop ddns-go"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active ddns-go",
+          "systemctl is-active ddns-go",
+          "systemctl is-active ddns-go",
+          "systemctl is-active ddns-go"
+        ]
+      },
+      "update_url": "",
+      "update_sha256": "",
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 36,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": "",
+      "version": ""
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale 异地组网",
+      "description": "Tailscale 轻量异地组网客户端，提供 WanOS 本地 Web 面板查看状态、启动服务、退出登录；首次使用可在面板中一键生成授权链接，或使用 Auth Key 自动登录。",
+      "icon": "https://wanos.xyz/downloads/apps/tailscale/tailscale.png",
+      "port": 41642,
+      "path": "/",
+      "url": "",
+      "service": "tailscale-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/tailscale/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/tailscale/uninstall.sh",
+      "uninstall_sha256": "312084c57ab7dc75b8efe14b8b095ac62c1740349d7fb11b248480b142aff80f",
+      "tags": [
+        "网络",
+        "组网",
+        "Tailscale",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start tailscale-panel",
+          "systemctl start tailscaled",
+          "systemctl start tailscale-panel",
+          "systemctl start tailscaled",
+          "systemctl start tailscale-panel",
+          "systemctl start tailscaled",
+          "systemctl start tailscale-panel",
+          "systemctl start tailscaled"
+        ],
+        "stop": [
+          "systemctl stop tailscale-panel",
+          "systemctl stop tailscale-panel",
+          "systemctl stop tailscale-panel",
+          "systemctl stop tailscale-panel"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active tailscale-panel",
+          "systemctl is-active tailscale-panel",
+          "systemctl is-active tailscale-panel",
+          "systemctl is-active tailscale-panel"
+        ]
+      },
+      "update_sha256": "",
+      "update_url": "",
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 28,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": "",
+      "version": ""
+    },
+    {
+      "id": "openlist",
+      "name": "OpenList 网盘目录",
+      "version": "4.2.2-wanos.2",
+      "description": "OpenList 文件列表和网盘聚合服务，ARMv7 离线安装，默认端口 5245，避免与 AList/WanOS 端口冲突。",
+      "icon": "https://wanos.xyz/downloads/apps/openlist/openlist.svg",
+      "port": 5245,
+      "path": "/",
+      "url": "",
+      "service": "openlist",
+      "install_url": "https://wanos.xyz/downloads/apps/openlist/install.sh",
+      "install_sha256": "441473838b4d8c6570e9189c9b7cf3c9caef6e7ebed81c43d12fc9246ca827f9",
+      "update_url": "https://wanos.xyz/downloads/apps/openlist/update.sh",
+      "update_sha256": "441473838b4d8c6570e9189c9b7cf3c9caef6e7ebed81c43d12fc9246ca827f9",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/openlist/uninstall.sh",
+      "uninstall_sha256": "e9cbaaccd06ca3ad53f719e489bff342be393074866e9957ba0bc1c1e97b95c0",
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/openlist/openlist-linux-musleabihf-armv7l.tar.gz",
+      "package_sha256": "2eaacd187512e94eca46039ee7e11a96ffe579b3f92fcf11f86ffc91cdd64604",
+      "tags": [
+        "网盘",
+        "文件列表",
+        "OpenList",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start openlist",
+          "systemctl start openlist",
+          "systemctl start openlist",
+          "systemctl start openlist"
+        ],
+        "stop": [
+          "systemctl stop openlist",
+          "systemctl stop openlist",
+          "systemctl stop openlist",
+          "systemctl stop openlist"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active openlist",
+          "systemctl is-active openlist",
+          "systemctl is-active openlist",
+          "systemctl is-active openlist"
+        ]
+      },
+      "downloads": 55,
+      "size": "42.1 MB",
+      "package_size": 44182302,
+      "default_account": {
+        "username": "admin",
+        "password": "admin",
+        "notice": "首次登录后请立即修改默认密码。"
+      },
+      "notes": [
+        "默认账号：admin",
+        "默认密码：admin",
+        "首次登录后请立即修改默认密码。"
+      ],
+      "install_config": {
+        "requires_password": true,
+        "username": "admin",
+        "default_password": "admin",
+        "notice": "安装前可设置 OpenList 管理员密码，安装完成后使用 admin 登录。",
+        "fields": [
+          {
+            "name": "username",
+            "label": "登录账号",
+            "type": "text",
+            "required": false,
+            "default": "admin",
+            "aliases": [
+              "admin_username"
+            ],
+            "autocomplete": "username"
+          },
+          {
+            "name": "admin_password",
+            "label": "登录密码",
+            "type": "password",
+            "required": true,
+            "default": "admin",
+            "aliases": [
+              "password"
+            ],
+            "autocomplete": "new-password"
+          }
+        ]
+      },
+      "packages": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "nut-ups",
+      "name": "UPS 电源管理",
+      "description": "基于 NUT 的 UPS 服务端和 Web 面板，可查看电量、市电状态、负载和剩余时间，并向局域网提供 UPS 状态。",
+      "icon": "https://wanos.xyz/downloads/apps/nut-ups/ups.png",
+      "port": 3494,
+      "path": "/",
+      "url": "",
+      "service": "nut-web-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/nut-ups/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/nut-ups/uninstall.sh",
+      "uninstall_sha256": "552e17011051f0410d867dea384209fda1ae5ffc641e62f7a59e53170a85b18c",
+      "tags": [
+        "UPS",
+        "电源",
+        "NUT"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start nut-web-panel",
+          "systemctl start nut-web-panel",
+          "systemctl start nut-web-panel",
+          "systemctl start nut-web-panel"
+        ],
+        "stop": [
+          "systemctl stop nut-web-panel",
+          "systemctl stop nut-web-panel",
+          "systemctl stop nut-web-panel",
+          "systemctl stop nut-web-panel"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active nut-web-panel",
+          "systemctl is-active nut-web-panel",
+          "systemctl is-active nut-web-panel",
+          "systemctl is-active nut-web-panel"
+        ]
+      },
+      "update_url": "",
+      "update_sha256": "",
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 10,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": "",
+      "version": ""
+    },
+    {
+      "id": "xiaoya-alist",
+      "name": "小雅 Alist",
+      "version": "0.0.15-wanos.1",
+      "description": "小雅 Alist 离线镜像版，安装/更新后打开 5678 中文配置页填写阿里云盘授权信息；数据服务端口 5233，Alist 面板端口 10011，支持 .strm 自动网页播放。",
+      "icon": "https://wanos.xyz/downloads/apps/xiaoya-alist/xiaoya-alist.png",
+      "port": 5678,
+      "path": "/",
+      "url": "",
+      "service": "xiaoya-alist-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/xiaoya-alist/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/xiaoya-alist/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/xiaoya-alist/uninstall.sh",
+      "uninstall_sha256": "00b1d8e2c6f4a631539bb94c3e5a071e143addae80092089f67cec0a514e7b09",
+      "tags": [
+        "网盘",
+        "Alist",
+        "Docker",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start xiaoya-alist-panel",
+          "systemctl start xiaoya-alist",
+          "systemctl start xiaoya-alist-panel",
+          "systemctl start xiaoya-alist",
+          "systemctl start xiaoya-alist-panel",
+          "systemctl start xiaoya-alist",
+          "systemctl start xiaoya-alist-panel",
+          "systemctl start xiaoya-alist"
+        ],
+        "stop": [
+          "systemctl stop xiaoya-alist-panel",
+          "systemctl stop xiaoya-alist",
+          "systemctl stop xiaoya-alist-panel",
+          "systemctl stop xiaoya-alist",
+          "systemctl stop xiaoya-alist-panel",
+          "systemctl stop xiaoya-alist",
+          "systemctl stop xiaoya-alist-panel",
+          "systemctl stop xiaoya-alist"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active xiaoya-alist-panel",
+          "systemctl is-active xiaoya-alist-panel",
+          "systemctl is-active xiaoya-alist-panel",
+          "systemctl is-active xiaoya-alist-panel"
+        ]
+      },
+      "requires": [
+        "docker"
+      ],
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 34,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "gopeed",
+      "name": "Gopeed 下载器",
+      "version": "0.0.1-wanos.1",
+      "description": "Gopeed 离线镜像版下载管理器，支持 HTTP、BT、磁力等下载任务，安装后打开 9999 Web 面板使用。",
+      "icon": "https://wanos.xyz/downloads/apps/gopeed/gopeed.png",
+      "port": 9999,
+      "path": "/",
+      "url": "",
+      "service": "gopeed",
+      "install_url": "https://wanos.xyz/downloads/apps/gopeed/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/gopeed/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/gopeed/uninstall.sh",
+      "uninstall_sha256": "fe5e3f04c7829cde48d7166fc9f8a4cc941b540f16f428d5e62ff673cfb46f7a",
+      "tags": [
+        "下载",
+        "BT",
+        "Docker",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start gopeed",
+          "systemctl start gopeed",
+          "systemctl start gopeed",
+          "systemctl start gopeed"
+        ],
+        "stop": [
+          "systemctl stop gopeed",
+          "systemctl stop gopeed",
+          "systemctl stop gopeed",
+          "systemctl stop gopeed"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active gopeed",
+          "systemctl is-active gopeed",
+          "systemctl is-active gopeed",
+          "systemctl is-active gopeed"
+        ]
+      },
+      "requires": [
+        "docker"
+      ],
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 25,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "jiedianxiaobao",
+      "name": "节点小宝",
+      "version": "0.0.1-wanos.1",
+      "description": "节点小宝 ARMv7 离线镜像版，提供设备组网和远程访问管理面板，安装后打开 9118 Web 面板使用。",
+      "icon": "https://wanos.xyz/downloads/apps/jiedianxiaobao/jiedianxiaobao.png",
+      "port": 9118,
+      "path": "/",
+      "url": "",
+      "service": "jiedianxiaobao",
+      "install_url": "https://wanos.xyz/downloads/apps/jiedianxiaobao/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/jiedianxiaobao/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/jiedianxiaobao/uninstall.sh",
+      "uninstall_sha256": "4dcb4048048292645194ea388ced5e87873225884508a8ad13d2baaf9aff5ee0",
+      "tags": [
+        "网络",
+        "远程访问",
+        "Docker",
+        "ARMv7"
+      ],
+      "requires": [
+        "docker"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start jiedianxiaobao",
+          "systemctl start jiedianxiaobao",
+          "systemctl start jiedianxiaobao",
+          "systemctl start jiedianxiaobao"
+        ],
+        "stop": [
+          "systemctl stop jiedianxiaobao",
+          "systemctl stop jiedianxiaobao",
+          "systemctl stop jiedianxiaobao",
+          "systemctl stop jiedianxiaobao"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active jiedianxiaobao",
+          "systemctl is-active jiedianxiaobao",
+          "systemctl is-active jiedianxiaobao",
+          "systemctl is-active jiedianxiaobao"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 35,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "phddns",
+      "name": "花生壳内网穿透",
+      "version": "5.1.0-wanos.2",
+      "description": "花生壳 ARMv7 离线版，提供 WanOS 本地中文状态面板，可查看 SN、在线状态并跳转官方管理页配置内网穿透。",
+      "icon": "https://wanos.xyz/downloads/apps/phddns/phddns.png",
+      "port": 16063,
+      "path": "/",
+      "url": "",
+      "service": "phddns-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/phddns/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/phddns/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/phddns/uninstall.sh",
+      "uninstall_sha256": "68481309c58dee41495a79ed0337d2ab51f8b926616853713bb224e03c52b577",
+      "tags": [
+        "网络",
+        "内网穿透",
+        "花生壳",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start phtunnel",
+          "systemctl start phddns-panel",
+          "systemctl start phtunnel",
+          "systemctl start phddns-panel",
+          "systemctl start phtunnel",
+          "systemctl start phddns-panel",
+          "systemctl start phtunnel",
+          "systemctl start phddns-panel"
+        ],
+        "stop": [
+          "systemctl stop phddns-panel",
+          "systemctl stop phtunnel",
+          "systemctl stop phddns-panel",
+          "systemctl stop phtunnel",
+          "systemctl stop phddns-panel",
+          "systemctl stop phtunnel",
+          "systemctl stop phddns-panel",
+          "systemctl stop phtunnel"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active phddns-panel",
+          "systemctl is-active phddns-panel",
+          "systemctl is-active phddns-panel",
+          "systemctl is-active phddns-panel"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 18,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "chromium-headless",
+      "name": "Chromium 浏览器",
+      "version": "90.0.4430.212-wanos.3",
+      "description": "低版本 Chromium 90 ARMv7 无头版，打开后是类似 Chrome 的地址栏界面，输入网址后显示明确打开按钮，避免弹窗被桌面 iframe 拦截，并保留 DevTools 调试端口。",
+      "icon": "https://wanos.xyz/downloads/apps/chromium-headless/chromium.png",
+      "port": 9223,
+      "path": "/",
+      "url": "",
+      "service": "chromium-headless-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/chromium-headless/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/chromium-headless/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/chromium-headless/uninstall.sh",
+      "uninstall_sha256": "d978865f280559baa5e6e3ddb563f168962d0f20c999fcad6fd764bb2de4f501",
+      "tags": [
+        "浏览器",
+        "无头",
+        "Chromium",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start chromium-headless",
+          "systemctl start chromium-headless-panel",
+          "systemctl start chromium-headless",
+          "systemctl start chromium-headless-panel",
+          "systemctl start chromium-headless",
+          "systemctl start chromium-headless-panel",
+          "systemctl start chromium-headless",
+          "systemctl start chromium-headless-panel"
+        ],
+        "stop": [
+          "systemctl stop chromium-headless-panel",
+          "systemctl stop chromium-headless",
+          "systemctl stop chromium-headless-panel",
+          "systemctl stop chromium-headless",
+          "systemctl stop chromium-headless-panel",
+          "systemctl stop chromium-headless",
+          "systemctl stop chromium-headless-panel",
+          "systemctl stop chromium-headless"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active chromium-headless-panel",
+          "systemctl is-active chromium-headless-panel",
+          "systemctl is-active chromium-headless-panel",
+          "systemctl is-active chromium-headless-panel"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 62,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "v2ray-proxy",
+      "name": "V2Ray 代理",
+      "version": "5.6.0-wanos.1",
+      "description": "V2Ray ARMv7 离线版，提供本地 SOCKS5 10808、HTTP 10809 代理和中文 Web 配置面板，可编辑 config.json 并一键重启。",
+      "icon": "https://wanos.xyz/downloads/apps/v2ray-proxy/v2rayN.png",
+      "port": 10810,
+      "path": "/",
+      "url": "",
+      "service": "v2ray-proxy-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/v2ray-proxy/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/v2ray-proxy/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/v2ray-proxy/uninstall.sh",
+      "uninstall_sha256": "1ffd57c4ae704b616b5c337100a5a99c8c61f8d0c116d22dfcc1213342866e2d",
+      "tags": [
+        "网络",
+        "代理",
+        "SOCKS5",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start v2ray-proxy",
+          "systemctl start v2ray-proxy-panel",
+          "systemctl start v2ray-proxy",
+          "systemctl start v2ray-proxy-panel",
+          "systemctl start v2ray-proxy",
+          "systemctl start v2ray-proxy-panel",
+          "systemctl start v2ray-proxy",
+          "systemctl start v2ray-proxy-panel"
+        ],
+        "stop": [
+          "systemctl stop v2ray-proxy-panel",
+          "systemctl stop v2ray-proxy",
+          "systemctl stop v2ray-proxy-panel",
+          "systemctl stop v2ray-proxy",
+          "systemctl stop v2ray-proxy-panel",
+          "systemctl stop v2ray-proxy",
+          "systemctl stop v2ray-proxy-panel",
+          "systemctl stop v2ray-proxy"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active v2ray-proxy-panel",
+          "systemctl is-active v2ray-proxy-panel",
+          "systemctl is-active v2ray-proxy-panel",
+          "systemctl is-active v2ray-proxy-panel"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 44,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "kodbox",
+      "name": "可道云 KodBox",
+      "version": "main-20260604-wanos.4",
+      "description": "可道云/KodBox 私有云文件管理器，PHP 源码离线版；已修复 config 保留和 SQLite 初始化目录权限。",
+      "icon": "https://wanos.xyz/downloads/apps/kodbox/kodbox.png",
+      "port": 8181,
+      "path": "/",
+      "url": "",
+      "service": "kodbox",
+      "install_url": "https://wanos.xyz/downloads/apps/kodbox/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/kodbox/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/kodbox/uninstall.sh",
+      "uninstall_sha256": "79f06186674c3824d8ccf153661e4bfc782404ba068a786639f6f4289afa2203",
+      "tags": [
+        "网盘",
+        "文件管理",
+        "PHP",
+        "KodBox"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start kodbox",
+          "systemctl start kodbox",
+          "systemctl start kodbox",
+          "systemctl start kodbox"
+        ],
+        "stop": [
+          "systemctl stop kodbox",
+          "systemctl stop kodbox",
+          "systemctl stop kodbox",
+          "systemctl stop kodbox"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active kodbox",
+          "systemctl is-active kodbox",
+          "systemctl is-active kodbox",
+          "systemctl is-active kodbox"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 16,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "ftp-server",
+      "name": "FTP 服务",
+      "version": "1.0.0-wanos.3",
+      "description": "基于 vsftpd 的局域网 FTP 文件传输服务，提供 WanOS 本地中文面板，可启停服务、查看状态并修改 FTP 密码；已修复 Ubuntu PAM shell 登录校验。",
+      "icon": "https://wanos.xyz/downloads/apps/ftp-server/ftp.png",
+      "port": 21210,
+      "path": "/",
+      "url": "",
+      "service": "ftp-server-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/ftp-server/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/ftp-server/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/ftp-server/uninstall.sh",
+      "uninstall_sha256": "6f4d4ed2d7ebfa63f3ee1f23151822092a2e98510ebd25dfaaccc9c0d14b7e11",
+      "tags": [
+        "文件传输",
+        "FTP",
+        "vsftpd",
+        "局域网"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start vsftpd",
+          "systemctl start ftp-server-panel",
+          "systemctl start vsftpd",
+          "systemctl start ftp-server-panel",
+          "systemctl start vsftpd",
+          "systemctl start ftp-server-panel",
+          "systemctl start vsftpd",
+          "systemctl start ftp-server-panel"
+        ],
+        "stop": [
+          "systemctl stop ftp-server-panel",
+          "systemctl stop vsftpd",
+          "systemctl stop ftp-server-panel",
+          "systemctl stop vsftpd",
+          "systemctl stop ftp-server-panel",
+          "systemctl stop vsftpd",
+          "systemctl stop ftp-server-panel",
+          "systemctl stop vsftpd"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active ftp-server-panel",
+          "systemctl is-active ftp-server-panel",
+          "systemctl is-active ftp-server-panel",
+          "systemctl is-active ftp-server-panel"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 13,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "webdav-server",
+      "name": "WebDAV 服务",
+      "version": "1.0.0-wanos.2",
+      "description": "基于 Python3 的轻量 WebDAV 文件服务，无需额外二进制依赖，提供 WanOS 本地中文面板；已修复服务脚本换行转义和启动超时日志。",
+      "icon": "https://wanos.xyz/downloads/apps/webdav-server/webdav.png",
+      "port": 21221,
+      "path": "/",
+      "url": "",
+      "service": "webdav-server-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/webdav-server/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/webdav-server/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/webdav-server/uninstall.sh",
+      "uninstall_sha256": "781e86acb871b12d7eaec0a8ad9c273cb0268af44f3a5def3a20d145f76cda7f",
+      "tags": [
+        "文件传输",
+        "WebDAV",
+        "局域网",
+        "Python3"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start webdav-server",
+          "systemctl start webdav-server-panel",
+          "systemctl start webdav-server",
+          "systemctl start webdav-server-panel",
+          "systemctl start webdav-server",
+          "systemctl start webdav-server-panel",
+          "systemctl start webdav-server",
+          "systemctl start webdav-server-panel"
+        ],
+        "stop": [
+          "systemctl stop webdav-server-panel",
+          "systemctl stop webdav-server",
+          "systemctl stop webdav-server-panel",
+          "systemctl stop webdav-server",
+          "systemctl stop webdav-server-panel",
+          "systemctl stop webdav-server",
+          "systemctl stop webdav-server-panel",
+          "systemctl stop webdav-server"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active webdav-server-panel",
+          "systemctl is-active webdav-server-panel",
+          "systemctl is-active webdav-server-panel",
+          "systemctl is-active webdav-server-panel"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 21,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "cups-print",
+      "name": "CUPS 打印服务",
+      "version": "1.0.0-wanos.33",
+      "description": "CUPS 打印服务 Ubuntu 20.04 ARMv7 离线包版，内置 cups-web 管理面板；安装保持轻量，Web 面板支持按需一键下载常见驱动包，并支持上传厂商 PPD 文件。",
+      "icon": "https://wanos.xyz/downloads/apps/cups-print/printer.png",
+      "port": 18631,
+      "path": "/",
+      "url": "",
+      "service": "cups-web",
+      "install_url": "https://wanos.xyz/downloads/apps/cups-print/install.sh?v=1.0.0-wanos.33",
+      "install_sha256": "b7fb2be2da8cae1c40f0785b0199a0fc6197aa9af8a7daf175f565f474081c80",
+      "update_url": "https://wanos.xyz/downloads/apps/cups-print/update.sh?v=1.0.0-wanos.33",
+      "update_sha256": "ce4afad4f01ad2b3163b0a72a2b6f1c8714fa6112c0433010cd259bc26253ec2",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/cups-print/uninstall.sh",
+      "uninstall_sha256": "fd1d44828874b073eafe0615f7d4d82404000c7e0120aa6d1ae6a78cfef51d46",
+      "tags": [
+        "打印",
+        "CUPS",
+        "cups-web",
+        "Web 面板",
+        "ARMv7",
+        "HP"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start cups",
+          "systemctl start cups-web",
+          "systemctl start cups",
+          "systemctl start cups-web",
+          "systemctl start cups",
+          "systemctl start cups-web",
+          "systemctl start cups",
+          "systemctl start cups-web"
+        ],
+        "stop": [
+          "systemctl stop cups-web",
+          "systemctl stop cups",
+          "systemctl stop cups-web",
+          "systemctl stop cups",
+          "systemctl stop cups-web",
+          "systemctl stop cups",
+          "systemctl stop cups-web",
+          "systemctl stop cups"
+        ],
+        "check": [
+          "systemctl is-active cups-web",
+          "systemctl is-active cups-web",
+          "systemctl is-active cups-web",
+          "systemctl is-active cups-web"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/cups-print/cups-print_ubuntu20.04_armhf_offline.tar.gz",
+      "package_sha256": "16ea1f23ac1becd252557774c712e48dedcbc03f2b73601a37884bce5308aaf9",
+      "driver_package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/cups-print/cups-print-driver-library_ubuntu20.04_armhf_v1.tar.gz",
+      "driver_package_sha256": "d2ecd61b26483b7d10123ddec0146befea105853105ebfdf978e1e73816db57d",
+      "driver_packages": [
+        "hplip",
+        "printer-driver-hpcups",
+        "printer-driver-hpijs",
+        "printer-driver-gutenprint",
+        "foomatic-db-compressed-ppds",
+        "openprinting-ppds",
+        "printer-driver-escpr",
+        "printer-driver-brlaser",
+        "printer-driver-foo2zjs",
+        "printer-driver-splix",
+        "printer-driver-cups-pdf",
+        "smbclient",
+        "avahi-daemon",
+        "usbutils"
+      ],
+      "cups_web_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/cups-print/cups-web-linux-armv7-v33",
+      "cups_web_fallback_url": "https://github.com/hanxi/cups-web/releases/download/v0.1.5/cups-web-linux-armv7",
+      "cups_web_sha256": "65ebbfcdfd5cecec1886ca54e29968f18fcc1c47f114e4f57813fc4156f17c7f",
+      "default_account": {
+        "username": "admin",
+        "password": "wanoscups123",
+        "notice": "安装前可设置 CUPS 管理账号和密码，安装完成后使用该账号进入 CUPS 管理页面。"
+      },
+      "install_config": {
+        "requires_password": true,
+        "username": "admin",
+        "default_password": "wanoscups123",
+        "notice": "安装前设置 CUPS 管理账号和密码，账号会加入 lpadmin 管理组。",
+        "fields": [
+          {
+            "name": "username",
+            "label": "登录账号",
+            "type": "text",
+            "required": false,
+            "default": "admin",
+            "aliases": [
+              "admin_username"
+            ],
+            "autocomplete": "username"
+          },
+          {
+            "name": "admin_password",
+            "label": "登录密码",
+            "type": "password",
+            "required": true,
+            "default": "wanoscups123",
+            "min_length": 6,
+            "aliases": [
+              "password"
+            ],
+            "autocomplete": "new-password"
+          }
+        ]
+      },
+      "driver_library_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/cups-print/cups-print-driver-library_ubuntu20.04_armhf_v1.tar.gz",
+      "driver_library_sha256": "d2ecd61b26483b7d10123ddec0146befea105853105ebfdf978e1e73816db57d",
+      "driver_library_index_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/cups-print/cups-print-driver-library-index_ubuntu20.04_armhf_v1.json",
+      "driver_library_count": 12462,
+      "category": "",
+      "downloads": 0,
+      "size": "",
+      "package_size": 0
+    },
+    {
+      "id": "adguard-home",
+      "name": "AdGuard Home",
+      "version": "0.107.76-wanos.2",
+      "description": "AdGuard Home ARMv7 离线版，提供 DNS 广告拦截和 Web 管理面板。首次安装后打开 3000 初始化，DNS 端口为 53；安装脚本已加入下载和启动超时保护。",
+      "icon": "https://wanos.xyz/downloads/apps/adguard-home/adguard-home.png",
+      "port": 3000,
+      "path": "/",
+      "url": "",
+      "service": "adguard-home",
+      "install_url": "https://wanos.xyz/downloads/apps/adguard-home/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/adguard-home/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/adguard-home/uninstall.sh",
+      "uninstall_sha256": "6f052d7408437a38128d3c989be13c797c2e1021ef6e26df82ee41896756ca4b",
+      "tags": [
+        "DNS",
+        "广告拦截",
+        "AdGuard",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start adguard-home",
+          "systemctl start adguard-home",
+          "systemctl start adguard-home",
+          "systemctl start adguard-home"
+        ],
+        "stop": [
+          "systemctl stop adguard-home",
+          "systemctl stop adguard-home",
+          "systemctl stop adguard-home",
+          "systemctl stop adguard-home"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active adguard-home",
+          "systemctl is-active adguard-home",
+          "systemctl is-active adguard-home",
+          "systemctl is-active adguard-home"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 0,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "minecraft-java",
+      "name": "Minecraft 服务端",
+      "version": "1.12.2-wanos.1",
+      "description": "Minecraft Java 1.12.2 官方轻量服务端，适合 ARMv7 低内存设备小人数游玩。安装后打开面板同意 EULA、编辑配置并启动服务。",
+      "icon": "https://wanos.xyz/downloads/apps/minecraft-java/minecraft.png",
+      "port": 25566,
+      "path": "/",
+      "url": "",
+      "service": "minecraft-java-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/minecraft-java/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/minecraft-java/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/minecraft-java/uninstall.sh",
+      "uninstall_sha256": "42b46d1194587dae63b51e9a92c0703eb8ccd3bc029dc310da02a09c4604520a",
+      "tags": [
+        "游戏",
+        "Minecraft",
+        "Java",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start minecraft-java-panel",
+          "systemctl start minecraft-java",
+          "systemctl start minecraft-java-panel",
+          "systemctl start minecraft-java",
+          "systemctl start minecraft-java-panel",
+          "systemctl start minecraft-java",
+          "systemctl start minecraft-java-panel",
+          "systemctl start minecraft-java"
+        ],
+        "stop": [
+          "systemctl stop minecraft-java",
+          "systemctl stop minecraft-java-panel",
+          "systemctl stop minecraft-java",
+          "systemctl stop minecraft-java-panel",
+          "systemctl stop minecraft-java",
+          "systemctl stop minecraft-java-panel",
+          "systemctl stop minecraft-java",
+          "systemctl stop minecraft-java-panel"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active minecraft-java-panel",
+          "systemctl is-active minecraft-java-panel",
+          "systemctl is-active minecraft-java-panel",
+          "systemctl is-active minecraft-java-panel"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 6,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "syncthing",
+      "name": "Syncthing 同步",
+      "version": "2.1.0-wanos.4",
+      "description": "Syncthing 官方 ARMv7 二进制版，去中心化文件同步，提供 8384 Web 管理面板；安装包固定从七牛下载并校验。",
+      "icon": "https://wanos.xyz/downloads/apps/syncthing/syncthing.png",
+      "port": 8384,
+      "path": "/",
+      "url": "",
+      "service": "syncthing",
+      "install_url": "https://wanos.xyz/downloads/apps/syncthing/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/syncthing/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/syncthing/uninstall.sh",
+      "uninstall_sha256": "2480949d91aaf9ba71e41be9c1d062439e6b6fcb0379b6987626ad6d61915fc6",
+      "tags": [
+        "同步",
+        "文件同步",
+        "Web 面板",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start syncthing",
+          "systemctl start syncthing",
+          "systemctl start syncthing",
+          "systemctl start syncthing"
+        ],
+        "stop": [
+          "systemctl stop syncthing",
+          "systemctl stop syncthing",
+          "systemctl stop syncthing",
+          "systemctl stop syncthing"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active syncthing",
+          "systemctl is-active syncthing",
+          "systemctl is-active syncthing",
+          "systemctl is-active syncthing"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/syncthing/syncthing-linux-arm-v2.1.0.tar.gz",
+      "package_sha256": "dfcccf4855628d6b1de483a4a777c029121ee4e7cbc04ea76e26aee47dd20578",
+      "open_mode": "external",
+      "packages": [],
+      "downloads": 6,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "verysync",
+      "name": "微力同步",
+      "version": "2.21.3-wanos.4",
+      "description": "微力同步 ARMv6 兼容二进制版，可运行于 ARMv7/armv7l 设备，提供 8886 Web 管理面板；安装包固定从七牛下载并校验。",
+      "icon": "https://wanos.xyz/downloads/apps/verysync/verysync.png",
+      "port": 8886,
+      "path": "/",
+      "url": "",
+      "service": "verysync",
+      "install_url": "https://wanos.xyz/downloads/apps/verysync/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/verysync/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/verysync/uninstall.sh",
+      "uninstall_sha256": "f2cf0773854d8f5fb8c189f0bcb32b305a93eb449f16047f208933dfa55f4153",
+      "tags": [
+        "同步",
+        "文件同步",
+        "Web 面板",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start verysync",
+          "systemctl start verysync",
+          "systemctl start verysync",
+          "systemctl start verysync"
+        ],
+        "stop": [
+          "systemctl stop verysync",
+          "systemctl stop verysync",
+          "systemctl stop verysync",
+          "systemctl stop verysync"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active verysync",
+          "systemctl is-active verysync",
+          "systemctl is-active verysync",
+          "systemctl is-active verysync"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/verysync/verysync-linux-armv6-v2.21.3.tar.gz",
+      "package_sha256": "33b33736a22c3dbfff386a69df76441dd80568d97fbd432bd81876c89d4afaa8",
+      "open_mode": "external",
+      "packages": [],
+      "downloads": 9,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "linkease",
+      "name": "易有云",
+      "version": "1.7.5-wanos.1",
+      "description": "易有云 LinkEase ARMv7 二进制版，提供 8897 Web 管理面板，用于远程访问、文件管理和设备绑定；安装资源固定从七牛下载并校验。",
+      "icon": "https://wanos.xyz/downloads/apps/linkease/linkease.jpg",
+      "port": 8897,
+      "path": "/",
+      "url": "",
+      "service": "com.linkease.linkeasedaemon.service",
+      "install_url": "https://wanos.xyz/downloads/apps/linkease/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/linkease/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/linkease/uninstall.sh",
+      "uninstall_sha256": "1b660440d133445c5a009d0b29e7cbdd905a030cf8c74714078c5fa4b0f554dd",
+      "tags": [
+        "远程访问",
+        "文件管理",
+        "Web 面板",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start com.linkease.linkeasedaemon.service",
+          "systemctl start com.linkease.linkeasedaemon.service",
+          "systemctl start com.linkease.linkeasedaemon.service",
+          "systemctl start com.linkease.linkeasedaemon.service"
+        ],
+        "stop": [
+          "systemctl stop com.linkease.linkeasedaemon.service",
+          "systemctl stop com.linkease.linkeasedaemon.service",
+          "systemctl stop com.linkease.linkeasedaemon.service",
+          "systemctl stop com.linkease.linkeasedaemon.service"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active com.linkease.linkeasedaemon.service",
+          "systemctl is-active com.linkease.linkeasedaemon.service",
+          "systemctl is-active com.linkease.linkeasedaemon.service",
+          "systemctl is-active com.linkease.linkeasedaemon.service"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/linkease/linkease-binary-1.7.5.tar.gz",
+      "package_sha256": "f3ae319974d940f5741cd9fbd295a3a378164e7df82665defa99935608fe733a",
+      "packages": [],
+      "downloads": 12,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "typecho-blog",
+      "name": "Typecho 博客",
+      "version": "1.3.0-wanos.3",
+      "description": "轻量级 PHP 博客系统，提供 8088 Web 安装和管理入口；默认使用 SQLite 初始化，适合在 WanOS 上搭建个人博客。",
+      "icon": "https://wanos.xyz/downloads/apps/typecho-blog/typecho.png",
+      "port": 8088,
+      "path": "/",
+      "url": "",
+      "service": "typecho-blog",
+      "install_url": "https://wanos.xyz/downloads/apps/typecho-blog/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/typecho-blog/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/typecho-blog/uninstall.sh",
+      "uninstall_sha256": "87bd44524908f784e68cc58b1648bed22d7e513d48d6cd0af7b2a92585525530",
+      "tags": [
+        "博客",
+        "PHP",
+        "SQLite",
+        "Web 面板"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start typecho-blog",
+          "systemctl start typecho-blog",
+          "systemctl start typecho-blog",
+          "systemctl start typecho-blog"
+        ],
+        "stop": [
+          "systemctl stop typecho-blog",
+          "systemctl stop typecho-blog",
+          "systemctl stop typecho-blog",
+          "systemctl stop typecho-blog"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active typecho-blog",
+          "systemctl is-active typecho-blog",
+          "systemctl is-active typecho-blog",
+          "systemctl is-active typecho-blog"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/typecho-blog/typecho-v1.3.0.zip",
+      "package_sha256": "c34cd65b2f944f464bcaa8f43b10f665f1dae13158c694546b22c35ddc296668",
+      "packages": [],
+      "downloads": 8,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "filebrowser",
+      "name": "Filebrowser 文件管理",
+      "version": "2.63.10-wanos.4",
+      "description": "Filebrowser 官方 ARMv7 二进制版，提供 8082 Web 文件管理面板，可浏览和管理 WanOS 文件系统；安装时可设置登录账号和密码，密码不能低于 12 位。",
+      "icon": "https://wanos.xyz/downloads/apps/filebrowser/filebrowser.png",
+      "port": 8082,
+      "path": "/",
+      "url": "",
+      "service": "filebrowser",
+      "install_url": "https://wanos.xyz/downloads/apps/filebrowser/install.sh",
+      "install_sha256": "1bccefc5b7847c20b88e902a71902d9dc5b3ccbc63544dd704c40e03616f58af",
+      "update_url": "https://wanos.xyz/downloads/apps/filebrowser/update.sh",
+      "update_sha256": "e2cf626ddd18b4ab915eb0005456081e8d2f18efd9282a6fb9bedd4bebdf57de",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/filebrowser/uninstall.sh",
+      "uninstall_sha256": "8827c49d8bfbc76bd5b7b7a9a8652baa79619b47a59bd569d469ebd5a16b6d85",
+      "tags": [
+        "文件管理",
+        "Web 面板",
+        "ARMv7"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start filebrowser",
+          "systemctl start filebrowser",
+          "systemctl start filebrowser",
+          "systemctl start filebrowser"
+        ],
+        "stop": [
+          "systemctl stop filebrowser",
+          "systemctl stop filebrowser",
+          "systemctl stop filebrowser",
+          "systemctl stop filebrowser"
+        ],
+        "check": [
+          "systemctl is-active filebrowser",
+          "systemctl is-active filebrowser",
+          "systemctl is-active filebrowser",
+          "systemctl is-active filebrowser"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/filebrowser/linux-armv7-filebrowser-v2.63.10.tar.gz",
+      "package_sha256": "abd2f3ee4d72bff5d550a14a8c681c1f84ba91df4745381568a640e7d8708671",
+      "install_config": {
+        "requires_password": true,
+        "username": "admin",
+        "default_password": "wanosfile123",
+        "notice": "安装前可设置 FileBrowser 登录账号和密码，密码不能低于 12 位，安装完成后使用你填写的账号登录。",
+        "fields": [
+          {
+            "name": "username",
+            "label": "登录账号",
+            "type": "text",
+            "required": false,
+            "default": "admin",
+            "aliases": [
+              "admin_username"
+            ],
+            "autocomplete": "username"
+          },
+          {
+            "name": "admin_password",
+            "label": "登录密码",
+            "type": "password",
+            "required": true,
+            "min_length": 12,
+            "placeholder": "至少 12 位密码",
+            "default": "wanosfile123",
+            "aliases": [
+              "password"
+            ],
+            "autocomplete": "new-password"
+          }
+        ]
+      },
+      "category": "",
+      "downloads": 0,
+      "size": "",
+      "package_size": 0
+    },
+    {
+      "id": "gitea",
+      "name": "Gitea Git 仓库",
+      "version": "1.26.2-wanos.2",
+      "description": "轻量级私有 Git 仓库服务，提供 3000 Web 管理面板，默认使用 SQLite 并关闭内置 SSH，适合在 WanOS 上管理代码仓库。",
+      "icon": "https://wanos.xyz/downloads/apps/gitea/gitea.png",
+      "port": 3000,
+      "path": "/",
+      "url": "",
+      "service": "gitea",
+      "install_url": "https://wanos.xyz/downloads/apps/gitea/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/gitea/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/gitea/uninstall.sh",
+      "uninstall_sha256": "435241e3f82840648d88b598f8dddea3a325da43a163d762aa22e89854690135",
+      "tags": [
+        "Git",
+        "代码仓库",
+        "SQLite",
+        "Web 面板",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start gitea",
+          "systemctl start gitea",
+          "systemctl start gitea",
+          "systemctl start gitea"
+        ],
+        "stop": [
+          "systemctl stop gitea",
+          "systemctl stop gitea",
+          "systemctl stop gitea",
+          "systemctl stop gitea"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active gitea",
+          "systemctl is-active gitea",
+          "systemctl is-active gitea",
+          "systemctl is-active gitea"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/gitea/gitea-1.26.2-linux-arm-6.xz",
+      "package_sha256": "1857b14b287fac4fb40822f099aa36b099d8efd40e79aca5185f9a649ae73758",
+      "packages": [],
+      "downloads": 13,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "mrdoc",
+      "name": "觅思文档",
+      "version": "1.0.0-wanos.2",
+      "description": "MrDoc 觅思文档 ARMv7 离线版，提供 10888 Web 文档管理面板，适合在 WanOS 上搭建个人/团队知识库。",
+      "icon": "https://wanos.xyz/downloads/apps/mrdoc/mrdoc.png",
+      "port": 10888,
+      "path": "/",
+      "url": "",
+      "service": "mrdoc",
+      "install_url": "https://wanos.xyz/downloads/apps/mrdoc/install.sh",
+      "install_sha256": "bea85b30bc5020ed80b87bcdcf83736cf86b1b1875f9cda6b86182e30d724d29",
+      "update_url": "https://wanos.xyz/downloads/apps/mrdoc/update.sh",
+      "update_sha256": "bea85b30bc5020ed80b87bcdcf83736cf86b1b1875f9cda6b86182e30d724d29",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/mrdoc/uninstall.sh",
+      "uninstall_sha256": "ae45555714befb4f2cdbe626f9cc1f3a32464c498fc6448fcd8718b3c3d2a608",
+      "tags": [
+        "文档",
+        "知识库",
+        "Web 面板",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start mrdoc",
+          "systemctl start mrdoc",
+          "systemctl start mrdoc",
+          "systemctl start mrdoc"
+        ],
+        "stop": [
+          "systemctl stop mrdoc",
+          "systemctl stop mrdoc",
+          "systemctl stop mrdoc",
+          "systemctl stop mrdoc"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active mrdoc",
+          "systemctl is-active mrdoc",
+          "systemctl is-active mrdoc",
+          "systemctl is-active mrdoc"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/mrdoc/mrdoc-armhf.tar.gz",
+      "package_sha256": "6117115e192e623816486b9b2683bc0cbc74d39f9abf789015cbddccd323bb6d",
+      "open_mode": "external",
+      "packages": [],
+      "downloads": 1,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "yt-dlp-web",
+      "name": "YT-DLP 视频下载",
+      "version": "1.0.0-wanos.1",
+      "description": "基于 yt-dlp 的 ARMv7 离线 Web 下载面板，提供 50000 端口网页操作入口，支持常见视频网站解析下载。",
+      "icon": "https://wanos.xyz/downloads/apps/yt-dlp-web/yt-dlp.svg",
+      "port": 50000,
+      "path": "/",
+      "url": "",
+      "service": "yt-dlp-web",
+      "install_url": "https://wanos.xyz/downloads/apps/yt-dlp-web/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/yt-dlp-web/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/yt-dlp-web/uninstall.sh",
+      "uninstall_sha256": "1a4bdb664d43c5ad36b4b39444331d3ae01bb51b5a2c4eb5d989f3b5c8237ed4",
+      "tags": [
+        "视频下载",
+        "yt-dlp",
+        "Web 面板",
+        "ARMv7"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start yt-dlp-web",
+          "systemctl start yt-dlp-web",
+          "systemctl start yt-dlp-web",
+          "systemctl start yt-dlp-web"
+        ],
+        "stop": [
+          "systemctl stop yt-dlp-web",
+          "systemctl stop yt-dlp-web",
+          "systemctl stop yt-dlp-web",
+          "systemctl stop yt-dlp-web"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active yt-dlp-web",
+          "systemctl is-active yt-dlp-web",
+          "systemctl is-active yt-dlp-web",
+          "systemctl is-active yt-dlp-web"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/yt-dlp-web/yt-dlp-web-armhf-wanos.tar.gz",
+      "package_sha256": "8d93f83e640d108b93a6003ea3d1652152b9187036cb7fc6ed3cfac44c3e0cff",
+      "packages": [],
+      "downloads": 26,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "nvr-lite",
+      "name": "网络摄像机录像",
+      "version": "0.1.0-wanos.1",
+      "description": "基于 motion 的轻量 NVR 网络摄像机录像服务，提供 WanOS 中文配置面板，支持填写 RTSP 地址、设置录像目录、启动停止服务和清理旧录像。适合 1-2 路低码率摄像头。",
+      "icon": "https://wanos.xyz/downloads/apps/nvr-lite/camera.png",
+      "port": 18081,
+      "path": "/",
+      "url": "",
+      "service": "nvr-lite-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/nvr-lite/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/nvr-lite/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/nvr-lite/uninstall.sh",
+      "uninstall_sha256": "46ab0ca15bd5d98b505a2ff97a7f17020d34e762c96eef3ff4392914f9a9560b",
+      "tags": [
+        "监控",
+        "NVR",
+        "RTSP",
+        "录像",
+        "Web 面板"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start nvr-lite",
+          "systemctl start nvr-lite-panel",
+          "systemctl start nvr-lite",
+          "systemctl start nvr-lite-panel",
+          "systemctl start nvr-lite",
+          "systemctl start nvr-lite-panel",
+          "systemctl start nvr-lite",
+          "systemctl start nvr-lite-panel"
+        ],
+        "stop": [
+          "systemctl stop nvr-lite-panel",
+          "systemctl stop nvr-lite",
+          "systemctl stop nvr-lite-panel",
+          "systemctl stop nvr-lite",
+          "systemctl stop nvr-lite-panel",
+          "systemctl stop nvr-lite",
+          "systemctl stop nvr-lite-panel",
+          "systemctl stop nvr-lite"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active nvr-lite-panel",
+          "systemctl is-active nvr-lite-panel",
+          "systemctl is-active nvr-lite-panel",
+          "systemctl is-active nvr-lite-panel"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/nvr-lite/nvr-lite-motion-focal-armhf.tar.gz",
+      "package_sha256": "7f077deeecd0b59ebba5f6baa3e63514564efc456dbfbfc55f761e40526d959c",
+      "packages": [],
+      "downloads": 39,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "minidlna",
+      "name": "局域网音视频广播",
+      "version": "0.1.3-wanos.1",
+      "description": "基于 MiniDLNA 的局域网媒体广播服务，让电视、播放器、手机在同一局域网自动发现并播放 WanOS 上的音乐、视频和图片。提供中文 Web 面板，可设置媒体目录、启动停止服务并重建索引。",
+      "icon": "https://wanos.xyz/downloads/apps/minidlna/dlna.png",
+      "port": 18200,
+      "path": "/",
+      "url": "",
+      "service": "wanos-minidlna-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/minidlna/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/minidlna/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/minidlna/uninstall.sh",
+      "uninstall_sha256": "3f6d11aa92ef6a02adaae312609c576d85207b8cdaaff3571e0be8bf332b1f68",
+      "tags": [
+        "DLNA",
+        "媒体",
+        "局域网",
+        "电视播放",
+        "Web 面板"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start wanos-minidlna",
+          "systemctl start wanos-minidlna-panel",
+          "systemctl start wanos-minidlna",
+          "systemctl start wanos-minidlna-panel",
+          "systemctl start wanos-minidlna",
+          "systemctl start wanos-minidlna-panel",
+          "systemctl start wanos-minidlna",
+          "systemctl start wanos-minidlna-panel"
+        ],
+        "stop": [
+          "systemctl stop wanos-minidlna-panel",
+          "systemctl stop wanos-minidlna",
+          "systemctl stop wanos-minidlna-panel",
+          "systemctl stop wanos-minidlna",
+          "systemctl stop wanos-minidlna-panel",
+          "systemctl stop wanos-minidlna",
+          "systemctl stop wanos-minidlna-panel",
+          "systemctl stop wanos-minidlna"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active wanos-minidlna-panel",
+          "systemctl is-active wanos-minidlna-panel",
+          "systemctl is-active wanos-minidlna-panel",
+          "systemctl is-active wanos-minidlna-panel"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/minidlna/minidlna-focal-armhf-offline.tar.gz",
+      "package_sha256": "368819818ffe77d578c05cd3d83fd4948dcbefa2921c662f9397309391ad0fba",
+      "panel_sha256": "749dc244c4f630a8b85407c87165b5e34fa77c31323879be6772c73ac6950412",
+      "icon_sha256": "d23091a7de8b0f3fc1550c8326270f1153957b22de6c86dbde9c6527da3af43a",
+      "packages": [],
+      "downloads": 31,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "onecloud-led",
+      "name": "玩客云指示灯",
+      "version": "0.1.2-wanos.1",
+      "description": "控制玩客云机身红、绿、蓝 LED 指示灯，支持常亮、慢闪、快闪和组合色，安装后提供本地中文 Web 面板。",
+      "icon": "https://wanos.xyz/downloads/apps/onecloud-led/status-led-green.png",
+      "port": 18231,
+      "path": "/",
+      "url": "",
+      "service": "onecloud-led-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/onecloud-led/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/onecloud-led/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/onecloud-led/uninstall.sh",
+      "uninstall_sha256": "9331e45e3f31b2889863aac8960e09f77eae85ea4f112b416b0a8cd8e90b9fec",
+      "icon_sha256": "223c35f2ab01baa4357c1730e528d82913991fb745b47fc8aa126baf83de6441",
+      "icon_blue": "https://wanos.xyz/downloads/apps/onecloud-led/status-led-blue.png",
+      "icon_red": "https://wanos.xyz/downloads/apps/onecloud-led/status-led-red.png",
+      "icon_green": "https://wanos.xyz/downloads/apps/onecloud-led/status-led-green.png",
+      "tags": [
+        "玩客云",
+        "指示灯",
+        "LED",
+        "硬件"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start onecloud-led-panel",
+          "systemctl start onecloud-led-panel",
+          "systemctl start onecloud-led-panel",
+          "systemctl start onecloud-led-panel"
+        ],
+        "stop": [
+          "systemctl stop onecloud-led-panel",
+          "systemctl stop onecloud-led-panel",
+          "systemctl stop onecloud-led-panel",
+          "systemctl stop onecloud-led-panel"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active onecloud-led-panel",
+          "systemctl is-active onecloud-led-panel",
+          "systemctl is-active onecloud-led-panel",
+          "systemctl is-active onecloud-led-panel"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 206,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "oec-led",
+      "name": "网心云 OEC/T 指示灯",
+      "version": "0.1.0-wanos.1",
+      "architectures": [],
+      "description": "控制网心云 OEC/T rk3566 机身三色指示灯，支持红、绿、蓝、白、黄、紫、青和关闭，支持常亮、慢闪、快闪，安装后提供本地中文 Web 面板。",
+      "icon": "https://wanos.xyz/downloads/apps/oec-led/status-led-green.png",
+      "port": 18232,
+      "path": "/",
+      "url": "",
+      "service": "oec-led-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/oec-led/install.sh",
+      "install_sha256": "81945cf1d6742ae79f8e1cfaf7465ef03246fb3631a9bc026a4e2e4f41342e96",
+      "update_url": "https://wanos.xyz/downloads/apps/oec-led/update.sh",
+      "update_sha256": "41fb6e75e41fa7f46ee961f41735656a8f6eb940e4d96e999f0d3de25ab940cd",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/oec-led/uninstall.sh",
+      "uninstall_sha256": "e993da2eeae460e6c78e3eb948a590ea36832b431e2cd454ce03980cc5cf5438",
+      "icon_sha256": "223c35f2ab01baa4357c1730e528d82913991fb745b47fc8aa126baf83de6441",
+      "icon_blue": "https://wanos.xyz/downloads/apps/oec-led/status-led-blue.png",
+      "icon_red": "https://wanos.xyz/downloads/apps/oec-led/status-led-red.png",
+      "icon_green": "https://wanos.xyz/downloads/apps/oec-led/status-led-green.png",
+      "tags": [
+        "网心云",
+        "OEC/T",
+        "rk3566",
+        "指示灯",
+        "LED",
+        "硬件"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start oec-led-panel",
+          "systemctl start oec-led-panel",
+          "systemctl start oec-led-panel",
+          "systemctl start oec-led-panel"
+        ],
+        "stop": [
+          "systemctl stop oec-led-panel",
+          "systemctl stop oec-led-panel",
+          "systemctl stop oec-led-panel",
+          "systemctl stop oec-led-panel"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active oec-led-panel",
+          "systemctl is-active oec-led-panel",
+          "systemctl is-active oec-led-panel",
+          "systemctl is-active oec-led-panel"
+        ]
+      },
+      "package_url": "",
+      "package_sha256": "",
+      "packages": [],
+      "downloads": 5,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "category": ""
+    },
+    {
+      "id": "sqlite-phpliteadmin",
+      "name": "SQLite 数据库",
+      "version": "1.9.8.2-wanos.4",
+      "description": "基于 phpLiteAdmin 的轻量 SQLite 数据库管理器，已内置简体中文语言包，无需常驻数据库服务，支持新建、浏览、导入和导出 SQLite 数据库；默认密码 admin。",
+      "icon": "https://wanos.xyz/downloads/apps/sqlite-phpliteadmin/sqlite-phpliteadmin.svg",
+      "port": 18087,
+      "path": "/",
+      "url": "",
+      "service": "sqlite-phpliteadmin",
+      "install_url": "https://wanos.xyz/downloads/apps/sqlite-phpliteadmin/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/sqlite-phpliteadmin/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/sqlite-phpliteadmin/uninstall.sh",
+      "uninstall_sha256": "b2ba3d132eb25fffa84ec9089caa341616cf774446073587f6a6440c049f9920",
+      "tags": [
+        "数据库",
+        "SQLite",
+        "phpLiteAdmin",
+        "轻量",
+        "Web 面板",
+        "离线包",
+        "中文"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start sqlite-phpliteadmin",
+          "systemctl start sqlite-phpliteadmin",
+          "systemctl start sqlite-phpliteadmin",
+          "systemctl start sqlite-phpliteadmin"
+        ],
+        "stop": [
+          "systemctl stop sqlite-phpliteadmin",
+          "systemctl stop sqlite-phpliteadmin",
+          "systemctl stop sqlite-phpliteadmin",
+          "systemctl stop sqlite-phpliteadmin"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active sqlite-phpliteadmin",
+          "systemctl is-active sqlite-phpliteadmin",
+          "systemctl is-active sqlite-phpliteadmin",
+          "systemctl is-active sqlite-phpliteadmin"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/sqlite-phpliteadmin/sqlite-phpliteadmin-focal-armhf-offline-wanos.4.tar.gz",
+      "package_sha256": "c5e00c31f4e6d65e21394c5ac5435debe302a262eb5488d4544d9173e94be503",
+      "password_file": "/opt/wanos-data/apps/sqlite-phpliteadmin/admin-password.txt",
+      "database_dir": "/opt/wanos-data/apps/sqlite-phpliteadmin/databases",
+      "default_password": "admin",
+      "packages": [],
+      "downloads": 2,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "mariadb-adminer",
+      "name": "MySQL 数据库",
+      "version": "10.3.39-wanos.3",
+      "description": "基于 MariaDB 的 MySQL 兼容数据库，集成 Adminer 中文网页管理面板，支持 SQL 导入导出；完整 ARMv7 离线包安装，避免全局配置系统半安装包。",
+      "icon": "https://wanos.xyz/downloads/apps/mariadb-adminer/DB-MariaDB.png",
+      "port": 18086,
+      "path": "/",
+      "url": "",
+      "service": "mariadb-adminer",
+      "install_url": "https://wanos.xyz/downloads/apps/mariadb-adminer/install.sh",
+      "install_sha256": "86b98de2fcd7b57891ac20e0cc6789ffa3e4868f42d0adc5c885b65283074d73",
+      "update_url": "https://wanos.xyz/downloads/apps/mariadb-adminer/update.sh",
+      "update_sha256": "509d7f0c184bcd937e1a51b07814b41c9b56b40e93ee699dc914f5f52124ed57",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/mariadb-adminer/uninstall.sh",
+      "uninstall_sha256": "009d7b48fe163a98913a62a9d061c0751350ebff00ddd0d0b653bf13b4c8bf05",
+      "tags": [
+        "数据库",
+        "MySQL",
+        "MariaDB",
+        "Adminer",
+        "Web 面板",
+        "离线包"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start mariadb || systemctl start mysql",
+          "systemctl start mariadb-adminer",
+          "systemctl start mariadb || systemctl start mysql",
+          "systemctl start mariadb-adminer",
+          "systemctl start mariadb || systemctl start mysql",
+          "systemctl start mariadb-adminer",
+          "systemctl start mariadb || systemctl start mysql",
+          "systemctl start mariadb-adminer"
+        ],
+        "stop": [
+          "systemctl stop mariadb-adminer",
+          "systemctl stop mariadb || systemctl stop mysql",
+          "systemctl stop mariadb-adminer",
+          "systemctl stop mariadb || systemctl stop mysql",
+          "systemctl stop mariadb-adminer",
+          "systemctl stop mariadb || systemctl stop mysql",
+          "systemctl stop mariadb-adminer",
+          "systemctl stop mariadb || systemctl stop mysql"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active mariadb-adminer",
+          "systemctl is-active mariadb-adminer",
+          "systemctl is-active mariadb-adminer",
+          "systemctl is-active mariadb-adminer"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/mariadb-adminer/mariadb-adminer-focal-armhf-offline.tar.gz",
+      "package_sha256": "fbdf55f261213aada9c62e04fd5777f245e064956f7ebdd05d915f76ed304f1b",
+      "database_port": 3306,
+      "default_user": "wanos",
+      "password_file": "/opt/wanos-data/apps/mariadb-adminer/root-password.txt",
+      "packages": [],
+      "downloads": 0,
+      "size": "",
+      "package_size": 0,
+      "notes": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant 智能家居",
+      "version": "2023.4-wanos.6",
+      "description": "Home Assistant 智能家居套件，Docker 离线镜像安装，内置 WanOS Go 版 Hass-Panel 面板，默认打开 5123 面板；Home Assistant 管理后台在 8123。",
+      "icon": "https://wanos.xyz/downloads/apps/home-assistant/home-assistant.png",
+      "port": 5123,
+      "path": "/",
+      "url": "",
+      "service": "home-assistant",
+      "install_url": "https://wanos.xyz/downloads/apps/home-assistant/install.sh",
+      "install_sha256": "aa1aca8d9b4dd43a3625d7f26014940760fe168fc5244335ed783d4dc9a8a17c",
+      "update_url": "https://wanos.xyz/downloads/apps/home-assistant/update.sh",
+      "update_sha256": "408f4c9d10842b41e8fe6c80a92260d644ee4140c4d6d2c00ed9c42e555e5f33",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/home-assistant/uninstall.sh",
+      "uninstall_sha256": "0de1dcdbdb6a8d0fe8d0b76192d5a2ef823d9ca3c2fc8d7d3982d5196fd740a1",
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/home-assistant/home-assistant-armv7-offline.tar.gz",
+      "package_sha256": "1bd9ca29d78ba15503f1a1c9853d4815b8b38a79b27bb1d51a23c10d36cc9d87",
+      "panel_package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/hass-panel/hass-panel-armv7-offline.tar.gz",
+      "panel_package_sha256": "62fe7b1aa108cd798eb03b1aaeb5cf28dcf6959f90b9e0307402b3c24a2570be",
+      "data_dir": "/opt/wanos-data/apps/home-assistant/config",
+      "tags": [
+        "智能家居",
+        "自动化",
+        "控制面板",
+        "Docker",
+        "ARMv7"
+      ],
+      "requires": [
+        "docker"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start home-assistant",
+          "systemctl start hass-panel",
+          "systemctl start home-assistant",
+          "systemctl start hass-panel",
+          "systemctl start home-assistant",
+          "systemctl start hass-panel",
+          "systemctl start home-assistant",
+          "systemctl start hass-panel"
+        ],
+        "stop": [
+          "systemctl stop hass-panel",
+          "systemctl stop home-assistant",
+          "systemctl stop hass-panel",
+          "systemctl stop home-assistant",
+          "systemctl stop hass-panel",
+          "systemctl stop home-assistant",
+          "systemctl stop hass-panel",
+          "systemctl stop home-assistant"
+        ],
+        "check": [
+          "systemctl is-active home-assistant",
+          "systemctl is-active home-assistant",
+          "systemctl is-active home-assistant",
+          "systemctl is-active home-assistant"
+        ]
+      },
+      "install_mode": "local_import",
+      "import": {
+        "title": "Home Assistant 智能家居",
+        "package_name": "home-assistant-armv7-offline.tar.gz",
+        "accept": ".tar.gz,.tgz",
+        "description": "上传 Home Assistant ARMv7 Docker 离线镜像包，系统会自动导入镜像并安装 Hass-Panel 面板。",
+        "min_size": 10485760,
+        "package_url_env": "HOME_ASSISTANT_PACKAGE_URL",
+        "package_sha_env": "HOME_ASSISTANT_PACKAGE_SHA256",
+        "allow_install_path": true
+      },
+      "category": "",
+      "downloads": 0,
+      "size": "",
+      "package_size": 0
+    },
+    {
+      "id": "daidai-panel",
+      "name": "呆呆面板",
+      "version": "1.0.0-wanos.2",
+      "description": "呆呆面板 ARMv7 二进制离线版，提供脚本托管、定时任务、环境变量、订阅、日志和通知推送等自动化任务管理能力。用户自行添加、运行的脚本及其行为由用户自行负责，请勿用于违反平台规则、法律法规或侵犯第三方权益的用途。",
+      "icon": "https://wanos.xyz/downloads/apps/daidai-panel/icon.png",
+      "port": 5701,
+      "path": "/",
+      "url": "",
+      "open_mode": "external",
+      "service": "daidai-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/daidai-panel/install.sh",
+      "install_sha256": "e7aa8aa788fc9a9169defc660f9f14f24e10294ca19f3aff3e3e1105d1fb2cb9",
+      "update_url": "https://wanos.xyz/downloads/apps/daidai-panel/update.sh",
+      "update_sha256": "6a2f9d3fd6ffd94a1082e6945238d53f194a313564a3362e4d0874b6d598d5d3",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/daidai-panel/uninstall.sh",
+      "uninstall_sha256": "02c9c9a44c3a8252add5b2f6c5bd9f34c3c83dfdc97a66339c16fb5f0dcefd39",
+      "downloads": 0,
+      "size": "12.0 MB",
+      "tags": [
+        "自动化",
+        "定时任务",
+        "脚本管理",
+        "二进制",
+        "ARMv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:5701",
+        "首次进入请按页面提示初始化管理员。",
+        "数据目录：/opt/wanos-data/apps/daidai-panel",
+        "默认端口使用 5701，避免和青龙面板 5700 冲突。",
+        "呆呆面板仅提供任务调度和脚本管理能力，用户自行添加、运行的脚本及其行为由用户自行负责。",
+        "请勿用于违反平台规则、法律法规或侵犯第三方权益的用途。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start daidai-panel",
+          "systemctl start daidai-panel",
+          "systemctl start daidai-panel",
+          "systemctl start daidai-panel"
+        ],
+        "stop": [
+          "systemctl stop daidai-panel",
+          "systemctl stop daidai-panel",
+          "systemctl stop daidai-panel",
+          "systemctl stop daidai-panel"
+        ],
+        "check": [
+          "systemctl is-active daidai-panel",
+          "systemctl is-active daidai-panel",
+          "systemctl is-active daidai-panel",
+          "systemctl is-active daidai-panel"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/daidai-panel/daidai-linux-armv7.tar.gz",
+      "package_sha256": "f94f759e299844c501de6b8c2f4cbc453ea72d0b1e8932b05aaa183a1e661f6c",
+      "package_size": 12572260,
+      "data_dir": "/opt/wanos-data/apps/daidai-panel",
+      "category": ""
+    },
+    {
+      "id": "qinglong",
+      "name": "青龙面板",
+      "version": "2.17.7-wanos.2",
+      "description": "青龙面板 Docker 离线版，支持定时任务、脚本管理和环境变量管理；安装脚本会自动导入 ARMv7 离线镜像并启动 5700 Web 面板。用户自行添加、运行的脚本及其行为由用户自行负责，请勿用于违反平台规则、法律法规或侵犯第三方权益的用途。",
+      "icon": "https://wanos.xyz/downloads/apps/qinglong/appicon.png",
+      "port": 5700,
+      "path": "/",
+      "url": "",
+      "service": "qinglong",
+      "install_url": "https://wanos.xyz/downloads/apps/qinglong/install.sh",
+      "install_sha256": "e7aa8aa788fc9a9169defc660f9f14f24e10294ca19f3aff3e3e1105d1fb2cb9",
+      "update_url": "https://wanos.xyz/downloads/apps/qinglong/update.sh",
+      "update_sha256": "d4264abc263eb2d03c82fbb90905b7b8ab5743ecc13e16182c0e0ef83469f3b5",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/qinglong/uninstall.sh",
+      "uninstall_sha256": "20726258eadcfeb2878a4a3917536dcc4ea2d3b19b1072634746886552c3e527",
+      "downloads": 0,
+      "size": "98.2 MB",
+      "tags": [
+        "自动化",
+        "定时任务",
+        "Docker",
+        "离线包",
+        "ARMv7"
+      ],
+      "requires": [
+        "docker"
+      ],
+      "notes": [
+        "首次进入请按页面提示完成初始化账号配置。",
+        "访问地址：http://设备IP:5700",
+        "数据目录：/opt/wanos-data/apps/qinglong/data",
+        "镜像：whyour/qinglong:2.17.7-linuxarmv7",
+        "青龙面板仅提供任务调度和脚本管理能力，用户自行添加、运行的脚本及其行为由用户自行负责。",
+        "请勿用于违反平台规则、法律法规或侵犯第三方权益的用途。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start qinglong",
+          "systemctl start qinglong",
+          "systemctl start qinglong",
+          "systemctl start qinglong"
+        ],
+        "stop": [
+          "systemctl stop qinglong",
+          "systemctl stop qinglong",
+          "systemctl stop qinglong",
+          "systemctl stop qinglong"
+        ],
+        "check": [
+          "systemctl is-active qinglong",
+          "systemctl is-active qinglong",
+          "systemctl is-active qinglong",
+          "systemctl is-active qinglong"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/qinglong/qinglong_2.17.7_linux_armv7_docker_image.tar.gz",
+      "package_sha256": "dbacbfae0ead6410c720cd7283d50e6065d770bd55c065018bdc804235dd1c6d",
+      "package_size": 103020400,
+      "data_dir": "/opt/wanos-data/apps/qinglong/data",
+      "category": ""
+    },
+    {
+      "id": "tiantang",
+      "name": "甜糖边缘节点",
+      "version": "1.18.17-wanos.1",
+      "description": "甜糖边缘节点一键安装包，采用官方 ttmanager_arm32 二进制部署。官方文档：https://tiantang.feishu.cn/docx/NkQ0db5umox53JxUpYAc8s4hndf。任何的规则和收益结算所有权归甜糖科技，与WanOS无任何关联。重要提醒，此类业务归属PCDN边缘计算，你自己衡量宽带是否合法。",
+      "icon": "https://wanos.xyz/downloads/apps/tiantang/logo.png",
+      "port": 1024,
+      "path": "/",
+      "url": "",
+      "service": "tiantang",
+      "install_url": "https://wanos.xyz/downloads/apps/tiantang/install.sh",
+      "install_sha256": "96bc52f61757cb4343945f5c5169191cf08b7e4ac68a992511a448069c01ebf0",
+      "update_url": "https://wanos.xyz/downloads/apps/tiantang/update.sh",
+      "update_sha256": "8f8e19bcde52c740f09412c7798da02c025940669efbdde58ec9400b86e943d5",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/tiantang/uninstall.sh",
+      "uninstall_sha256": "8c954a8b600245f491d274bc11b812de5ede2b30f50e20f7de0f68a1e405a20b",
+      "downloads": 0,
+      "size": "37.1 MB",
+      "tags": [
+        "PCDN",
+        "收益",
+        "边缘节点",
+        "ARMv7"
+      ],
+      "notes": [
+        "官方文档：https://tiantang.feishu.cn/docx/NkQ0db5umox53JxUpYAc8s4hndf",
+        "内置甜糖官方 ttmanager_arm32 1.18.17 二进制，不再依赖交互式 auto.sh。",
+        "安装完成后请使用甜糖 APP 扫码或 UUID 绑定设备。",
+        "安装完成后会在 WanOS 桌面生成图标，点击后在弹窗打开 http://设备IP:1024。",
+        "二进制模式不依赖 Docker；安装时只补齐 iproute2 用于检测 1024 端口。",
+        "默认启动 edsnodex 节点并使用 wrapper 写入日志，兼容老 systemd；如 1024 未监听请查看 /opt/wanos-data/apps/tiantang/logs/ttnode.log。",
+        "任何的规则和收益结算所有权归甜糖科技，与WanOS无任何关联。",
+        "重要提醒，此类业务归属PCDN边缘计算，你自己衡量宽带是否合法。",
+        "缓存目录：/opt/wanos-data/apps/tiantang/cache"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start tiantang",
+          "systemctl start tiantang",
+          "systemctl start tiantang",
+          "systemctl start tiantang"
+        ],
+        "stop": [
+          "systemctl stop tiantang",
+          "systemctl stop tiantang",
+          "systemctl stop tiantang",
+          "systemctl stop tiantang"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active tiantang",
+          "systemctl is-active tiantang",
+          "systemctl is-active tiantang",
+          "systemctl is-active tiantang"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/tiantang/ttmanager_arm32",
+      "package_sha256": "8b58b2bf3db031d901dfb4b977648fa6efa73d78a2cb69eb19fba229311cc181",
+      "package_size": 38928568,
+      "packages": [],
+      "architectures": [],
+      "category": ""
+    },
+    {
+      "id": "xianyu-autodelivery",
+      "name": "闲鱼自动发货",
+      "version": "1.0.0-wanos.8",
+      "description": "闲鱼自动发货 ARMv7 独立服务，支持扫码登录、商品规则、自动回复、库存卡密、发货记录和运行日志管理。",
+      "icon": "https://wanos.xyz/downloads/apps/xianyu-autodelivery/icon.png",
+      "port": 12088,
+      "path": "/",
+      "url": "",
+      "service": "xianyu-autodelivery",
+      "install_url": "https://wanos.xyz/downloads/apps/xianyu-autodelivery/install.sh",
+      "install_sha256": "4df968ef17c717567576563beafd127f655bcbc1f3e19f2ede115809ba01eef8",
+      "update_url": "https://wanos.xyz/downloads/apps/xianyu-autodelivery/update.sh",
+      "update_sha256": "4df968ef17c717567576563beafd127f655bcbc1f3e19f2ede115809ba01eef8",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/xianyu-autodelivery/uninstall.sh",
+      "uninstall_sha256": "4bc9160716f4323f80d059c5acb0817329bad96443b29718b6dd0f85723055db",
+      "downloads": 0,
+      "size": "11.3 MB",
+      "tags": [
+        "闲鱼",
+        "自动发货",
+        "自动回复",
+        "卡密库存",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:12088",
+        "监听地址：0.0.0.0:12088",
+        "内部静态资源：/opt/wanos/apps/xianyu-autodelivery/assets/xianyu.png",
+        "数据静态资源：/opt/wanos-data/apps/xianyu-autodelivery/assets/xianyu.png",
+        "首次进入请按页面提示设置本地管理员密码并扫码登录闲鱼。",
+        "服务名：xianyu-autodelivery",
+        "请遵守闲鱼平台规则和相关法律法规。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start xianyu-autodelivery",
+          "systemctl start xianyu-autodelivery",
+          "systemctl start xianyu-autodelivery",
+          "systemctl start xianyu-autodelivery"
+        ],
+        "stop": [
+          "systemctl stop xianyu-autodelivery",
+          "systemctl stop xianyu-autodelivery",
+          "systemctl stop xianyu-autodelivery",
+          "systemctl stop xianyu-autodelivery"
+        ],
+        "check": [
+          "systemctl is-active xianyu-autodelivery",
+          "systemctl is-active xianyu-autodelivery",
+          "systemctl is-active xianyu-autodelivery",
+          "systemctl is-active xianyu-autodelivery"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/xianyu-autodelivery/xianyu-autodelivery-linux-armv7-v8",
+      "package_sha256": "6fa9089d9789ef1bb45e09c6ba84eadbd13b0566a7e200bfec9442685b24acd8",
+      "package_size": 12058786,
+      "data_dir": "/opt/wanos-data/apps/xianyu-autodelivery",
+      "category": ""
+    },
+    {
+      "id": "wol-network-wakeup",
+      "name": "WOL网络唤醒",
+      "version": "1.0.0-wanos.2",
+      "description": "专业级局域网唤醒与电源管理神器。支持全网设备极速扫描、实时状态监测、多设备分组，以及通过 SSH 协议实现 Windows/Linux 的远程一键安全关机。",
+      "icon": "https://wanos.xyz/downloads/apps/wol-network-wakeup/icon-small.png",
+      "port": 12100,
+      "path": "/",
+      "url": "",
+      "service": "wol-network-wakeup",
+      "install_url": "https://wanos.xyz/downloads/apps/wol-network-wakeup/install.sh",
+      "install_sha256": "e7aa8aa788fc9a9169defc660f9f14f24e10294ca19f3aff3e3e1105d1fb2cb9",
+      "update_url": "https://wanos.xyz/downloads/apps/wol-network-wakeup/update.sh",
+      "update_sha256": "5dd1abe3a73b1e12e9e2c2980b0ca69801976cbc1f9cfff40103151166c484c6",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/wol-network-wakeup/uninstall.sh",
+      "uninstall_sha256": "83f91d20d35aa8c6de9e1ee1b3d8a0c7c8a42229d8f7b71bfdcf77adaebd85ad",
+      "downloads": 0,
+      "size": "10.0 MB",
+      "tags": [
+        "网络唤醒",
+        "电源管理",
+        "SSH关机",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:12100",
+        "默认端口：12100",
+        "支持局域网 WOL 唤醒、设备扫描、分组管理。",
+        "如需 SSH 安全关机，请确保目标设备已启用 SSH 并填写正确账号。",
+        "服务名：wol-network-wakeup"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start wol-network-wakeup",
+          "systemctl start wol-network-wakeup",
+          "systemctl start wol-network-wakeup",
+          "systemctl start wol-network-wakeup"
+        ],
+        "stop": [
+          "systemctl stop wol-network-wakeup",
+          "systemctl stop wol-network-wakeup",
+          "systemctl stop wol-network-wakeup",
+          "systemctl stop wol-network-wakeup"
+        ],
+        "check": [
+          "systemctl is-active wol-network-wakeup",
+          "systemctl is-active wol-network-wakeup",
+          "systemctl is-active wol-network-wakeup",
+          "systemctl is-active wol-network-wakeup"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wol-network-wakeup/wol-app-linux-armv7",
+      "package_sha256": "49ea8878853c3052a95ebd60fcc90a3324255cb7be03ab1643942f5c10934126",
+      "package_size": 10492834,
+      "data_dir": "/opt/wanos-data/apps/wol-network-wakeup",
+      "category": ""
+    },
+    {
+      "id": "live-recorder",
+      "name": "直播录制",
+      "version": "1.0.0-wanos.3",
+      "description": "支持抖音、快手的直播录制，适合长时间监控直播间并自动保存录制文件。",
+      "icon": "https://wanos.xyz/downloads/apps/live-recorder/icon-small.png",
+      "port": 18081,
+      "path": "/",
+      "url": "",
+      "service": "live-recorder",
+      "install_url": "https://wanos.xyz/downloads/apps/live-recorder/install.sh",
+      "install_sha256": "dff5825fde128f58d9c0982d8ba627f7a16d59516972d75654eb0d8608698270",
+      "update_url": "https://wanos.xyz/downloads/apps/live-recorder/update.sh",
+      "update_sha256": "dff5825fde128f58d9c0982d8ba627f7a16d59516972d75654eb0d8608698270",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/live-recorder/uninstall.sh",
+      "uninstall_sha256": "8f511b33ce2cb99331473ba05b99378a465751295abfd364c1d6b17067c9bf73",
+      "downloads": 0,
+      "size": "9.8 MB",
+      "tags": [
+        "直播录制",
+        "抖音",
+        "快手",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:18081",
+        "默认端口：18081",
+        "支持抖音、快手直播录制。",
+        "服务名：live-recorder"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start live-recorder",
+          "systemctl start live-recorder",
+          "systemctl start live-recorder",
+          "systemctl start live-recorder"
+        ],
+        "stop": [
+          "systemctl stop live-recorder",
+          "systemctl stop live-recorder",
+          "systemctl stop live-recorder",
+          "systemctl stop live-recorder"
+        ],
+        "check": [
+          "systemctl is-active live-recorder",
+          "systemctl is-active live-recorder",
+          "systemctl is-active live-recorder",
+          "systemctl is-active live-recorder"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/live-recorder/live-recorder-armv7-go-v3",
+      "package_sha256": "a1b850be1e8dcc46ce457b9c8b2c86eb11282666c7319f30da72935a0e546f5c",
+      "package_size": 11993250,
+      "data_dir": "/opt/wanos-data/apps/live-recorder",
+      "category": ""
+    },
+    {
+      "id": "bt-panel",
+      "name": "宝塔面板",
+      "version": "1.0.0-wanos.17",
+      "description": "宝塔面板 ARMv7 完整离线运行包，来自已在玩客云验证可用的宝塔环境，包含 /www/server、/usr/local 运行库、Python2、PHP 7.2、MySQL 5.5、Nginx、Pure-FTPd、phpMyAdmin 等组件。面板访问 http://设备IP:8888/，默认账号 root，默认密码 1234。WanOS适配版宝塔下载链接：https://pan.quark.cn/s/aabf7cd68a67",
+      "icon": "https://wanos.xyz/downloads/apps/bt-panel/icon.png",
+      "port": 8888,
+      "path": "/",
+      "url": "",
+      "open_mode": "external",
+      "service": "bt-panel",
+      "install_url": "https://wanos.xyz/downloads/apps/bt-panel/install.sh",
+      "install_sha256": "64bc7885a97631e48091e31095e768491708c2348223879e2a09b1accd343528",
+      "update_url": "https://wanos.xyz/downloads/apps/bt-panel/update.sh",
+      "update_sha256": "64bc7885a97631e48091e31095e768491708c2348223879e2a09b1accd343528",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/bt-panel/uninstall.sh",
+      "uninstall_sha256": "05d459c3f19700db330a848485055fc147334bafa58dffccb8aa7e89658c5558",
+      "package_url": "",
+      "package_sha256": "c85508c68bbe92db2e50d1d0365af4dbd53da29b6f90d0888008d6597139e621",
+      "size": "568.8 MB",
+      "package_size": 596478802,
+      "architectures": [
+        "armv7"
+      ],
+      "tags": [
+        "建站",
+        "面板",
+        "PHP",
+        "MySQL",
+        "Nginx",
+        "ARMv7"
+      ],
+      "default_account": {
+        "username": "root",
+        "password": "1234",
+        "notice": "安装完成后访问 http://设备IP:8888/ 登录。"
+      },
+      "notes": [
+        "安装方式：在应用商店上传离线包后导入安装。",
+        "离线包文件名：bt-panel-armv7-runtime-v16-live-working.tar.gz。",
+        "WanOS适配版宝塔下载链接：https://pan.quark.cn/s/aabf7cd68a67",
+        "面板访问：http://设备IP:8888/。",
+        "phpMyAdmin 访问：http://设备IP:888/phpmyadmin_c388628f5de80180/index.php。",
+        "默认账号：root，默认密码：1234。",
+        "MySQL 版本：5.5.62，数据目录：/www/server/data。",
+        "宝塔 Nginx 默认站点端口：8881，避免占用 WanOS 的 80。",
+        "Pure-FTPd 端口：2121，避免占用 WanOS 的 21。",
+        "安装脚本会在导入前停服务、杀残留进程、解除 .user.ini 属性，并清理旧 /www/server、/www/wwwlogs、/www/wwwroot。",
+        "如果首次解压遇到旧文件残留，脚本会自动二次清理并重试一次。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start bt-panel",
+          "systemctl start bt-panel",
+          "systemctl start bt-panel",
+          "systemctl start bt-panel"
+        ],
+        "stop": [
+          "systemctl stop bt-panel",
+          "systemctl stop bt-panel",
+          "systemctl stop bt-panel",
+          "systemctl stop bt-panel"
+        ],
+        "check": [
+          "systemctl is-active bt-panel",
+          "systemctl is-active bt-panel",
+          "systemctl is-active bt-panel",
+          "systemctl is-active bt-panel"
+        ]
+      },
+      "data_dir": "/opt/wanos-data/apps/bt-panel",
+      "install_mode": "local_import",
+      "import": {
+        "title": "宝塔面板",
+        "package_name": "bt-panel-armv7-runtime-v16-live-working.tar.gz",
+        "accept": ".tar.gz,.tgz",
+        "description": "上传宝塔 ARMv7 现场可用离线包，系统会从本地离线包解压安装已验证的宝塔运行环境。WanOS适配版宝塔下载链接：https://pan.quark.cn/s/aabf7cd68a67",
+        "min_size": 104857600,
+        "package_url_env": "BT_PANEL_PACKAGE_URL",
+        "package_sha_env": "BT_PANEL_PACKAGE_SHA256",
+        "allow_install_path": true,
+        "allow_device_path": true
+      },
+      "install_config": {
+        "requires_password": true,
+        "username": "root",
+        "default_password": "1234",
+        "notice": "安装前可设置宝塔面板登录密码，安装完成后使用 root 登录。",
+        "fields": [
+          {
+            "name": "username",
+            "label": "登录账号",
+            "type": "text",
+            "required": false,
+            "default": "root",
+            "aliases": [
+              "admin_username"
+            ],
+            "autocomplete": "username"
+          },
+          {
+            "name": "admin_password",
+            "label": "登录密码",
+            "type": "password",
+            "required": true,
+            "default": "1234",
+            "aliases": [
+              "password"
+            ],
+            "autocomplete": "new-password"
+          }
+        ]
+      },
+      "category": "",
+      "downloads": 0
+    },
+    {
+      "id": "baidupan-client",
+      "name": "百度网盘 WanOS版",
+      "version": "1.0.0-wanos.7",
+      "description": "百度网盘 WanOS ARMv7 客户端，提供本地 Web 管理入口，用于在 WanOS 设备上管理百度网盘相关任务和文件。",
+      "icon": "https://wanos.xyz/downloads/apps/baidupan-client/icon.png",
+      "port": 8732,
+      "path": "/",
+      "url": "",
+      "service": "baidupan-client",
+      "install_url": "https://wanos.xyz/downloads/apps/baidupan-client/install.sh",
+      "install_sha256": "ec30d7c3653239143e10cbd76ccf3fe15c81c5968d8c371a68cf98ff8fad4967",
+      "update_url": "https://wanos.xyz/downloads/apps/baidupan-client/update.sh",
+      "update_sha256": "ec30d7c3653239143e10cbd76ccf3fe15c81c5968d8c371a68cf98ff8fad4967",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/baidupan-client/uninstall.sh",
+      "uninstall_sha256": "f382b8217c25e4089880bcc3483f998908e6e29bdc074a176789909e37a3c411",
+      "downloads": 1,
+      "size": "6.6 MB",
+      "tags": [
+        "百度网盘",
+        "网盘",
+        "文件管理",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8732",
+        "默认端口：8732",
+        "监听地址：0.0.0.0:8732",
+        "服务名：baidupan-client",
+        "数据目录：/opt/wanos-data/apps/baidupan-client",
+        "配置文件：/opt/wanos-data/apps/baidupan-client/baidupan-config.json"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start baidupan-client",
+          "systemctl start baidupan-client",
+          "systemctl start baidupan-client",
+          "systemctl start baidupan-client"
+        ],
+        "stop": [
+          "systemctl stop baidupan-client",
+          "systemctl stop baidupan-client",
+          "systemctl stop baidupan-client",
+          "systemctl stop baidupan-client"
+        ],
+        "check": [
+          "systemctl is-active baidupan-client",
+          "systemctl is-active baidupan-client",
+          "systemctl is-active baidupan-client",
+          "systemctl is-active baidupan-client"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/baidupan-client/baidupan-client-armv7-v7",
+      "package_sha256": "e725cd05a4323fbd1c3dcb5e094adc5358c92cfb8517c8a3ff37393bbd2cdcd8",
+      "package_size": 6881442,
+      "data_dir": "/opt/wanos-data/apps/baidupan-client",
+      "open_mode": "popup",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "new-api",
+      "name": "New API",
+      "version": "1.0.0-wanos.2",
+      "description": "New API WanOS ARMv7 适配版，提供统一的大模型 API 聚合与管理面板，默认监听 3000 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/new-api/icon.png",
+      "port": 3000,
+      "path": "/",
+      "url": "",
+      "service": "new-api",
+      "install_url": "https://wanos.xyz/downloads/apps/new-api/install.sh",
+      "install_sha256": "2e39fc0cb72aa6492b75d64b310006ff3c12d55f4341a12e555b762f45e8753a",
+      "update_url": "https://wanos.xyz/downloads/apps/new-api/update.sh",
+      "update_sha256": "2e39fc0cb72aa6492b75d64b310006ff3c12d55f4341a12e555b762f45e8753a",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/new-api/uninstall.sh",
+      "uninstall_sha256": "c85a14f15b9d0ac61033c63fa09f256fca164bb0ba4ae0a353c5076ff2279170",
+      "downloads": 0,
+      "size": "127.2 MB",
+      "tags": [
+        "AI",
+        "API",
+        "New API",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:3000",
+        "默认端口：3000",
+        "服务名：new-api",
+        "数据目录：/opt/wanos-data/apps/new-api",
+        "安装脚本使用官方 SQLite 环境变量 SQLITE_PATH 保存本地数据库。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start new-api",
+          "systemctl start new-api",
+          "systemctl start new-api",
+          "systemctl start new-api"
+        ],
+        "stop": [
+          "systemctl stop new-api",
+          "systemctl stop new-api",
+          "systemctl stop new-api",
+          "systemctl stop new-api"
+        ],
+        "check": [
+          "systemctl is-active new-api",
+          "systemctl is-active new-api",
+          "systemctl is-active new-api",
+          "systemctl is-active new-api"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/new-api/new-api-linux-armv7-v1",
+      "package_sha256": "d76b406896c854b2d908d9ee0d800b85be63294870f500e0e6a45f9c439c69f2",
+      "package_size": 133431458,
+      "data_dir": "/opt/wanos-data/apps/new-api",
+      "open_mode": "external",
+      "iframe": false,
+      "category": ""
+    },
+    {
+      "id": "lucky",
+      "name": "Lucky万吉",
+      "version": "2.27.2-wanos.4",
+      "description": "Lucky 万吉 ARMv7 适配版，集成端口转发、动态域名、反向代理、WebDAV、网络唤醒、STUN 内网穿透等常用网络工具，默认监听 16601 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/lucky/icon.png",
+      "port": 16601,
+      "path": "/",
+      "url": "",
+      "service": "lucky",
+      "install_url": "https://wanos.xyz/downloads/apps/lucky/install.sh",
+      "install_sha256": "8b4cd1bc36f1a98a6d908e99481130c0ba588d214c504acd709bd5c03a31c02c",
+      "update_url": "https://wanos.xyz/downloads/apps/lucky/update.sh",
+      "update_sha256": "8b4cd1bc36f1a98a6d908e99481130c0ba588d214c504acd709bd5c03a31c02c",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/lucky/uninstall.sh",
+      "uninstall_sha256": "d9f315a3d64fe1b495b793d0f92f9e2b742061b0d5ab20fa9c15fa548e5c8430",
+      "downloads": 0,
+      "size": "8.7 MB",
+      "tags": [
+        "网络工具",
+        "端口转发",
+        "DDNS",
+        "反向代理",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:16601",
+        "默认账号：666",
+        "默认密码：666",
+        "服务名：lucky",
+        "数据目录：按应用商店选择的安装位置保存；默认 /opt/wanos-data/apps/lucky",
+        "修复 TF 卡安装路径下 run.sh 找错二进制路径的问题。",
+        "按官方新版用法改为 lucky -cd <配置目录>，不再传入会触发非法参数的 -p。",
+        "修复下载日志管道触发子进程 trap 提前删除临时安装包的问题。",
+        "安装后请立即修改默认密码。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start lucky",
+          "systemctl start lucky",
+          "systemctl start lucky",
+          "systemctl start lucky"
+        ],
+        "stop": [
+          "systemctl stop lucky",
+          "systemctl stop lucky",
+          "systemctl stop lucky",
+          "systemctl stop lucky"
+        ],
+        "check": [
+          "systemctl is-active lucky",
+          "systemctl is-active lucky",
+          "systemctl is-active lucky",
+          "systemctl is-active lucky"
+        ]
+      },
+      "default_account": {
+        "username": "666",
+        "password": "666",
+        "notice": "首次登录后请立即修改默认密码。"
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/lucky/lucky_2.27.2_Linux_armv7.tar.gz",
+      "package_sha256": "a69964e74d5daf01ee13ea7c127a3614883de3ce80b6a568ddabbe6252b0cebd",
+      "package_size": 9150650,
+      "data_dir": "/opt/wanos-data/apps/lucky",
+      "open_mode": "popup",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "sub2api",
+      "name": "sub2api",
+      "version": "1.0.0-wanos.1",
+      "description": "sub2api ARMv7 适配版，提供订阅转换和 API 转发管理服务，默认监听 18080 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/sub2api/icon.png",
+      "port": 18080,
+      "path": "/",
+      "url": "",
+      "service": "sub2api",
+      "install_url": "https://wanos.xyz/downloads/apps/sub2api/install.sh",
+      "install_sha256": "b0e0261f6966d799ed9515ac9fd7baff1826b094ce3d02a526baac972cdb1499",
+      "update_url": "https://wanos.xyz/downloads/apps/sub2api/update.sh",
+      "update_sha256": "b0e0261f6966d799ed9515ac9fd7baff1826b094ce3d02a526baac972cdb1499",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/sub2api/uninstall.sh",
+      "uninstall_sha256": "6f08fe9e3703fc70b1a3bfb92490b564635cdca94a69fa810b6386f18c5df664",
+      "downloads": 0,
+      "size": "81.2 MB",
+      "tags": [
+        "网络工具",
+        "订阅转换",
+        "API 转发",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:18080",
+        "默认端口：18080",
+        "服务名：sub2api",
+        "数据目录：/opt/wanos-data/apps/sub2api",
+        "如需自定义启动参数，可通过 SUB2API_ARGS 环境变量覆盖。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start sub2api",
+          "systemctl start sub2api",
+          "systemctl start sub2api",
+          "systemctl start sub2api"
+        ],
+        "stop": [
+          "systemctl stop sub2api",
+          "systemctl stop sub2api",
+          "systemctl stop sub2api",
+          "systemctl stop sub2api"
+        ],
+        "check": [
+          "systemctl is-active sub2api",
+          "systemctl is-active sub2api",
+          "systemctl is-active sub2api",
+          "systemctl is-active sub2api"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/sub2api/sub2api-linux-armv7-v1",
+      "package_sha256": "ff5d9fc7d1cdc144a645b6a7db9e1a7a5d1d12e5070c280a669079de8cc167bf",
+      "package_size": 85131426,
+      "data_dir": "/opt/wanos-data/apps/sub2api",
+      "open_mode": "popup",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "bark-server",
+      "name": "Bark服务端",
+      "version": "2.0.0-wanos.1",
+      "description": "Bark 服务端 ARMv7 适配版，用于自建 Bark 推送服务，支持 Bark 客户端通过自定义服务器地址接入，默认监听 8090 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/bark-server/icon.png",
+      "port": 8090,
+      "path": "/",
+      "url": "",
+      "service": "bark-server",
+      "install_url": "https://wanos.xyz/downloads/apps/bark-server/install.sh",
+      "install_sha256": "fa66d0b8afeacb5c0017251f5b739c4dea0d44856e438aa5a83cc6bc23d807e8",
+      "update_url": "https://wanos.xyz/downloads/apps/bark-server/update.sh",
+      "update_sha256": "fa66d0b8afeacb5c0017251f5b739c4dea0d44856e438aa5a83cc6bc23d807e8",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/bark-server/uninstall.sh",
+      "uninstall_sha256": "593f7e50ee3291c2a639673cccdde6214800c73d71976054b3a4723570a3a832",
+      "downloads": 0,
+      "size": "15.4 MB",
+      "tags": [
+        "推送服务",
+        "Bark",
+        "通知",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8090",
+        "健康检查：http://设备IP:8090/healthz",
+        "默认监听地址：0.0.0.0:8090",
+        "服务名：bark-server",
+        "数据目录：/opt/wanos-data/apps/bark-server",
+        "如需自定义启动参数，可通过 BARK_SERVER_ARGS 环境变量覆盖。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start bark-server",
+          "systemctl start bark-server",
+          "systemctl start bark-server",
+          "systemctl start bark-server"
+        ],
+        "stop": [
+          "systemctl stop bark-server",
+          "systemctl stop bark-server",
+          "systemctl stop bark-server",
+          "systemctl stop bark-server"
+        ],
+        "check": [
+          "systemctl is-active bark-server",
+          "systemctl is-active bark-server",
+          "systemctl is-active bark-server",
+          "systemctl is-active bark-server"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/bark-server/bark-server-linux-armv7-v1",
+      "package_sha256": "eec2b47cc9ad74e358574ec8d4f581d2948321bec70bf86001401768b99ec90c",
+      "package_size": 16187554,
+      "data_dir": "/opt/wanos-data/apps/bark-server",
+      "open_mode": "popup",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "cloud189-client",
+      "name": "天翼云盘",
+      "version": "1.0.0-wanos.1",
+      "description": "天翼云盘 WanOS ARMv7 客户端，支持账号登录和网页管理，默认监听 8734 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/cloud189-client/icon.png",
+      "port": 8734,
+      "path": "/",
+      "url": "",
+      "service": "cloud189-client",
+      "install_url": "https://wanos.xyz/downloads/apps/cloud189-client/install.sh",
+      "install_sha256": "d5b706c02af0b2924afb73cd9932ab93805787ec4146f8353032f3c61d3ca5f3",
+      "update_url": "https://wanos.xyz/downloads/apps/cloud189-client/update.sh",
+      "update_sha256": "d5b706c02af0b2924afb73cd9932ab93805787ec4146f8353032f3c61d3ca5f3",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/cloud189-client/uninstall.sh",
+      "uninstall_sha256": "6f8d3a876715b393927bce8075b984160ea1a7b622d88e187e459a13c46cb935",
+      "downloads": 20,
+      "size": "9.9 MB",
+      "tags": [
+        "网盘",
+        "天翼云盘",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8734",
+        "启动参数：-listen 0.0.0.0:8734",
+        "服务名：cloud189-client",
+        "数据目录：/opt/wanos-data/apps/cloud189-client"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start cloud189-client",
+          "systemctl start cloud189-client",
+          "systemctl start cloud189-client",
+          "systemctl start cloud189-client"
+        ],
+        "stop": [
+          "systemctl stop cloud189-client",
+          "systemctl stop cloud189-client",
+          "systemctl stop cloud189-client",
+          "systemctl stop cloud189-client"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active cloud189-client",
+          "systemctl is-active cloud189-client",
+          "systemctl is-active cloud189-client",
+          "systemctl is-active cloud189-client"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/cloud189-client/cloud189-client-linux-armv7-v1",
+      "package_sha256": "be28dbfe8077935a3ca88f64f2d343f7bb61011ee0c013bab9055ebe350cef89",
+      "package_size": 10403006,
+      "data_dir": "/opt/wanos-data/apps/cloud189-client",
+      "open_mode": "popup",
+      "iframe": true,
+      "packages": [],
+      "category": ""
+    },
+    {
+      "id": "cloud139-client",
+      "name": "移动云盘",
+      "version": "1.0.0-wanos.1",
+      "description": "移动云盘 WanOS ARMv7 客户端，支持扫码登录和网页管理，默认监听 8735 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/cloud139-client/icon.png",
+      "port": 8735,
+      "path": "/",
+      "url": "",
+      "service": "cloud139-client",
+      "install_url": "https://wanos.xyz/downloads/apps/cloud139-client/install.sh",
+      "install_sha256": "14d8ffd8f25090e072034ca47011cd87cd07cac561b7510e3e4eea3a7e919095",
+      "update_url": "https://wanos.xyz/downloads/apps/cloud139-client/update.sh",
+      "update_sha256": "14d8ffd8f25090e072034ca47011cd87cd07cac561b7510e3e4eea3a7e919095",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/cloud139-client/uninstall.sh",
+      "uninstall_sha256": "9807e426bfcfdf42ebbe331509c5899003519243e2f1d4eabc4708c41ac5d61f",
+      "downloads": 20,
+      "size": "6.8 MB",
+      "tags": [
+        "网盘",
+        "移动云盘",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8735",
+        "启动参数：-listen 0.0.0.0:8735",
+        "服务名：cloud139-client",
+        "数据目录：/opt/wanos-data/apps/cloud139-client"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start cloud139-client",
+          "systemctl start cloud139-client",
+          "systemctl start cloud139-client",
+          "systemctl start cloud139-client"
+        ],
+        "stop": [
+          "systemctl stop cloud139-client",
+          "systemctl stop cloud139-client",
+          "systemctl stop cloud139-client",
+          "systemctl stop cloud139-client"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active cloud139-client",
+          "systemctl is-active cloud139-client",
+          "systemctl is-active cloud139-client",
+          "systemctl is-active cloud139-client"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/cloud139-client/cloud139-client-linux-armv7-v1",
+      "package_sha256": "d72f549428b4234a17443cb5e2b138a3fb36d0b5ae2f379103717cd7f12ff061",
+      "package_size": 7078050,
+      "data_dir": "/opt/wanos-data/apps/cloud139-client",
+      "open_mode": "popup",
+      "iframe": true,
+      "packages": [],
+      "category": ""
+    },
+    {
+      "id": "quarkpan-client",
+      "name": "夸克网盘",
+      "version": "1.0.0-wanos.2",
+      "description": "夸克网盘 WanOS ARMv7 客户端，支持扫码登录和网页管理，默认监听 8733 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/quarkpan-client/icon.png",
+      "port": 8733,
+      "path": "/",
+      "url": "",
+      "service": "quarkpan-client",
+      "install_url": "https://wanos.xyz/downloads/apps/quarkpan-client/install.sh",
+      "install_sha256": "7b4046405ad7604972be6a015bf987a06b4b064f2b8bd5596fbe9a5f50da9348",
+      "update_url": "https://wanos.xyz/downloads/apps/quarkpan-client/update.sh",
+      "update_sha256": "7b4046405ad7604972be6a015bf987a06b4b064f2b8bd5596fbe9a5f50da9348",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/quarkpan-client/uninstall.sh",
+      "uninstall_sha256": "b7ce8a86d90a43a052912ca020d3860af9f342b28c4504eabdc1304d2f1fed94",
+      "downloads": 38,
+      "size": "6.9 MB",
+      "tags": [
+        "网盘",
+        "夸克网盘",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8733",
+        "启动参数：-listen 0.0.0.0:8733",
+        "服务名：quarkpan-client",
+        "数据目录：/opt/wanos-data/apps/quarkpan-client"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start quarkpan-client",
+          "systemctl start quarkpan-client",
+          "systemctl start quarkpan-client",
+          "systemctl start quarkpan-client"
+        ],
+        "stop": [
+          "systemctl stop quarkpan-client",
+          "systemctl stop quarkpan-client",
+          "systemctl stop quarkpan-client",
+          "systemctl stop quarkpan-client"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active quarkpan-client",
+          "systemctl is-active quarkpan-client",
+          "systemctl is-active quarkpan-client",
+          "systemctl is-active quarkpan-client"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/quarkpan-client/quarkpan-client-linux-armv7-v2",
+      "package_sha256": "8780908a8225ce90172f8e1589bf22ae915af98466768b17fecd47c076321874",
+      "package_size": 7274658,
+      "data_dir": "/opt/wanos-data/apps/quarkpan-client",
+      "open_mode": "popup",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "alipan-client",
+      "name": "阿里网盘",
+      "version": "1.0.0-wanos.2",
+      "description": "阿里网盘 WanOS ARMv7 客户端，支持扫码登录和网页管理，默认监听 8742 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/alipan-client/icon.png",
+      "port": 8742,
+      "path": "/",
+      "url": "",
+      "service": "alipan-client",
+      "install_url": "https://wanos.xyz/downloads/apps/alipan-client/install.sh",
+      "install_sha256": "f25efd4520f7f2b0adfdd9f3a395a5b65c8634ca216efbbe872c04fc56e901b6",
+      "update_url": "https://wanos.xyz/downloads/apps/alipan-client/update.sh",
+      "update_sha256": "f25efd4520f7f2b0adfdd9f3a395a5b65c8634ca216efbbe872c04fc56e901b6",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/alipan-client/uninstall.sh",
+      "uninstall_sha256": "8c526839a5760dc8b297fe81bda57398a8d7b65436a59756c67d3e372a101d47",
+      "downloads": 21,
+      "size": "6.6 MB",
+      "tags": [
+        "网盘",
+        "阿里网盘",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8742",
+        "启动参数：-listen 0.0.0.0:8742",
+        "服务名：alipan-client",
+        "数据目录：/opt/wanos-data/apps/alipan-client"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start alipan-client",
+          "systemctl start alipan-client",
+          "systemctl start alipan-client",
+          "systemctl start alipan-client"
+        ],
+        "stop": [
+          "systemctl stop alipan-client",
+          "systemctl stop alipan-client",
+          "systemctl stop alipan-client",
+          "systemctl stop alipan-client"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active alipan-client",
+          "systemctl is-active alipan-client",
+          "systemctl is-active alipan-client",
+          "systemctl is-active alipan-client"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/alipan-client/alipan-client-linux-armv7-v2",
+      "package_sha256": "16c376bdcba7ab7fcddb3db53109ef2952c5cf7d18b0a76ec06092e80b2c3537",
+      "package_size": 6946978,
+      "data_dir": "/opt/wanos-data/apps/alipan-client",
+      "open_mode": "popup",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "xiaozhi-server",
+      "name": "小智AI服务端",
+      "version": "1.0.0-wanos.2",
+      "description": "小智AI ESP32 服务端，集成管理后台、WebSocket、MQTT 和 UDP 语音连接能力。",
+      "icon": "https://wanos.xyz/downloads/apps/xiaozhi-server/icon.png",
+      "port": 18081,
+      "path": "/",
+      "url": "",
+      "service": "xiaozhi-server",
+      "install_url": "https://wanos.xyz/downloads/apps/xiaozhi-server/install.sh",
+      "install_sha256": "70afdd43d0ead78048af5599b729b036c459374716c65eaa1b2d905aaa6dd4fd",
+      "update_url": "https://wanos.xyz/downloads/apps/xiaozhi-server/update.sh",
+      "update_sha256": "70afdd43d0ead78048af5599b729b036c459374716c65eaa1b2d905aaa6dd4fd",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/xiaozhi-server/uninstall.sh",
+      "uninstall_sha256": "cd529ca3c155586d3c4e0141c37ddb0b7d812f262def7642e02771e04f0b68a9",
+      "downloads": 6,
+      "size": "33.3 MB",
+      "tags": [
+        "AI",
+        "小智",
+        "ESP32"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "管理后台：http://设备IP:18081",
+        "WebSocket：8989，MQTT：2883，UDP：8990",
+        "数据目录：/opt/wanos-data/apps/xiaozhi-server",
+        "服务名：xiaozhi-server"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start xiaozhi-server",
+          "systemctl start xiaozhi-server",
+          "systemctl start xiaozhi-server",
+          "systemctl start xiaozhi-server"
+        ],
+        "stop": [
+          "systemctl stop xiaozhi-server",
+          "systemctl stop xiaozhi-server",
+          "systemctl stop xiaozhi-server",
+          "systemctl stop xiaozhi-server"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active xiaozhi-server",
+          "systemctl is-active xiaozhi-server",
+          "systemctl is-active xiaozhi-server",
+          "systemctl is-active xiaozhi-server"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/xiaozhi-server/xiaozhi-server-linux-armv7-v2",
+      "package_sha256": "2cb33a4998070502de77a5c35fa8aa8b46f9fa09ac55ce1c439e4e33365f25bc",
+      "package_size": 34863620,
+      "data_dir": "/opt/wanos-data/apps/xiaozhi-server",
+      "open_mode": "popup",
+      "iframe": true,
+      "packages": [],
+      "category": ""
+    },
+    {
+      "id": "wanos-ffstreamer",
+      "name": "直播推流",
+      "version": "1.0.0-wanos.2",
+      "description": "直播推流：基于 FFmpeg 的 WanOS 推流工具，支持通过网页管理推流任务。",
+      "icon": "https://wanos.xyz/downloads/apps/wanos-ffstreamer/icon.png",
+      "port": 4156,
+      "path": "/",
+      "url": "",
+      "service": "wanos-ffstreamer",
+      "install_url": "https://wanos.xyz/downloads/apps/wanos-ffstreamer/install.sh",
+      "install_sha256": "4d9b1492a2be43d1f20a489abdef8366f901800421f557af8a10a11b684ec1da",
+      "update_url": "https://wanos.xyz/downloads/apps/wanos-ffstreamer/update.sh",
+      "update_sha256": "4d9b1492a2be43d1f20a489abdef8366f901800421f557af8a10a11b684ec1da",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/wanos-ffstreamer/uninstall.sh",
+      "uninstall_sha256": "030103e1f31c17662b77aad5de98e895e0a98c60996f9b293d1a8a8a3f89dce4",
+      "downloads": 0,
+      "size": "6.2 MB",
+      "tags": [
+        "直播",
+        "推流",
+        "FFmpeg"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:4156",
+        "服务名：wanos-ffstreamer"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start wanos-ffstreamer",
+          "systemctl start wanos-ffstreamer",
+          "systemctl start wanos-ffstreamer",
+          "systemctl start wanos-ffstreamer"
+        ],
+        "stop": [
+          "systemctl stop wanos-ffstreamer",
+          "systemctl stop wanos-ffstreamer",
+          "systemctl stop wanos-ffstreamer",
+          "systemctl stop wanos-ffstreamer"
+        ],
+        "check": [
+          "systemctl is-active wanos-ffstreamer",
+          "systemctl is-active wanos-ffstreamer",
+          "systemctl is-active wanos-ffstreamer",
+          "systemctl is-active wanos-ffstreamer"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-ffstreamer/wanos-ffstreamer-linux-armv7-v2",
+      "package_sha256": "721bbbf09eb6175929994c91a3eb65ba282268d3c273304601d141f4538a3a4f",
+      "package_size": 6488226,
+      "data_dir": "/opt/wanos-data/apps/wanos-ffstreamer",
+      "open_mode": "popup",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "115pan-client",
+      "name": "115网盘",
+      "version": "1.0.0-wanos.1",
+      "description": "115网盘 WanOS ARMv7 客户端，默认监听 8736 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/115pan-client/icon.png",
+      "port": 8736,
+      "path": "/",
+      "url": "",
+      "service": "115pan-client",
+      "install_url": "https://wanos.xyz/downloads/apps/115pan-client/install.sh",
+      "install_sha256": "212c7f05bc0f0e68ebdeee57ba1ba66b8c6cddb0a41681a1302f11105c51514e",
+      "update_url": "https://wanos.xyz/downloads/apps/115pan-client/update.sh",
+      "update_sha256": "212c7f05bc0f0e68ebdeee57ba1ba66b8c6cddb0a41681a1302f11105c51514e",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/115pan-client/uninstall.sh",
+      "uninstall_sha256": "d85e4800edb21aa61475f6ce05cca833cd3427a5157adb9f9bd5cb098302b511",
+      "downloads": 8,
+      "size": "6.6 MB",
+      "tags": [
+        "网盘",
+        "115网盘",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8736",
+        "启动参数：-listen 0.0.0.0:8736"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start 115pan-client",
+          "systemctl start 115pan-client",
+          "systemctl start 115pan-client",
+          "systemctl start 115pan-client"
+        ],
+        "stop": [
+          "systemctl stop 115pan-client",
+          "systemctl stop 115pan-client",
+          "systemctl stop 115pan-client",
+          "systemctl stop 115pan-client"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active 115pan-client",
+          "systemctl is-active 115pan-client",
+          "systemctl is-active 115pan-client",
+          "systemctl is-active 115pan-client"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/115pan-client/115pan-client-linux-armv7-v1",
+      "package_sha256": "67a3312df03627c4547dcfeb52da233ef8e7abb835956dc2cb44427db509dbb0",
+      "package_size": 6946978,
+      "data_dir": "/opt/wanos-data/apps/115pan-client",
+      "open_mode": "popup",
+      "iframe": true,
+      "packages": [],
+      "category": ""
+    },
+    {
+      "id": "123pan-client",
+      "name": "123云盘",
+      "version": "1.0.0-wanos.1",
+      "description": "123云盘 WanOS ARMv7 客户端，默认监听 8737 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/123pan-client/icon.png",
+      "port": 8737,
+      "path": "/",
+      "url": "",
+      "service": "123pan-client",
+      "install_url": "https://wanos.xyz/downloads/apps/123pan-client/install.sh",
+      "install_sha256": "d8a5bdef14ebdabcace28f76dc87fb1f6713628505d46a6d0d07b0f75c21f243",
+      "update_url": "https://wanos.xyz/downloads/apps/123pan-client/update.sh",
+      "update_sha256": "d8a5bdef14ebdabcace28f76dc87fb1f6713628505d46a6d0d07b0f75c21f243",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/123pan-client/uninstall.sh",
+      "uninstall_sha256": "52b9ad288de73ce01c13bfad3acecbe0f7486f4d1fde2f075c80b0fd60bd4cae",
+      "downloads": 13,
+      "size": "6.6 MB",
+      "tags": [
+        "网盘",
+        "123云盘",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8737",
+        "启动参数：-listen 0.0.0.0:8737"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start 123pan-client",
+          "systemctl start 123pan-client",
+          "systemctl start 123pan-client",
+          "systemctl start 123pan-client"
+        ],
+        "stop": [
+          "systemctl stop 123pan-client",
+          "systemctl stop 123pan-client",
+          "systemctl stop 123pan-client",
+          "systemctl stop 123pan-client"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active 123pan-client",
+          "systemctl is-active 123pan-client",
+          "systemctl is-active 123pan-client",
+          "systemctl is-active 123pan-client"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/123pan-client/123pan-client-linux-armv7-v1",
+      "package_sha256": "371f99de647aaa696842399dbf14dcebe471ac73005fcc65694e99094506af07",
+      "package_size": 6946978,
+      "data_dir": "/opt/wanos-data/apps/123pan-client",
+      "open_mode": "popup",
+      "iframe": true,
+      "packages": [],
+      "category": ""
+    },
+    {
+      "id": "quark-auto-save",
+      "name": "夸克网盘自动转存",
+      "version": "latest-wanos.4",
+      "description": "基于 Cp0204/quark-auto-save 的夸克网盘签到、自动转存、命名整理、推送提醒和媒体库刷新工具，Docker 离线镜像版，默认监听 5005 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/quark-auto-save/icon.png",
+      "port": 5005,
+      "path": "/",
+      "url": "",
+      "service": "quark-auto-save",
+      "install_url": "https://wanos.xyz/downloads/apps/quark-auto-save/install-v4.sh",
+      "install_sha256": "2f1fb43508dee557c74c36a01c9cb73225190d949432ab03588f3630de26fd11",
+      "update_url": "https://wanos.xyz/downloads/apps/quark-auto-save/update-v4.sh",
+      "update_sha256": "2f1fb43508dee557c74c36a01c9cb73225190d949432ab03588f3630de26fd11",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/quark-auto-save/uninstall.sh",
+      "uninstall_sha256": "8a186a30d26a6e974a579608ccc2748a9c278e924a0d315ca5992d68a6cdf2cf",
+      "downloads": 0,
+      "size": "23.3 MB",
+      "tags": [
+        "网盘",
+        "夸克网盘",
+        "自动转存",
+        "Docker",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "requires": [
+        "docker"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:5005",
+        "安装前请设置 WebUI 登录账号和密码",
+        "配置目录：/opt/wanos-data/apps/quark-auto-save/config",
+        "媒体目录：/opt/wanos-data/apps/quark-auto-save/media",
+        "离线镜像包从七牛云下载并本地 docker load"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start quark-auto-save",
+          "systemctl start quark-auto-save",
+          "systemctl start quark-auto-save",
+          "systemctl start quark-auto-save"
+        ],
+        "stop": [
+          "systemctl stop quark-auto-save",
+          "systemctl stop quark-auto-save",
+          "systemctl stop quark-auto-save",
+          "systemctl stop quark-auto-save"
+        ],
+        "check": [
+          "systemctl is-active quark-auto-save",
+          "systemctl is-active quark-auto-save",
+          "systemctl is-active quark-auto-save",
+          "systemctl is-active quark-auto-save"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/quark-auto-save/quark-auto-save-linux-armv7-docker-image-v1.tar.gz",
+      "package_sha256": "4823254169b0a975e2d67adf9b6f0e3e5c67cc366ed596e40c9ec2a4d03fc29e",
+      "package_size": 24477602,
+      "data_dir": "/opt/wanos-data/apps/quark-auto-save",
+      "open_mode": "popup",
+      "iframe": true,
+      "install_config": {
+        "requires_password": true,
+        "username": "admin",
+        "default_password": "admin123",
+        "notice": "安装前设置夸克网盘自动转存 WebUI 登录账号和密码，安装完成后用该账号登录 5005 面板。",
+        "fields": [
+          {
+            "name": "username",
+            "label": "登录账号",
+            "type": "text",
+            "required": true,
+            "default": "admin",
+            "aliases": [
+              "WEBUI_USERNAME",
+              "admin_username"
+            ],
+            "autocomplete": "username"
+          },
+          {
+            "name": "admin_password",
+            "label": "登录密码",
+            "type": "password",
+            "required": true,
+            "default": "admin123",
+            "aliases": [
+              "WEBUI_PASSWORD",
+              "password"
+            ],
+            "autocomplete": "new-password"
+          }
+        ]
+      },
+      "category": ""
+    },
+    {
+      "id": "pansou",
+      "name": "盘搜",
+      "version": "1.0.0-wanos.5",
+      "description": "盘搜 WanOS 版，提供网盘资源搜索服务，默认监听 12888 端口，已内置官方默认 TG 频道列表，ARMv7 默认关闭缓存以避免低端设备 atomic 崩溃。",
+      "icon": "https://wanos.xyz/downloads/apps/pansou/icon.png",
+      "port": 12888,
+      "path": "/",
+      "url": "",
+      "service": "pansou",
+      "install_url": "https://wanos.xyz/downloads/apps/pansou/install.sh",
+      "install_sha256": "a1d0b63fd4e7edf43f7ce5de81c7e2e6c9dd337307a9d81a85fb4c3874d3fa22",
+      "update_url": "https://wanos.xyz/downloads/apps/pansou/update.sh",
+      "update_sha256": "a1d0b63fd4e7edf43f7ce5de81c7e2e6c9dd337307a9d81a85fb4c3874d3fa22",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/pansou/uninstall.sh",
+      "uninstall_sha256": "8bf6c5d51b363d82d5073f35c9f0adec61c3c05bc1467c171cf277338b127cde",
+      "downloads": 1,
+      "size": "23.4 MB",
+      "tags": [
+        "网盘",
+        "搜索",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "URL: http://device-ip:12888",
+        "Listen: 0.0.0.0:12888",
+        "TG channels: 127",
+        "Service: pansou",
+        "Data: /opt/wanos-data/apps/pansou"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start pansou",
+          "systemctl start pansou",
+          "systemctl start pansou",
+          "systemctl start pansou"
+        ],
+        "stop": [
+          "systemctl stop pansou",
+          "systemctl stop pansou",
+          "systemctl stop pansou",
+          "systemctl stop pansou"
+        ],
+        "check": [
+          "systemctl is-active pansou",
+          "systemctl is-active pansou",
+          "systemctl is-active pansou",
+          "systemctl is-active pansou"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/pansou/pansou-linux-armv7-v3",
+      "package_sha256": "b02eaaa5c532f5e7760fe925df5d62bdafa5db0c8a4b369efe2b2ac14647c6ff",
+      "package_size": 24576162,
+      "data_dir": "/opt/wanos-data/apps/pansou",
+      "open_mode": "popup",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "m3u8-downloader",
+      "name": "M3U8下载器",
+      "version": "1.0.0-wanos.4",
+      "description": "M3U8 视频下载器 WanOS 多架构版，支持填写 m3u8 地址并下载保存到 NAS 目录，默认监听 8750 端口。",
+      "icon": "https://wanos.xyz/downloads/apps/m3u8-downloader/icon.png",
+      "port": 8750,
+      "path": "/",
+      "url": "",
+      "service": "m3u8-downloader",
+      "install_url": "https://wanos.xyz/downloads/apps/m3u8-downloader/install.sh?v=1.0.0-wanos.4",
+      "install_sha256": "404a33880902032e8ae80fec12a331b70126cd9caf07eb117c0f838ed403cc70",
+      "update_url": "https://wanos.xyz/downloads/apps/m3u8-downloader/update.sh?v=1.0.0-wanos.4",
+      "update_sha256": "404a33880902032e8ae80fec12a331b70126cd9caf07eb117c0f838ed403cc70",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/m3u8-downloader/uninstall.sh",
+      "uninstall_sha256": "965fe7039c075b6af5d0994f381dd3edf50813df34456dd660fbebae0884c310",
+      "downloads": 0,
+      "size": "6.6 MB",
+      "tags": [
+        "下载",
+        "视频",
+        "M3U8",
+        "多架构"
+      ],
+      "architectures": [
+        "armv7",
+        "arm64",
+        "amd64"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8750",
+        "启动参数：-web -listen 0.0.0.0:8750",
+        "支持 armv7、arm64、amd64 三架构自动安装",
+        "支持通过 WanOS 文件选择器选择 NAS 保存目录",
+        "服务名：m3u8-downloader"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start m3u8-downloader",
+          "systemctl start m3u8-downloader"
+        ],
+        "stop": [
+          "systemctl stop m3u8-downloader",
+          "systemctl stop m3u8-downloader"
+        ],
+        "check": [
+          "systemctl is-active m3u8-downloader",
+          "systemctl is-active m3u8-downloader"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/m3u8-downloader/m3u8-downloader-linux-armv7-v3",
+      "package_sha256": "9020ce179cde0971ac33cb869877c60017fe6163c87304972c1d30bb701cfdff",
+      "package_size": 6881442,
+      "data_dir": "/opt/wanos-data/apps/m3u8-downloader",
+      "open_mode": "popup",
+      "iframe": true,
+      "category": "",
+      "packages": [
+        {
+          "arch": "linux-armv7",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/m3u8-downloader/m3u8-downloader-linux-armv7-v3",
+          "sha256": "9020ce179cde0971ac33cb869877c60017fe6163c87304972c1d30bb701cfdff",
+          "size": 6881442
+        },
+        {
+          "arch": "linux-arm64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/m3u8-downloader/m3u8-downloader-linux-arm64-v3",
+          "sha256": "b1a071af067cdee446f027a12ece9ea0fbeac209cc0ef5e0af61f4ea7da84f72",
+          "size": 6619298
+        },
+        {
+          "arch": "linux-amd64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/m3u8-downloader/m3u8-downloader-linux-amd64-v3",
+          "sha256": "6bbcb83f274d49cb94ca873b404a50b91fd1ce04666423bed30b1ce7b0899749",
+          "size": 7119010
+        }
+      ]
+    },
+    {
+      "id": "easytier",
+      "name": "EasyTier",
+      "category": "网络工具",
+      "version": "2.6.4-wanos.2",
+      "description": "EasyTier 去中心化内网穿透/异地组网工具，内置官方 Web 控制台，可在 WanOS 上创建和管理虚拟网络节点。",
+      "icon": "https://wanos.xyz/downloads/apps/easytier/icon.png",
+      "port": 11211,
+      "path": "/",
+      "url": "",
+      "service": "easytier",
+      "install_url": "https://wanos.xyz/downloads/apps/easytier/install.sh?v=2.6.4-wanos.2",
+      "install_sha256": "f5a96e241408bc45628298bd764f8351d2c6cc04f0b9135649e7abf563387607",
+      "update_url": "https://wanos.xyz/downloads/apps/easytier/update.sh?v=2.6.4-wanos.2",
+      "update_sha256": "87184021d792d0683d62d3770e5e3740a9b68a5ea582d414cc83c706f5e681c0",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/easytier/uninstall.sh",
+      "uninstall_sha256": "c6af8913bf5250fcdbb35cc2f9b86e9c1ea0b523f9b5651e3dbfe640e00ae6d3",
+      "downloads": 0,
+      "size": "19.0 MB",
+      "tags": [
+        "组网",
+        "内网穿透",
+        "EasyTier",
+        "多架构"
+      ],
+      "architectures": [
+        "armv7",
+        "arm64",
+        "amd64"
+      ],
+      "notes": [
+        "Web ????http://??IP:11211",
+        "?????admin/admin ? user/user",
+        "???????? easytier-node ?????????? admin ?????",
+        "?????????UDP 22020",
+        "?????????????????? EASYTIER_API_HOST ?????? API ???",
+        "????easytier????????easytier-node"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start easytier",
+          "systemctl start easytier-node",
+          "systemctl start easytier",
+          "systemctl start easytier-node"
+        ],
+        "stop": [
+          "systemctl stop easytier-node",
+          "systemctl stop easytier",
+          "systemctl stop easytier-node",
+          "systemctl stop easytier"
+        ],
+        "check": [
+          "systemctl is-active easytier",
+          "systemctl is-active easytier-node",
+          "systemctl is-active easytier",
+          "systemctl is-active easytier-node"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/easytier/easytier-linux-armv7-v2.6.4.zip",
+      "package_sha256": "93b1d2831e45db1fd3ca1d8d68c191b300bd69d331ca1858394a0cf884363cc3",
+      "package_size": 19953717,
+      "data_dir": "/opt/wanos-data/apps/easytier",
+      "open_mode": "new_page",
+      "iframe": true,
+      "packages": [
+        {
+          "arch": "linux-armv7",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/easytier/easytier-linux-armv7-v2.6.4.zip",
+          "sha256": "93b1d2831e45db1fd3ca1d8d68c191b300bd69d331ca1858394a0cf884363cc3",
+          "size": 19953717
+        },
+        {
+          "arch": "linux-arm64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/easytier/easytier-linux-aarch64-v2.6.4.zip",
+          "sha256": "f533ec25a7ea714e09f645615012200278058525795cc3bb690ff011aec1a70f",
+          "size": 20487230
+        },
+        {
+          "arch": "linux-amd64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/easytier/easytier-linux-x86_64-v2.6.4.zip",
+          "sha256": "61b659eaedba658fa66fe47d17e1426cdd77e5d02fa15fed447bb4357c09dfd6",
+          "size": 25506523
+        }
+      ]
+    },
+    {
+      "id": "ntfy",
+      "name": "ntfy 通知服务",
+      "version": "2.25.0-wanos.1",
+      "description": "ntfy 自托管通知推送服务 ARMv7 离线版，内置 Web 面板，可通过 HTTP/API、CLI 和移动端应用订阅主题并接收通知。",
+      "icon": "https://wanos.xyz/downloads/apps/ntfy/icon.png",
+      "port": 2586,
+      "path": "/",
+      "url": "",
+      "service": "ntfy",
+      "install_url": "https://wanos.xyz/downloads/apps/ntfy/install.sh",
+      "install_sha256": "3bf89a46c95d5d46ca396381dbdce9b37db56fc82600c33f743286d6d90258b1",
+      "update_url": "https://wanos.xyz/downloads/apps/ntfy/update.sh",
+      "update_sha256": "3bf89a46c95d5d46ca396381dbdce9b37db56fc82600c33f743286d6d90258b1",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/ntfy/uninstall.sh",
+      "uninstall_sha256": "431ac093bb7178c53dda75347566755faae7264fed162772e7d74f1b0add5eb6",
+      "downloads": 0,
+      "size": "67.0 MB",
+      "tags": [
+        "通知",
+        "推送",
+        "Web 面板",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "默认地址：http://device-ip:2586",
+        "数据目录：/opt/wanos-data/apps/ntfy",
+        "启动命令：ntfy serve --listen-http 0.0.0.0:2586",
+        "适合局域网自托管通知；外网使用时建议先配置反向代理和访问控制。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start ntfy",
+          "systemctl start ntfy",
+          "systemctl start ntfy",
+          "systemctl start ntfy"
+        ],
+        "stop": [
+          "systemctl stop ntfy",
+          "systemctl stop ntfy",
+          "systemctl stop ntfy",
+          "systemctl stop ntfy"
+        ],
+        "check": [
+          "systemctl is-active ntfy",
+          "systemctl is-active ntfy",
+          "systemctl is-active ntfy",
+          "systemctl is-active ntfy"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/ntfy/ntfy-linux-armv7-v2.25.0",
+      "package_sha256": "144708ad2c1da4bae80d7467fb670b99b9166f3c7eb5d23fb9dcf668cc67e58c",
+      "package_size": 70277912,
+      "data_dir": "/opt/wanos-data/apps/ntfy",
+      "open_mode": "new_page",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "gotify",
+      "name": "Gotify 通知服务",
+      "version": "2.9.1-wanos.1",
+      "description": "Gotify 自托管消息推送服务器 ARMv7 离线版，包含 Web UI、应用令牌和客户端令牌管理，适合设备和脚本通知。",
+      "icon": "https://wanos.xyz/downloads/apps/gotify/icon.png",
+      "port": 2587,
+      "path": "/",
+      "url": "",
+      "service": "gotify",
+      "install_url": "https://wanos.xyz/downloads/apps/gotify/install.sh",
+      "install_sha256": "049291176c86028955ada01c85fb72ff70f48e31825a68105af472ad13f9651a",
+      "update_url": "https://wanos.xyz/downloads/apps/gotify/update.sh",
+      "update_sha256": "049291176c86028955ada01c85fb72ff70f48e31825a68105af472ad13f9651a",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/gotify/uninstall.sh",
+      "uninstall_sha256": "72c60952e09e6a0297056379bf4cc59f46a7c6d858493640db336107a71d0ac3",
+      "downloads": 0,
+      "size": "35.4 MB",
+      "tags": [
+        "通知",
+        "推送",
+        "Web 面板",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "默认地址：http://device-ip:2587",
+        "默认账号通常为 admin/admin，首次进入后请立即修改密码。",
+        "数据目录：/opt/wanos-data/apps/gotify",
+        "使用 SQLite 本地数据库保存应用、客户端和消息。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start gotify",
+          "systemctl start gotify",
+          "systemctl start gotify",
+          "systemctl start gotify"
+        ],
+        "stop": [
+          "systemctl stop gotify",
+          "systemctl stop gotify",
+          "systemctl stop gotify",
+          "systemctl stop gotify"
+        ],
+        "check": [
+          "systemctl is-active gotify",
+          "systemctl is-active gotify",
+          "systemctl is-active gotify",
+          "systemctl is-active gotify"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/gotify/gotify-linux-armv7-v2.9.1",
+      "package_sha256": "6d409753889bfb47c90503818e1cca430b728fca8ab03c814a45ec07d8ce16bc",
+      "package_size": 37100508,
+      "data_dir": "/opt/wanos-data/apps/gotify",
+      "open_mode": "new_page",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "onlyoffice-personal",
+      "name": "OnlyOffice Personal",
+      "version": "1.0.0-wanos.2",
+      "description": "基于 WebAssembly 的本地化 ONLYOFFICE 办公套件，支持在浏览器中打开和编辑 Word、Excel、PPT、PDF 等文档，数据在本地处理。",
+      "icon": "https://wanos.xyz/downloads/apps/onlyoffice-personal/icon.png",
+      "port": 42180,
+      "path": "/office.html",
+      "url": "",
+      "service": "onlyoffice-personal",
+      "install_url": "https://wanos.xyz/downloads/apps/onlyoffice-personal/install.sh",
+      "install_sha256": "d664f98338d29ce76e6f145d5a544499d63f8ee4d137d9267f11dccdbea55b93",
+      "update_url": "https://wanos.xyz/downloads/apps/onlyoffice-personal/update.sh",
+      "update_sha256": "301ab3e94ce2dd0d5a23f70d091afc01d62a79b567bf559a9b6d24d3bb229a27",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/onlyoffice-personal/uninstall.sh",
+      "uninstall_sha256": "714f3a6f58baffa6b5d02b2f47a801b4bf3d6d7ae23a085384a40043ab191cdd",
+      "downloads": 0,
+      "size": "5.7 MB + 离线资源包",
+      "tags": [
+        "办公",
+        "文档",
+        "OnlyOffice",
+        "WebAssembly",
+        "离线包",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "默认地址：http://device-ip:42180/office.html",
+        "资源包改为本地离线安装，不再默认从七牛 CDN 下载 729MB 大文件。",
+        "请在安装时选择或上传 OnlyofficePersonal-main.zip 离线包，SHA256：19d05a65db778f7780a8d3459991294b16219c9d4e3f4712566c656d6cdbadb5",
+        "离线包大小约 696MB，解压后约 1.15GB，安装时需要约 2.3GB 可用空间。",
+        "不依赖 Docker 或 OnlyOffice Document Server，浏览器本地运行 WebAssembly。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start onlyoffice-personal",
+          "systemctl start onlyoffice-personal",
+          "systemctl start onlyoffice-personal",
+          "systemctl start onlyoffice-personal"
+        ],
+        "stop": [
+          "systemctl stop onlyoffice-personal",
+          "systemctl stop onlyoffice-personal",
+          "systemctl stop onlyoffice-personal",
+          "systemctl stop onlyoffice-personal"
+        ],
+        "check": [
+          "systemctl is-active onlyoffice-personal",
+          "systemctl is-active onlyoffice-personal",
+          "systemctl is-active onlyoffice-personal",
+          "systemctl is-active onlyoffice-personal"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/onlyoffice-personal/onlyoffice-personal-linux-armv7-v1",
+      "package_sha256": "92bcc31377092004fa12c4fa41bb7b9fc4ff53c80abe7816d6f4ad646abf2241",
+      "package_size": 5963938,
+      "offline_package_name": "OnlyofficePersonal-main.zip",
+      "offline_package_sha256": "19d05a65db778f7780a8d3459991294b16219c9d4e3f4712566c656d6cdbadb5",
+      "offline_package_size": 729275749,
+      "data_dir": "/opt/wanos-data/apps/onlyoffice-personal",
+      "open_mode": "new_page",
+      "iframe": false,
+      "requires_offline_package": true,
+      "category": ""
+    },
+    {
+      "id": "webview-tv-live",
+      "name": "IPTV电视直播",
+      "version": "1.0.0-wanos.3",
+      "description": "IPTV 电视直播 WanOS 版，提供本地 Web 管理界面，适合在局域网内打开电视直播频道。默认监听 0.0.0.0:8090。",
+      "icon": "https://wanos.xyz/downloads/apps/webview-tv-live/icon.png",
+      "port": 8090,
+      "path": "/",
+      "url": "",
+      "service": "webview-tv-live",
+      "install_url": "https://wanos.xyz/downloads/apps/webview-tv-live/install.sh",
+      "install_sha256": "cf7610b57064b6070eb064d3923450db709549005d79bd65ea23c714e620f189",
+      "update_url": "https://wanos.xyz/downloads/apps/webview-tv-live/update.sh",
+      "update_sha256": "cf7610b57064b6070eb064d3923450db709549005d79bd65ea23c714e620f189",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/webview-tv-live/uninstall.sh",
+      "uninstall_sha256": "164c7b36584f7068d8872f7d583edf64ad361e4914a8d46959ee802367ac0a3e",
+      "downloads": 1,
+      "size": "7.0 MB",
+      "tags": [
+        "影音娱乐",
+        "IPTV",
+        "电视直播"
+      ],
+      "architectures": [
+        "armv7",
+        "arm64",
+        "amd64"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8090",
+        "默认监听地址：0.0.0.0:8090",
+        "服务名：webview-tv-live"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start webview-tv-live",
+          "systemctl start webview-tv-live"
+        ],
+        "stop": [
+          "systemctl stop webview-tv-live",
+          "systemctl stop webview-tv-live"
+        ],
+        "check": [
+          "systemctl is-active webview-tv-live",
+          "systemctl is-active webview-tv-live"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/webview-tv-live/webview-tv-live-linux-armv7-v2",
+      "package_sha256": "061762fd791a50068466d339001f6630cb5b5ed374de0651e39a38d8ae342697",
+      "package_size": 7209122,
+      "packages": [
+        {
+          "arch": "linux-armv7",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/webview-tv-live/webview-tv-live-linux-armv7-v2",
+          "sha256": "061762fd791a50068466d339001f6630cb5b5ed374de0651e39a38d8ae342697",
+          "size": 7209122
+        },
+        {
+          "arch": "linux-arm64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/webview-tv-live/webview-tv-live-linux-arm64-v2",
+          "sha256": "7b77d0904df2796e3a6f63330fbe2707e91994de1cec4693a7c58b02cb7c8db6",
+          "size": 6881442
+        },
+        {
+          "arch": "linux-amd64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/webview-tv-live/webview-tv-live-linux-amd64-v2",
+          "sha256": "0db9e29091453f84d94e76ca2f10a312fb9cea2cd81c8db0c9d91e489f01e840",
+          "size": 7381154
+        }
+      ],
+      "data_dir": "/opt/wanos-data/apps/webview-tv-live",
+      "open_mode": "popup",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "wanos-cf-tunnel",
+      "name": "Cloudflare 内网穿透",
+      "version": "1.0.0-wanos.4",
+      "description": "WanOS Cloudflare Tunnel 管理面板，支持自动分配公网域名、安装 cloudflared 组件、配置多个本地 HTTP 端口映射并启动远程访问。",
+      "icon": "https://wanos.xyz/downloads/apps/wanos-cf-tunnel/icon.png",
+      "port": 41644,
+      "path": "/",
+      "url": "",
+      "service": "wanos-cf-tunnel",
+      "install_url": "https://wanos.xyz/downloads/apps/wanos-cf-tunnel/install-v4.sh",
+      "install_sha256": "b9ba5fb91fea3db5edd31f1306e20a73aec3f2f1e2d90a73ec77f963bf37b76d",
+      "update_url": "https://wanos.xyz/downloads/apps/wanos-cf-tunnel/update-v4.sh",
+      "update_sha256": "b9ba5fb91fea3db5edd31f1306e20a73ec77f963bf37b76d",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/wanos-cf-tunnel/uninstall.sh",
+      "uninstall_sha256": "b7f6cb75bbb153df2a8687efa52e4bf2999d2892707da6a8bb5954668ff4be56",
+      "downloads": 12,
+      "size": "8.4 MB",
+      "tags": [
+        "网络",
+        "内网穿透",
+        "Cloudflare",
+        "ARMv7"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "默认面板端口：41644",
+        "需要官网环境变量配置 Cloudflare API Token、Account ID、Zone ID 和基础域名。",
+        "cloudflared 组件按需从七牛 CDN 下载，不随主应用安装包一起塞入。"
+      ],
+      "actions": {
+        "install": [],
+        "start": [
+          "systemctl start wanos-cf-tunnel",
+          "systemctl start wanos-cf-tunnel",
+          "systemctl start wanos-cf-tunnel",
+          "systemctl start wanos-cf-tunnel"
+        ],
+        "stop": [
+          "systemctl stop wanos-cf-tunnel",
+          "systemctl stop wanos-cf-tunnel",
+          "systemctl stop wanos-cf-tunnel",
+          "systemctl stop wanos-cf-tunnel"
+        ],
+        "uninstall": [],
+        "check": [
+          "systemctl is-active wanos-cf-tunnel",
+          "systemctl is-active wanos-cf-tunnel",
+          "systemctl is-active wanos-cf-tunnel",
+          "systemctl is-active wanos-cf-tunnel"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-cf-tunnel/wanos-cf-tunnel-linux-armv7-v4",
+      "package_sha256": "7e955a72c7f5e340763b8aadd8b2b4d55845705e755bc25c7182e4d0060490da",
+      "package_size": 8781986,
+      "data_dir": "/opt/wanos-data/apps/wanos-cf-tunnel",
+      "open_mode": "new_page",
+      "iframe": true,
+      "category": ""
+    },
+    {
+      "id": "xunlei",
+      "name": "迅雷远程下载",
+      "version": "4.0.0-beta-wanos.9",
+      "description": "基于 cnk3x/xunlei 的 WanOS 单文件二进制版，不依赖 Docker，安装后打开 2345 Web 面板使用迅雷远程下载。",
+      "icon": "https://wanos.xyz/downloads/apps/xunlei/icon.png",
+      "port": 2345,
+      "path": "/",
+      "url": "",
+      "service": "xunlei",
+      "install_url": "https://wanos.xyz/downloads/apps/xunlei/install.sh?v=4.0.0-beta-wanos.9",
+      "install_sha256": "547ef3612f433a40ac03f9a4591a201d0148faa52e282e9fa6d33fdf2498cb40",
+      "update_url": "https://wanos.xyz/downloads/apps/xunlei/update.sh?v=4.0.0-beta-wanos.9",
+      "update_sha256": "547ef3612f433a40ac03f9a4591a201d0148faa52e282e9fa6d33fdf2498cb40",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/xunlei/uninstall.sh",
+      "uninstall_sha256": "c52f8cd6560212f07c8fd24bcc1e82bdd1f83693c933cd595dbda699fc20adff",
+      "downloads": 0,
+      "size": "8.0 MB / 8.5 MB",
+      "tags": [
+        "下载",
+        "迅雷",
+        "远程下载",
+        "单文件",
+        "ARM64",
+        "X86_64"
+      ],
+      "architectures": [
+        "linux-arm64",
+        "linux-amd64"
+      ],
+      "notes": [
+        "无需 Docker，安装后由 systemd 托管 xunlei 服务。",
+        "访问地址：http://device-ip:2345",
+        "默认下载目录：我的存储/downloads/xunlei",
+        "当前支持 linux/arm64 与 linux/amd64，ARMv7 设备暂不支持。"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start xunlei",
+          "systemctl start xunlei",
+          "systemctl start xunlei",
+          "systemctl start xunlei"
+        ],
+        "stop": [
+          "systemctl stop xunlei",
+          "systemctl stop xunlei",
+          "systemctl stop xunlei",
+          "systemctl stop xunlei"
+        ],
+        "check": [
+          "systemctl is-active xunlei",
+          "systemctl is-active xunlei",
+          "systemctl is-active xunlei",
+          "systemctl is-active xunlei"
+        ]
+      },
+      "packages": [
+        {
+          "arch": "linux-arm64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/xunlei/xunlei-linux-arm64-v2",
+          "sha256": "121b80eea1364e7b336fca0823f2611c081afea8be90512914750db161a7e4af",
+          "size": 8388770
+        },
+        {
+          "arch": "linux-amd64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/xunlei/xunlei-linux-amd64-v2",
+          "sha256": "c19aa2f3b8761ecf80e9546b015c5794265ed52f8294b627ae1b45b1452bd0be",
+          "size": 8921250
+        }
+      ],
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/xunlei/xunlei-linux-arm64-v2",
+      "package_sha256": "121b80eea1364e7b336fca0823f2611c081afea8be90512914750db161a7e4af",
+      "package_size": 8388770,
+      "icon_sha256": "9dbfef3b3a2f5aa97fd7962fcb8b38363bb16c57a28f44e1692550f4fb6da4fa",
+      "data_dir": "/opt/wanos-data/apps/xunlei",
+      "open_mode": "popup",
+      "iframe": true,
+      "upstream": "https://github.com/cnk3x/xunlei",
+      "docker": false,
+      "requires": [],
+      "category": ""
+    },
+    {
+      "id": "wanos-wallpaper",
+      "name": "WanOS 壁纸",
+      "category": "桌面美化",
+      "version": "2026.07.18-1",
+      "description": "WanOS 高清壁纸应用，支持浏览七牛云高清壁纸库、预览壁纸并一键应用到桌面。壁纸资源通过线上索引更新，无需每次更新应用。",
+      "icon": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/icon-v3.png",
+      "port": 18344,
+      "path": "/",
+      "url": "",
+      "service": "wanos-wallpaper",
+      "install_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/install-v4.sh",
+      "install_sha256": "8090aa7cdf03ae6cd4a37a309e8e24f5e08d586a3bdce9a9a0889ca2b6f46961",
+      "update_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/install-v4.sh",
+      "update_sha256": "8090aa7cdf03ae6cd4a37a309e8e24f5e08d586a3bdce9a9a0889ca2b6f46961",
+      "uninstall_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/uninstall-v4.sh",
+      "uninstall_sha256": "86785f06d003333fabb3266314308ae25cc9aca23444a10a07b00ae90d826aa0",
+      "downloads": 0,
+      "size": "6.4 MB",
+      "tags": [
+        "壁纸",
+        "桌面",
+        "美化",
+        "多架构"
+      ],
+      "architectures": [
+        "armv7",
+        "arm64",
+        "amd64"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:18344",
+        "支持 armv7、arm64、amd64 三架构自动安装",
+        "壁纸资源通过七牛云 index.json 更新，新增壁纸无需更新应用",
+        "服务名：wanos-wallpaper"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start wanos-wallpaper",
+          "systemctl start wanos-wallpaper"
+        ],
+        "stop": [
+          "systemctl stop wanos-wallpaper",
+          "systemctl stop wanos-wallpaper"
+        ],
+        "check": [
+          "systemctl is-active wanos-wallpaper",
+          "systemctl is-active wanos-wallpaper"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/wanos-wallpaper-linux-armv7-v4",
+      "package_sha256": "592ef6a1d71e96f7279a45f7e58b3276f8cdaa870200b72595d988a03cb0ef06",
+      "package_size": 6422712,
+      "data_dir": "/opt/wanos-data/apps/wanos-wallpaper",
+      "open_mode": "new_page",
+      "iframe": true,
+      "packages": [
+        {
+          "arch": "linux-armv7",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/wanos-wallpaper-linux-armv7-v4",
+          "filename": "wanos-wallpaper-linux-armv7-v4",
+          "sha256": "592ef6a1d71e96f7279a45f7e58b3276f8cdaa870200b72595d988a03cb0ef06",
+          "size": 6422712
+        },
+        {
+          "arch": "linux-arm64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/wanos-wallpaper-linux-arm64-v4",
+          "filename": "wanos-wallpaper-linux-arm64-v4",
+          "sha256": "45a9a1e7d4625576e9caa1bced754c886e4f5199018e387267990f116a7823a9",
+          "size": 6291640
+        },
+        {
+          "arch": "linux-amd64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/wanos-wallpaper-linux-amd64-v4",
+          "filename": "wanos-wallpaper-linux-amd64-v4",
+          "sha256": "b013b73653315a7ed59d81c0201e237673fd6e0cc56bf61ba4e296c53e935eb6",
+          "size": 6627512
+        }
+      ],
+      "wpk_url": "https://wxqun988.vxjuejin.com/wanos/downloads/wpk/wanos-wallpaper_20260718_v4.wpk",
+      "wpk_sha256": "aba429df4ef17b08db5ce52568d5aabbc4582ea98240e74208a8c6809fd9e4ac",
+      "wpk_size": 8161553
+    },
+    {
+      "id": "wanos-2048",
+      "name": "2048小游戏",
+      "description": "2048经典小游戏",
+      "icon": "https://wxqun988.vxjuejin.com/wanos/app-submissions/wanos-2048/wanos-2048-1784204854192/icon.png",
+      "port": 42181,
+      "path": "/",
+      "url": "",
+      "service": "wanos-2048",
+      "install_url": "",
+      "install_sha256": "",
+      "uninstall_url": "",
+      "uninstall_sha256": "",
+      "update_url": "",
+      "update_sha256": "",
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/app-submissions/wanos-2048/wanos-2048-1784204854192/wano--2048.wpk",
+      "package_sha256": "",
+      "package_size": 2065720,
+      "size": "2 MB",
+      "downloads": 2,
+      "tags": [
+        "WPK",
+        "第三方"
+      ],
+      "architectures": [
+        "armv7"
+      ],
+      "notes": [
+        "WPK user submitted package",
+        "Version: 1.0.0",
+        "Contact: 262796416"
+      ],
+      "actions": {
+        "install": [],
+        "start": [],
+        "stop": [],
+        "uninstall": [],
+        "check": []
+      }
+    },
+    {
+      "id": "lanzoupan-client",
+      "name": "蓝奏云盘",
+      "category": "网盘工具",
+      "version": "1.0.0-wanos.1",
+      "description": "蓝奏云 NAS 客户端，支持账号/Cookie 登录、网盘文件管理、上传下载任务和分享链接管理，WanOS 多架构自动安装。",
+      "icon": "https://wanos.xyz/downloads/apps/lanzoupan-client/icon.png",
+      "port": 8741,
+      "path": "/",
+      "url": "",
+      "service": "lanzoupan-client",
+      "install_url": "https://wanos.xyz/downloads/apps/lanzoupan-client/install.sh?v=1.0.0-wanos.3",
+      "install_sha256": "a7809f869070430d850981c5837d5d6be8032c55531652ca39736dc90dda7b42",
+      "update_url": "https://wanos.xyz/downloads/apps/lanzoupan-client/update.sh?v=1.0.0-wanos.3",
+      "update_sha256": "a7809f869070430d850981c5837d5d6be8032c55531652ca39736dc90dda7b42",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/lanzoupan-client/uninstall.sh",
+      "uninstall_sha256": "f1e9126e98e56d4223bff344aa01f16bea04ce7470456f5490587d994b421185",
+      "downloads": 0,
+      "size": "6.7 MB",
+      "tags": [
+        "蓝奏云",
+        "网盘",
+        "文件管理",
+        "多架构"
+      ],
+      "architectures": [
+        "armv7",
+        "arm64",
+        "amd64"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8741",
+        "启动参数：-listen 0.0.0.0:8741",
+        "支持 armv7、arm64、amd64 三架构自动安装",
+        "配置文件：/opt/wanos-data/apps/lanzoupan-client/lanzoupan-config.json",
+        "服务名：lanzoupan-client"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start lanzoupan-client"
+        ],
+        "stop": [
+          "systemctl stop lanzoupan-client"
+        ],
+        "check": [
+          "systemctl is-active lanzoupan-client"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/lanzoupan-client/lanzoupan-client-linux-armv7-v1",
+      "package_sha256": "f4957c8a0574721176ac3f4b1e2442d7bba75caedc5674f620657ef96b119587",
+      "package_size": 7012514,
+      "data_dir": "/opt/wanos-data/apps/lanzoupan-client",
+      "open_mode": "popup",
+      "iframe": true,
+      "packages": [
+        {
+          "arch": "linux-armv7",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/lanzoupan-client/lanzoupan-client-linux-armv7-v1",
+          "filename": "lanzoupan-client-linux-armv7",
+          "sha256": "f4957c8a0574721176ac3f4b1e2442d7bba75caedc5674f620657ef96b119587",
+          "size": 7012514
+        },
+        {
+          "arch": "linux-arm64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/lanzoupan-client/lanzoupan-client-linux-arm64-v1",
+          "filename": "lanzoupan-client-linux-arm64",
+          "sha256": "befba42c2699f0f16438a982ca828606928ab30b6c87b6394530a6fa9d75e680",
+          "size": 6684834
+        },
+        {
+          "arch": "linux-amd64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/lanzoupan-client/lanzoupan-client-linux-amd64-v1",
+          "filename": "lanzoupan-client-linux-amd64",
+          "sha256": "82092602f4abfa3ba5a1f2fef7c9acc504bde9ebc3861e16cb2bab3bafed33e3",
+          "size": 7245986
+        }
+      ]
+    },
+    {
+      "id": "happy-guandan",
+      "name": "开心掼蛋",
+      "category": "游戏娱乐",
+      "version": "1.0.0-wanos.6",
+      "description": "开心掼蛋 WanOS 多架构版本，支持局域网和公网访问，安装后以新页面方式打开。",
+      "icon": "https://wanos.xyz/downloads/apps/happy-guandan/icon.png",
+      "port": 8095,
+      "path": "/",
+      "url": "",
+      "service": "happy-guandan",
+      "install_url": "https://wanos.xyz/downloads/apps/happy-guandan/install.sh?v=1.0.0-wanos.6",
+      "install_sha256": "b58b8ae26c46a5cb3c67f7b57b20f5a1cc8ed0a6b370350545136bf6ba4e43ed",
+      "update_url": "https://wanos.xyz/downloads/apps/happy-guandan/update.sh?v=1.0.0-wanos.6",
+      "update_sha256": "b58b8ae26c46a5cb3c67f7b57b20f5a1cc8ed0a6b370350545136bf6ba4e43ed",
+      "uninstall_url": "https://wanos.xyz/downloads/apps/happy-guandan/uninstall.sh",
+      "uninstall_sha256": "86f37802397198155fc102fe22a7b1a34cfe7bf130895bae720ecf8c5c3071f6",
+      "downloads": 0,
+      "size": "11.3 MB",
+      "tags": [
+        "游戏",
+        "掼蛋",
+        "棋牌",
+        "公网访问",
+        "多架构"
+      ],
+      "architectures": [
+        "armv7",
+        "arm64",
+        "amd64"
+      ],
+      "notes": [
+        "访问地址：http://设备IP:8095",
+        "支持 armv7、arm64、amd64 三架构自动安装",
+        "支持公网访问菜单",
+        "打开方式：新页面"
+      ],
+      "actions": {
+        "start": [
+          "systemctl start happy-guandan"
+        ],
+        "stop": [
+          "systemctl stop happy-guandan"
+        ],
+        "check": [
+          "systemctl is-active happy-guandan"
+        ]
+      },
+      "package_url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/happy-guandan/happy-guandan-linux-armv7-v3",
+      "package_sha256": "9b1d82d01324a4c0ef7112e3cc6b546855d5d00c76bec79114c6df6d6628903c",
+      "package_size": 11796642,
+      "data_dir": "/opt/wanos-data/apps/happy-guandan",
+      "open_mode": "new_page",
+      "iframe": false,
+      "public_access": true,
+      "public_access_supported": true,
+      "packages": [
+        {
+          "arch": "linux-armv7",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/happy-guandan/happy-guandan-linux-armv7-v3",
+          "filename": "happy-guandan-linux-armv7-v3",
+          "sha256": "9b1d82d01324a4c0ef7112e3cc6b546855d5d00c76bec79114c6df6d6628903c",
+          "size": 11796642
+        },
+        {
+          "arch": "linux-arm64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/happy-guandan/happy-guandan-linux-arm64-v3",
+          "filename": "happy-guandan-linux-arm64-v3",
+          "sha256": "996980c35aaf269c88e39dbe277a675a07cb888569a0e79a1a5e148cb1504f49",
+          "size": 11468962
+        },
+        {
+          "arch": "linux-amd64",
+          "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/happy-guandan/happy-guandan-linux-amd64-v3",
+          "filename": "happy-guandan-linux-amd64-v3",
+          "sha256": "3c02ced7060423a6b1bcbf79e0ef4eeeb777dbe5d3955e3e4b0111fc00e111fe",
+          "size": 11944098
+        }
+      ]
+    }
+  ],
+  "banners": [
+    {
+      "id": "happy-guandan",
+      "title": "开心掼蛋",
+      "subtitle": "一键搭建 · 支持局域网和公网",
+      "image": "https://wanos.xyz/downloads/apps/happy-guandan/banner.png",
+      "app_id": "happy-guandan"
+    },
+    {
+      "id": "qinglong",
+      "title": "青龙面板",
+      "subtitle": "定时任务 · 脚本自动化",
+      "image": "https://wanos.xyz/downloads/apps/qinglong/qinglong-slide.png",
+      "app_id": "qinglong"
+    },
+    {
+      "id": "picoclaw",
+      "title": "小龙虾 AI 助手",
+      "subtitle": "智能问答 · 自动化处理",
+      "image": "https://wanos.xyz/downloads/apps/picoclaw/picoclaw-slide.png",
+      "app_id": "picoclaw"
+    },
+    {
+      "id": "xianyu-autodelivery",
+      "title": "闲鱼自动发货",
+      "subtitle": "扫码登录 · 自动回复 · 卡密库存",
+      "image": "https://wanos.xyz/downloads/apps/xianyu-autodelivery/xianyu-autodelivery-slide.png",
+      "app_id": "xianyu-autodelivery"
+    }
+  ]
+}

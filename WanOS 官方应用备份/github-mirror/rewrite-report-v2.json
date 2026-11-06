@@ -1,0 +1,404 @@
+{
+  "115pan-client": {
+    "changed": true,
+    "sha256": "0c727aef24f6e0ac2630eb95bc4b46bd57107c80d8471020155fc2daf7c9ec0d",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "123pan-client": {
+    "changed": true,
+    "sha256": "936f705f0db583d5fbac5e096a2ffd5bade2f0898d9fc90334e80dda7e05551c",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "adguard-home": {
+    "changed": true,
+    "sha256": "5153bcf6ec9003f65013429766e966b9433d36c3ff968791354400676a96fc76",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "alipan-client": {
+    "changed": true,
+    "sha256": "268945f9857371423b5abc1b5efb4a0baa24a87f00f52c21b8773044779cb160",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "baidupan-client": {
+    "changed": true,
+    "sha256": "b4d375d240ade110984208c22dd7e245698340f58be4f0213d23ee6dc19abe3d",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "bark-server": {
+    "changed": true,
+    "sha256": "34373d5dbe8f6097863928494370bf61aeaa6781ffe5af1cf06f6234dcd58502",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "bt-panel": {
+    "changed": false,
+    "sha256": "64bc7885a97631e48091e31095e768491708c2348223879e2a09b1accd343528",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "chromium-headless": {
+    "changed": true,
+    "sha256": "fd3cbc2b18ab25e65b1140b0bf0db9211946a7fefef38958f6991a052419f4bd",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "cloud139-client": {
+    "changed": true,
+    "sha256": "55fa6932c1ca9764f6c86d0e969bc440fd6ac6f383b27c3e14f4265c21e241b5",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "cloud189-client": {
+    "changed": true,
+    "sha256": "be339a47b80f382c3f64d6b55f081b0d2868b6b0d2f9e7f382d3f0408c606153",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "cups-print": {
+    "changed": true,
+    "sha256": "555d79fb64dfc41cc755b30d856bb7fe729432ca83d7a4e05e05f1e2c1dd27f3",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "daidai-panel": {
+    "changed": true,
+    "sha256": "6f43ffe2f17f9921c3ca260db45bb0c64c2027a9647d4d20a651ab8039c924c6",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "ddns-go": {
+    "changed": true,
+    "sha256": "8f2577a09ab1bb4f6200bacb0a492c661c38abbe7e1cf6678598c5beb438c5de",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "easytier": {
+    "changed": true,
+    "sha256": "c488dc8ff3775059851adb2eb9c7fa7e68873938c102323bbc30fe49eb45b29d",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "filebrowser": {
+    "changed": true,
+    "sha256": "322ec472ae82cbde5cabe6f09cd2daad6300246b796902dbe84e1e14dfe1cb06",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "ftp-server": {
+    "changed": false,
+    "sha256": "891b4bd5496ff7e5617ab9542571aa74b2e03d102da3b3b1b0023685c99b7fab",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "gitea": {
+    "changed": true,
+    "sha256": "b0b4e0154736aa7d18c44a9490928259f1f433b80353292953ee31b807b49c95",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "gopeed": {
+    "changed": true,
+    "sha256": "ab61c1e8367661c53998e658afb7cff03a258556baa40824fbdf88db3a9c7c2b",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "gotify": {
+    "changed": true,
+    "sha256": "880609d059b772ac53abc65999a075d0b1f54612f9fb268148becfc6c7735c8d",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "happy-guandan": {
+    "changed": true,
+    "sha256": "0ba7ad03810a7b40c7ea02497c442641244d4dd1ce1b520f79d299e2e5980d94",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "jiedianxiaobao": {
+    "changed": true,
+    "sha256": "59d4b60d7f64f66338ce75ef75e1a21d615d0c0cd250cb3c29c7d7af783a8ca7",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "kodbox": {
+    "changed": true,
+    "sha256": "3821e1bbb3e97aa3aab922e79ab797fd66054a6228b5feb47e2f95249a27147b",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "lanzoupan-client": {
+    "changed": true,
+    "sha256": "5cce4d650774f5a96d716e918f0303da375e317cead33d9befd6d8f574fe5d2e",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "linkease": {
+    "changed": true,
+    "sha256": "a65af21bcf83ff798fb0c114a7fed5c9f5ab40d7cd4a65cfbc3a9ea9b5526ab6",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "live-recorder": {
+    "changed": true,
+    "sha256": "ae7ec9c734c390718fc3b043e85821aa109ad16ba3ef0612155f14b068252a15",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "lucky": {
+    "changed": true,
+    "sha256": "e93079c44e33199c7261c36ef5b7afab5db1534d47b410c01308c3a930ab898a",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "m3u8-downloader": {
+    "changed": true,
+    "sha256": "6ac4fab85ee333f624183b11d5fc083b15620c1627c406cd2311f3f16e05bb3d",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "mariadb-adminer": {
+    "changed": true,
+    "sha256": "532a13616b70b01f8d87c7f130e6691dbbbf199f20b04ab7f174c989d359fda3",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "minecraft-java": {
+    "changed": true,
+    "sha256": "5d4cbd4e69137e8b69677cc7ec35400dfee8913716f429401b4fc656ea85b248",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "minidlna": {
+    "changed": true,
+    "sha256": "2de596211b1d19fb24e02e8ecc94e3b6d22b615ad0ddd41ac00a866d47706b7c",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "mrdoc": {
+    "changed": true,
+    "sha256": "adf46f874894d032a8b1f0c96514186e93f7aae089085d7fe12e9325eab76156",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "new-api": {
+    "changed": true,
+    "sha256": "2d3057341729e592d36bc993c541cb8955fa329f68e7c61e0443dc48d04dd581",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "ntfy": {
+    "changed": true,
+    "sha256": "b704270a3ab59e9f74e0b90cb85ac068338b519780e4e8ba1f76b3447d5fa3b6",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "nut-ups": {
+    "changed": true,
+    "sha256": "3a76faad8deb4b52281a93e83dba059fb95a7ffb13f2b806bb343f67bf4aaa74",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "nvr-lite": {
+    "changed": true,
+    "sha256": "928df2046147187eb688d50b6952f4b790992c5140a0b9031f350def04a2731e",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "oec-led": {
+    "changed": false,
+    "sha256": "81945cf1d6742ae79f8e1cfaf7465ef03246fb3631a9bc026a4e2e4f41342e96",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "onecloud-led": {
+    "changed": false,
+    "sha256": "4f04ed01a0d1dcbcf45fb07f9b3e4af01765712588c748b21ffdfe8f6857697f",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "onlyoffice-personal": {
+    "changed": true,
+    "sha256": "5de3030537581c2b6058779dec6916aff71fafbd886d2504c107f9d926e23104",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "openlist": {
+    "changed": true,
+    "sha256": "fa268cf6286b1b1eb8ddcfa732c04e945b61e9ee17eb3479c7f099519da3e575",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "pansou": {
+    "changed": true,
+    "sha256": "381cb289085f248916e6548b03832054701780653dfa1c1dbb0bd00a94fc917a",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "phddns": {
+    "changed": true,
+    "sha256": "940d53888e0e69be9c1f45e147472a9662b816097bb30a4c4c7704ec20fec4a4",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "picoclaw": {
+    "changed": true,
+    "sha256": "daafaa36e867e5a5ab49cdcf5fa9b976682ab26077ea48bdf417be3788040476",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "qinglong": {
+    "changed": true,
+    "sha256": "d6e233d5fb554c0e36c1fa7fcc54c4f531735c9d0a2fee82315f4da431128f6d",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "quark-auto-save": {
+    "changed": true,
+    "sha256": "f1a750d18553bf18213c76834aab309bbfeb9d9071d4c9eb172674e9be97c44a",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "quarkpan-client": {
+    "changed": true,
+    "sha256": "1002578e668df8e00bc1d7a61652a265571a261297383ba8de59274c6e09388e",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "sqlite-phpliteadmin": {
+    "changed": true,
+    "sha256": "3b4dcc41d0e90b568064219930095e3cc795f8b0a9d7e14215c0faf0cfe058de",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "sub2api": {
+    "changed": true,
+    "sha256": "af3d68ebbe79a7ad00e1b0e83a1a84722161a5dead12354bfbb25888637806f3",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "syncthing": {
+    "changed": true,
+    "sha256": "9fa1173fb64ade8a4c6b051a12052cc9af5ef1716320cc920629726670b5cef8",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "tailscale": {
+    "changed": true,
+    "sha256": "c9cdf13d06b6a500a2425ca3710c93347723db8b35c066b8a061db11139f2bd0",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "tiantang": {
+    "changed": true,
+    "sha256": "cd1f85eed2d425051eefa99a0fc397caa2c9630374820a17946dece0f1ca132a",
+    "wanos_refs_left": 0,
+    "upstream_fix": "tiantang duplicated tail removed (see README)"
+  },
+  "typecho-blog": {
+    "changed": true,
+    "sha256": "837d64ba3f310a1e1842033b9450fb5d88880a36db608cd59e9e35db51fca6dc",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "v2ray-proxy": {
+    "changed": true,
+    "sha256": "171bbe9fa6448d20892c194579fe96bba8d3fcd38bb0f6a973d751a59bf793d5",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "verysync": {
+    "changed": true,
+    "sha256": "c92e575fb061fba36ed33a4187a974b4a54f079a830544fb0da217a9707d3b79",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "wanos-ai-assistant": {
+    "changed": true,
+    "sha256": "3d0c07bb6b1897dc148044cd9966c01e8c4d5f4dc092c344b29f4dc4e39a5a61",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "wanos-cf-tunnel": {
+    "changed": true,
+    "sha256": "9ca7764da8092014186b29fdb19058d7a612588325bdc327ad77034281bedd4b",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "wanos-ffstreamer": {
+    "changed": true,
+    "sha256": "787f4ed84878afc9cacc758dfb13cd42fefcfc23619fb95f2978c997e7d32f99",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "wanos-test-app": {
+    "changed": true,
+    "sha256": "21401fb292f05c4f37e993e296b21de17c1170335f7db58bfa6e070e4ac98450",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "wanos-wallpaper": {
+    "changed": true,
+    "sha256": "89ebcff2bd6ea9825dc9a60d4fc638d029794bb12d1f8f624c664d9a984f0f0e",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "wanos-wifi-drivers": {
+    "changed": true,
+    "sha256": "7f7059f407d3581f988bce06a330b47d3d323b96c3d48c892cc783436899e109",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "webdav-server": {
+    "changed": false,
+    "sha256": "32167dbe272cb85059c0ad92547b3f8f7628ee93366e3b47f49107a5ebc99137",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "webview-tv-live": {
+    "changed": true,
+    "sha256": "a1838eb2f7f2bb5db1b302daf4ce150088bf0dbcc919176fd544fbdb7c8a6291",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "wol-network-wakeup": {
+    "changed": true,
+    "sha256": "84a048e03da90081ff2ce961d3586e3b46d6359dc7a3f984a317b35077d0315e",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "xianyu-autodelivery": {
+    "changed": true,
+    "sha256": "a0da09bed01a509bcbb23a1a72949ae019d431bf15f50f2041845f2d0174a730",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "xiaoya-alist": {
+    "changed": true,
+    "sha256": "34e0211ab8d73bcd74fda1dc037baee692164dd6b4bf4e92d141a65f80d0e6ed",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "xiaozhi-server": {
+    "changed": true,
+    "sha256": "b7ddcd0edcdb9e3a4903b5586bc356d1a28c0c839c937b2bcffda4ebb836ccaf",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "xunlei": {
+    "changed": true,
+    "sha256": "cd1c8b15dba318afc3081584c2aa1b25708a6553fce3a4250989faba5684fd45",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  },
+  "yt-dlp-web": {
+    "changed": true,
+    "sha256": "d976be6a46cb7fca173e8b3a82954aeac736584b82d6da2fd3bafcdfe060c975",
+    "wanos_refs_left": 0,
+    "upstream_fix": null
+  }
+}

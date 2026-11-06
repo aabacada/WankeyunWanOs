@@ -1,0 +1,472 @@
+{
+  "total_files": 48,
+  "total_bytes": 568922102,
+  "total_mib": 542.6,
+  "failures": [],
+  "files": [
+    {
+      "id": "adguard-home",
+      "filename": "AdGuardHome_linux_armv7_v0.107.76.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/adguard-home/AdGuardHome_linux_armv7_v0.107.76.tar.gz",
+      "category": "extra-armv7",
+      "sha256": "0c60e959fc9ef0c8a0a728961390e6f77cbc9fcd8f3de07646be52cefe68d988",
+      "size_bytes": 11269771,
+      "status": "sha-ok"
+    },
+    {
+      "id": "ddns-go",
+      "filename": "ddns-go_6.13.3_linux_armv7.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/ddns-go/ddns-go_6.13.3_linux_armv7.tar.gz",
+      "category": "extra-armv7",
+      "sha256": "18c74c19589bf5c0c35cf26bcd978bab27b3dd235e23e36b9bf57095d26fd4c4",
+      "size_bytes": 4393659,
+      "status": "sha-ok"
+    },
+    {
+      "id": "picoclaw",
+      "filename": "picoclaw_Linux_armv7.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/picoclaw/picoclaw_Linux_armv7.tar.gz",
+      "category": "extra-armv7",
+      "sha256": "11bc06930d3a139f6759d03ee0e70d8b83481bd61ec500097beedab45a218fb3",
+      "size_bytes": 20835121,
+      "status": "sha-ok"
+    },
+    {
+      "id": "phddns",
+      "filename": "phddns_armv7_5.1.0-wanos.2.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/phddns/phddns_armv7_5.1.0-wanos.2.tar.gz",
+      "category": "extra-armv7",
+      "sha256": "21a929b82b32c0d5c16123df2abcf4e01f5361902291a74f45dd66eb08b92f29",
+      "size_bytes": 297697,
+      "status": "sha-ok"
+    },
+    {
+      "id": "v2ray-proxy",
+      "filename": "v2ray-proxy_v5.6.0_armv7_wanos.1.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/v2ray-proxy/v2ray-proxy_v5.6.0_armv7_wanos.1.tar.gz",
+      "category": "extra-armv7",
+      "sha256": "609d2c9ddccf9e1bf0577fe70c9e6d214e3645f2ef9bd776de709fb4fd599041",
+      "size_bytes": 11615366,
+      "status": "sha-ok"
+    },
+    {
+      "id": "xiaoya-alist",
+      "filename": "xiaoya-alist_armv7.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/xiaoya-alist/xiaoya-alist_armv7.tar.gz",
+      "category": "extra-armv7",
+      "sha256": "6566864ffc09cc3f7b7976ea5539097fb1a9a24674bb990d6b0d00d4f5dc15dd",
+      "size_bytes": 19705488,
+      "status": "sha-ok"
+    },
+    {
+      "id": "jiedianxiaobao",
+      "filename": "jiedianxiaobao_armv7.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/jiedianxiaobao/jiedianxiaobao_armv7.tar.gz",
+      "category": "extra-armv7",
+      "sha256": "17354e719c1ee9c09afb3af0f1651af7731b3974f164f368b4eed46a7658c4c9",
+      "size_bytes": 30698065,
+      "status": "sha-ok"
+    },
+    {
+      "id": "gopeed",
+      "filename": "gopeed_armv7.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/gopeed/gopeed_armv7.tar.gz",
+      "category": "extra-armv7",
+      "sha256": "963dbce2dc7c11c6488e5d70e7ae8ee2e09a32f333e8454d72d8ce193370a1d0",
+      "size_bytes": 42319326,
+      "status": "sha-ok"
+    },
+    {
+      "id": "kodbox",
+      "filename": "kodbox-main_20260604.zip",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/kodbox/kodbox-main_20260604.zip",
+      "category": "extra-armv7",
+      "sha256": "a737f0e8a88efed6f97a2adec30cc92463995b1c7442abbd5c10f4dd2492907e",
+      "size_bytes": 45584696,
+      "status": "sha-ok"
+    },
+    {
+      "id": "cups-print",
+      "filename": "cups-print-driver-library_ubuntu20.04_armhf_v1.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/cups-print/cups-print-driver-library_ubuntu20.04_armhf_v1.tar.gz",
+      "category": "extra-armv7",
+      "sha256": "d2ecd61b26483b7d10123ddec0146befea105853105ebfdf978e1e73816db57d",
+      "size_bytes": 15793611,
+      "status": "sha-ok"
+    },
+    {
+      "id": "cups-print",
+      "filename": "cups-web-linux-armv7-v33",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/cups-print/cups-web-linux-armv7-v33",
+      "category": "extra-armv7",
+      "sha256": "65ebbfcdfd5cecec1886ca54e29968f18fcc1c47f114e4f57813fc4156f17c7f",
+      "size_bytes": 46006434,
+      "status": "sha-ok"
+    },
+    {
+      "id": "nut-ups",
+      "filename": "nut-ups-offline-armhf-ubuntu20.04.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/nut-ups/nut-ups-offline-armhf-ubuntu20.04.tar.gz",
+      "category": "extra-armv7",
+      "sha256": "50a9d045f73553abbd80cd65fe263bdc2491818ac3e533988666052d0aa7b86c",
+      "size_bytes": 21048033,
+      "status": "sha-ok"
+    },
+    {
+      "id": "home-assistant",
+      "filename": "hass-panel-armv7-offline.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/hass-panel/hass-panel-armv7-offline.tar.gz",
+      "category": "extra-armv7",
+      "sha256": "62fe7b1aa108cd798eb03b1aaeb5cf28dcf6959f90b9e0307402b3c24a2570be",
+      "size_bytes": 8909444,
+      "status": "sha-ok"
+    },
+    {
+      "id": "tailscale",
+      "filename": "tailscale_1.98.4_arm.tgz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/tailscale/tailscale_1.98.4_arm.tgz",
+      "category": "extra-armv7",
+      "sha256": "18d4568fe5c72ac31fdac4a8af233770a0357673e6a32f315d04eb0453f495bd",
+      "size_bytes": 33233873,
+      "status": "sha-ok"
+    },
+    {
+      "id": "chromium-headless",
+      "filename": "chromium_90.0.4430.212-1~deb10u1_armhf.deb",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/chromium-headless/chromium_90.0.4430.212-1~deb10u1_armhf.deb",
+      "category": "extra-armv7",
+      "sha256": "eef2f574e7fcd02bb5b01ee00fdf9c9c574b4b2a79a2de6de5d96fa1170bc7d6",
+      "size_bytes": 51230552,
+      "status": "sha-ok"
+    },
+    {
+      "id": "chromium-headless",
+      "filename": "chromium-sandbox_90.0.4430.212-1~deb10u1_armhf.deb",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/chromium-headless/chromium-sandbox_90.0.4430.212-1~deb10u1_armhf.deb",
+      "category": "extra-armv7",
+      "sha256": "cced3cf25598430164722f71aecdacca58bb83c139a075338538b964221e5746",
+      "size_bytes": 146084,
+      "status": "sha-ok",
+      "expected_sha256_note": "install.sh value (supersedes stale API value)"
+    },
+    {
+      "id": "chromium-headless",
+      "filename": "chromium-common_90.0.4430.212-1~deb10u1_armhf.deb",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/chromium-headless/chromium-common_90.0.4430.212-1~deb10u1_armhf.deb",
+      "category": "extra-armv7",
+      "sha256": "e758babcb6ca0155a73cf732a56f1af0d8af1ceec864121420fbc0d0be3c4dbf",
+      "size_bytes": 1309180,
+      "status": "sha-ok",
+      "expected_sha256_note": "install.sh value (supersedes stale API value)"
+    },
+    {
+      "id": "linkease",
+      "filename": "linkmount-arm.zip",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/linkease/linkmount-arm.zip",
+      "category": "extra-armv7",
+      "sha256": "eb08439f15bfaada23c7c733c5ad3876ea60e613745b95cbef5a5ad1383593fe",
+      "size_bytes": 14500554,
+      "status": "sha-ok"
+    },
+    {
+      "id": "baidupan-client",
+      "filename": "baidupan-client-linux-armv7-v8",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/baidupan-client/baidupan-client-linux-armv7-v8",
+      "category": "extra-armv7",
+      "sha256": "680b421fc5dec8ff644e85391212f206235f45f08889c2b556c42cdc1b754899",
+      "size_bytes": 6881442,
+      "status": "sha-ok"
+    },
+    {
+      "id": "baidupan-client",
+      "filename": "baidupan-client-linux-arm64-v8",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/baidupan-client/baidupan-client-linux-arm64-v8",
+      "category": "other-arch",
+      "sha256": "5fa4572b953734845d1fa86020317748e7407ffda7cf228f21504791ed9551dc",
+      "size_bytes": 6553762,
+      "status": "sha-ok"
+    },
+    {
+      "id": "baidupan-client",
+      "filename": "baidupan-client-linux-amd64-v8",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/baidupan-client/baidupan-client-linux-amd64-v8",
+      "category": "other-arch",
+      "sha256": "0e3cb8a7342fc7bfa78280f8bc22f48ad3eb49dd382ffa63cd6d545ae00b5828",
+      "size_bytes": 7069858,
+      "status": "sha-ok"
+    },
+    {
+      "id": "xunlei",
+      "filename": "xunlei-linux-amd64-v2",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/xunlei/xunlei-linux-amd64-v2",
+      "category": "other-arch",
+      "sha256": "c19aa2f3b8761ecf80e9546b015c5794265ed52f8294b627ae1b45b1452bd0be",
+      "size_bytes": 8921250,
+      "status": "sha-ok"
+    },
+    {
+      "id": "webview-tv-live",
+      "filename": "webview-tv-live-linux-arm64-v2",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/webview-tv-live/webview-tv-live-linux-arm64-v2",
+      "category": "other-arch",
+      "sha256": "7b77d0904df2796e3a6f63330fbe2707e91994de1cec4693a7c58b02cb7c8db6",
+      "size_bytes": 6881442,
+      "status": "sha-ok"
+    },
+    {
+      "id": "webview-tv-live",
+      "filename": "webview-tv-live-linux-amd64-v2",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/webview-tv-live/webview-tv-live-linux-amd64-v2",
+      "category": "other-arch",
+      "sha256": "0db9e29091453f84d94e76ca2f10a312fb9cea2cd81c8db0c9d91e489f01e840",
+      "size_bytes": 7381154,
+      "status": "sha-ok"
+    },
+    {
+      "id": "wanos-wallpaper",
+      "filename": "wanos-wallpaper-linux-arm64-v4",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/wanos-wallpaper-linux-arm64-v4",
+      "category": "other-arch",
+      "sha256": "56dce072a6f144b1228ad386ddccec7f598c36849bc5cdabaaa5c1a968845757",
+      "size_bytes": 6422690,
+      "status": "sha-ok",
+      "expected_sha256_note": "install.sh value (supersedes stale API value)"
+    },
+    {
+      "id": "wanos-wallpaper",
+      "filename": "wanos-wallpaper-linux-amd64-v4",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/wanos-wallpaper-linux-amd64-v4",
+      "category": "other-arch",
+      "sha256": "f9d40cc489e8237de1fcfcb5ebcc9949138d8a7762d4e10bb4e5d30c1f47a8a0",
+      "size_bytes": 6922402,
+      "status": "sha-ok",
+      "expected_sha256_note": "install.sh value (supersedes stale API value)"
+    },
+    {
+      "id": "m3u8-downloader",
+      "filename": "m3u8-downloader-linux-arm64-v3",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/m3u8-downloader/m3u8-downloader-linux-arm64-v3",
+      "category": "other-arch",
+      "sha256": "b1a071af067cdee446f027a12ece9ea0fbeac209cc0ef5e0af61f4ea7da84f72",
+      "size_bytes": 6619298,
+      "status": "sha-ok"
+    },
+    {
+      "id": "m3u8-downloader",
+      "filename": "m3u8-downloader-linux-amd64-v3",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/m3u8-downloader/m3u8-downloader-linux-amd64-v3",
+      "category": "other-arch",
+      "sha256": "6bbcb83f274d49cb94ca873b404a50b91fd1ce04666423bed30b1ce7b0899749",
+      "size_bytes": 7119010,
+      "status": "sha-ok"
+    },
+    {
+      "id": "happy-guandan",
+      "filename": "happy-guandan-linux-arm64-v3",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/happy-guandan/happy-guandan-linux-arm64-v3",
+      "category": "other-arch",
+      "sha256": "996980c35aaf269c88e39dbe277a675a07cb888569a0e79a1a5e148cb1504f49",
+      "size_bytes": 11468962,
+      "status": "sha-ok"
+    },
+    {
+      "id": "happy-guandan",
+      "filename": "happy-guandan-linux-amd64-v3",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/happy-guandan/happy-guandan-linux-amd64-v3",
+      "category": "other-arch",
+      "sha256": "3c02ced7060423a6b1bcbf79e0ef4eeeb777dbe5d3955e3e4b0111fc00e111fe",
+      "size_bytes": 11944098,
+      "status": "sha-ok"
+    },
+    {
+      "id": "lanzoupan-client",
+      "filename": "lanzoupan-client-linux-arm64-v1",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/lanzoupan-client/lanzoupan-client-linux-arm64-v1",
+      "category": "other-arch",
+      "sha256": "befba42c2699f0f16438a982ca828606928ab30b6c87b6394530a6fa9d75e680",
+      "size_bytes": 6684834,
+      "status": "sha-ok"
+    },
+    {
+      "id": "lanzoupan-client",
+      "filename": "lanzoupan-client-linux-amd64-v1",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/lanzoupan-client/lanzoupan-client-linux-amd64-v1",
+      "category": "other-arch",
+      "sha256": "82092602f4abfa3ba5a1f2fef7c9acc504bde9ebc3861e16cb2bab3bafed33e3",
+      "size_bytes": 7245986,
+      "status": "sha-ok"
+    },
+    {
+      "id": "easytier",
+      "filename": "easytier-linux-aarch64-v2.6.4.zip",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/easytier/easytier-linux-aarch64-v2.6.4.zip",
+      "category": "other-arch",
+      "sha256": "f533ec25a7ea714e09f645615012200278058525795cc3bb690ff011aec1a70f",
+      "size_bytes": 20487230,
+      "status": "sha-ok"
+    },
+    {
+      "id": "easytier",
+      "filename": "easytier-linux-x86_64-v2.6.4.zip",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/easytier/easytier-linux-x86_64-v2.6.4.zip",
+      "category": "other-arch",
+      "sha256": "61b659eaedba658fa66fe47d17e1426cdd77e5d02fa15fed447bb4357c09dfd6",
+      "size_bytes": 25506523,
+      "status": "sha-ok"
+    },
+    {
+      "id": "wanos-ai-assistant",
+      "filename": "wanos-ai-assistant-linux-arm64-v6",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-ai-assistant/wanos-ai-assistant-linux-arm64-v6",
+      "category": "other-arch",
+      "sha256": "e08282cd917e9ad93303f924be2468c8832505fb7794bbe1affb5637d4b46aed",
+      "size_bytes": 6750370,
+      "status": "sha-ok"
+    },
+    {
+      "id": "wanos-ai-assistant",
+      "filename": "wanos-ai-assistant-linux-amd64-v6",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-ai-assistant/wanos-ai-assistant-linux-amd64-v6",
+      "category": "other-arch",
+      "sha256": "b35b8dcb8087cf5291fdb018020fee5c41ce0ee24381b736149db81fe1202788",
+      "size_bytes": 7274658,
+      "status": "sha-ok"
+    },
+    {
+      "id": "tailscale",
+      "filename": "tailscale-panel.py",
+      "url": "https://wanos.xyz/downloads/apps/tailscale/tailscale-panel.py",
+      "category": "panel",
+      "sha256": "89d39c78803b32a3b58c00aca8ebfee3b1c0d8a7b3301c1e7a5af9eccc475688",
+      "size_bytes": 12875,
+      "status": "sha-ok"
+    },
+    {
+      "id": "minidlna",
+      "filename": "minidlna-panel.py",
+      "url": "https://wanos.xyz/downloads/apps/minidlna/minidlna-panel.py",
+      "category": "panel",
+      "sha256": "749dc244c4f630a8b85407c87165b5e34fa77c31323879be6772c73ac6950412",
+      "size_bytes": 9248,
+      "status": "sha-ok"
+    },
+    {
+      "id": "nut-ups",
+      "filename": "nut-panel.py",
+      "url": "https://wanos.xyz/downloads/apps/nut-ups/nut-panel.py",
+      "category": "panel",
+      "sha256": "8dca6b1df13fd28375d5380e062e980a4b663e09c1b8d53609b101edba1da8b8",
+      "size_bytes": 8214,
+      "status": "sha-ok"
+    },
+    {
+      "id": "xiaoya-alist",
+      "filename": "xiaoya-panel.py",
+      "url": "https://wanos.xyz/downloads/apps/xiaoya-alist/xiaoya-panel.py",
+      "category": "panel",
+      "sha256": "37c54ba1f3350c2d8713b3ad0f86d98718ccee823e83532c6edf573f517fb093",
+      "size_bytes": 16425,
+      "status": "sha-ok"
+    },
+    {
+      "id": "xiaoya-alist",
+      "filename": "xiaoya-cleanup.sh",
+      "url": "https://wanos.xyz/downloads/apps/xiaoya-alist/xiaoya-cleanup.sh",
+      "category": "panel",
+      "sha256": "54a8fe10c781690133737a5a30ca03f2c35e9aded09f8ca6ad5ac7b87a5afdcf",
+      "size_bytes": 1420,
+      "status": "sha-ok"
+    },
+    {
+      "id": "wanos-wallpaper",
+      "filename": "index.json",
+      "url": "https://wxqun988.vxjuejin.com/wanos/wallpapers/netbian/index.json",
+      "category": "panel",
+      "sha256": "96b673099a5eab546f5df2f3d63ef0e6f33377130daf0989f85d949c1b031936",
+      "size_bytes": 23363,
+      "status": "sha-ok"
+    },
+    {
+      "id": "chromium-headless",
+      "filename": "chromium.png",
+      "url": "https://wanos.xyz/downloads/apps/chromium-headless/chromium.png",
+      "category": "icon",
+      "sha256": "5f422d240fbd4fdafdb3a0ec50db7603cd2567360a68fbe3bcb28161dea45ba4",
+      "size_bytes": 7836,
+      "status": "sha-ok"
+    },
+    {
+      "id": "minecraft-java",
+      "filename": "minecraft.png",
+      "url": "https://wanos.xyz/downloads/apps/minecraft-java/minecraft.png",
+      "category": "icon",
+      "sha256": "75b41639bd6716227846b6b00f9e89417e8dcad363806ee01fe02a2006e00b6e",
+      "size_bytes": 156289,
+      "status": "sha-ok"
+    },
+    {
+      "id": "happy-guandan",
+      "filename": "icon.png",
+      "url": "https://wanos.xyz/downloads/apps/happy-guandan/icon.png",
+      "category": "icon",
+      "sha256": "0c74dd39be538c6c3478f3786de83e073fcf1c8cc3a568d330eb24f75dbfe557",
+      "size_bytes": 264564,
+      "status": "sha-ok"
+    },
+    {
+      "id": "wanos-wallpaper",
+      "filename": "icon-v3.png",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/icon-v3.png",
+      "category": "icon",
+      "sha256": "a8070e1659d711b59507d407c11ae13cb33588a829e386477467b74a8b75953c",
+      "size_bytes": 5295,
+      "status": "sha-ok"
+    },
+    {
+      "id": "wanos-wifi-drivers",
+      "filename": "wanos-wifi-drivers-linux-arm64-v1.tar.gz",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/components/wifi-drivers/wanos-wifi-drivers-linux-arm64-v1.tar.gz",
+      "category": "other-arch",
+      "sha256": "a4d5465e5815d47928f2ce0afeb310b2b325cd8d33ae0afaec5c401998d36e6f",
+      "size_bytes": 13223097,
+      "status": "sha-ok"
+    },
+    {
+      "id": "wanos-wallpaper",
+      "filename": "wanos-wallpaper_20260718_v4.wpk",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/wpk/wanos-wallpaper_20260718_v4.wpk",
+      "category": "wpk",
+      "sha256": "aba429df4ef17b08db5ce52568d5aabbc4582ea98240e74208a8c6809fd9e4ac",
+      "size_bytes": 8161553,
+      "status": "sha-ok"
+    }
+  ],
+  "unavailable_wanos_files": [
+    {
+      "id": "home-assistant",
+      "filename": "wanos-hass-panel-linux-armv7",
+      "url": "https://wanos.xyz/downloads/apps/hass-panel-go/wanos-hass-panel-linux-armv7",
+      "reason": "wan os.xyz returns 20,371-byte SPA homepage HTML (any UA); wxqun988 variants return 404 JSON. File is not served by WanOS any more; HA legacy install path would install this HTML as the panel backend binary. The downloaded 461MB HA package is the legacy image tar, so this path is the live one."
+    },
+    {
+      "id": "wanos-test-app",
+      "filename": "wanos-test-app-linux-armv7",
+      "url": "https://wanos.xyz/downloads/apps/wanos-test-app/wanos-test-app-linux-armv7",
+      "reason": "wan os.xyz returns 20,371-byte SPA homepage HTML; wxqun988 returns 404 JSON. The test app's only file does not exist on WanOS servers; official install is already broken upstream."
+    },
+    {
+      "id": "onlyoffice-personal",
+      "filename": "OnlyofficePersonal-main-local-icons.zip",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/onlyoffice-personal/OnlyofficePersonal-main-local-icons.zip",
+      "reason": "Both CDN hosts return a 20KB HTML error page, not a zip. Script itself says remote download is disabled and the zip must be supplied locally as an offline package (PACKAGE_URL). Cannot be mirrored from WanOS."
+    }
+  ],
+  "excluded_by_user_scope": [
+    {
+      "id": "minecraft-java",
+      "filename": "server.jar",
+      "url": "https://launcher.mojang.com/mc/game/1.12.2/server/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar",
+      "reason": "Public internet resource (Mojang), user said public resources need not be mirrored; install.sh keeps the Mojang URL."
+    }
+  ]
+}

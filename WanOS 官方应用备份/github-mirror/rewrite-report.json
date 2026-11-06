@@ -1,0 +1,274 @@
+{
+  "115pan-client": {
+    "changed": true,
+    "sha256": "272b005e3e40390613026fc39ce5d7a0062009702f3774f9f56ec2aebe026946"
+  },
+  "123pan-client": {
+    "changed": true,
+    "sha256": "4316c581bdcd5873fcbbae74041f0b4de06cc17087afc2ed8a7f6c7ff23679ba"
+  },
+  "adguard-home": {
+    "changed": false,
+    "sha256": "e2aab42c7c95a43dc38996895919719756612e65f93d385eef0517fa8956b367"
+  },
+  "alipan-client": {
+    "changed": true,
+    "sha256": "56dad685d75d047d03bc493a64e5d743f8b6d883d375dcdddd6db094b03816ce"
+  },
+  "baidupan-client": {
+    "changed": false,
+    "sha256": "daf7981f7dc50a078c758edaa31f7692eb08415ccdfd456c2466eb0349140d36"
+  },
+  "bark-server": {
+    "changed": true,
+    "sha256": "bdcf7ea8c94680d72a564b4c7bc875ca782411f149fa0286d687e12d8160bfc9"
+  },
+  "bt-panel": {
+    "changed": false,
+    "sha256": "64bc7885a97631e48091e31095e768491708c2348223879e2a09b1accd343528"
+  },
+  "chromium-headless": {
+    "changed": false,
+    "sha256": "8499f07740d929f163023a55b2030db88330789b6280b7f898449a242b677492"
+  },
+  "cloud139-client": {
+    "changed": true,
+    "sha256": "91e0bf6c37c851b2494ad2dca612d0f8a509c136a23221af2756c8aaf13a124c"
+  },
+  "cloud189-client": {
+    "changed": true,
+    "sha256": "90bc463fe8a7a34c0678073b583255779c8666da065068bbdea75a17bdab18de"
+  },
+  "cups-print": {
+    "changed": true,
+    "sha256": "b3db4d35fc296786d9617d929c763ad26237381158988d39ae39d35cbe2b5be4"
+  },
+  "daidai-panel": {
+    "changed": true,
+    "sha256": "fa92f3ddfb4061ad684a5d619835f7b6405b7a4346dab53b2f201e6519d898d5"
+  },
+  "ddns-go": {
+    "changed": false,
+    "sha256": "7f619f156339b2edbf25c0959f8a48a186b11c4fa5d9a0ad4b974422ef3fc2e0"
+  },
+  "easytier": {
+    "changed": true,
+    "sha256": "a5808c96006ecdf0d23b2c56054479fe3ef9a6c504d6dfc56aefbd0ec8d018ea"
+  },
+  "filebrowser": {
+    "changed": true,
+    "sha256": "d45fdbc8f8ec89443cc46898a61e0056956bc631f2d04c0aeb6c36e124766e5d"
+  },
+  "ftp-server": {
+    "changed": false,
+    "sha256": "891b4bd5496ff7e5617ab9542571aa74b2e03d102da3b3b1b0023685c99b7fab"
+  },
+  "gitea": {
+    "changed": true,
+    "sha256": "946ae7ebf38a8bc8e20d7150767e90b1ad64c3af3629c182a25f5cdf4b240aa0"
+  },
+  "gopeed": {
+    "changed": false,
+    "sha256": "efd021feb5d3686e3d83ca988b9b4c498b642a6981d8a46ddfbcf911df3b5f92"
+  },
+  "gotify": {
+    "changed": true,
+    "sha256": "8b028930e80d811fea8017418c50a3c001315ca2cb9d01381750eec649aab95f"
+  },
+  "happy-guandan": {
+    "changed": true,
+    "sha256": "edc073aba80d8b077d5e3c1bf9edd19f32db00b3c6f9f3e8d8ad25f418d04d54"
+  },
+  "home-assistant": {
+    "changed": true,
+    "sha256": "4b9aad75faa81288cf0f397b75d5fe98c9d5ad3af00cb1bba7fdb2ae11584ce3"
+  },
+  "jiedianxiaobao": {
+    "changed": false,
+    "sha256": "63a711f4ee8c84be17d187480a736c0f0c426969dbe8af457ad7dacaa7b5ac51"
+  },
+  "kodbox": {
+    "changed": false,
+    "sha256": "8479551cdb5881efe7728c7c7a66db8540f6bcb8c724adb68defc44e7c12a821"
+  },
+  "lanzoupan-client": {
+    "changed": true,
+    "sha256": "6c3918a4b8ad6bf57ef6d7ea7521aeec8cf0a1e086a4fe610927ca9c2c6a7d72"
+  },
+  "linkease": {
+    "changed": true,
+    "sha256": "919ca9577f069028ef69dd8fa6d1287fa0709fcc344f9c8978a7dc1b8c67299e"
+  },
+  "live-recorder": {
+    "changed": true,
+    "sha256": "3d5708c99cda0cc1edda3569728e71093a451b5be6be58c89358867821c5b72f"
+  },
+  "lucky": {
+    "changed": true,
+    "sha256": "05e0d9462a9937cd76026a9795691b40d0c02db9fb2722f59aae9aab9b8bb17e"
+  },
+  "m3u8-downloader": {
+    "changed": true,
+    "sha256": "c0525a69c145683b0b4fab7df426175b562888b799b7c3f144f1e572a8762318"
+  },
+  "mariadb-adminer": {
+    "changed": true,
+    "sha256": "c1b3210b31bf64ab7341c789f74182f97926fe7339ee94096d9a46760f0ac4ce"
+  },
+  "minecraft-java": {
+    "changed": false,
+    "sha256": "9d8c6379ed85146c77984d187d0b68a7c139f4e9da2748d62f7c638a4c0e9840"
+  },
+  "minidlna": {
+    "changed": true,
+    "sha256": "21dec2096f8e6e39f9022e5cb9fccb3acf6e99958b7b56f577ca3c8c1aec4fef"
+  },
+  "mrdoc": {
+    "changed": true,
+    "sha256": "c70cd7e700103537f06f9bbb88b8282a0e6df4a9a9bcbed6837fa94ef4f3f288"
+  },
+  "new-api": {
+    "changed": true,
+    "sha256": "126e5dddeec7d49a34417470a9ebfdb72e3f4968f0aa0e45860da63f224d4301"
+  },
+  "ntfy": {
+    "changed": true,
+    "sha256": "4e1a8346dde1d613b3aa87e624ae05763e2314df9fd28493ae6b4781db813ada"
+  },
+  "nut-ups": {
+    "changed": false,
+    "sha256": "17a1c2dec7a34353de8d7e9aab9520222dd7b0702cea17aed05ac0e17d9e76ad"
+  },
+  "nvr-lite": {
+    "changed": true,
+    "sha256": "f25a232de94fd55f8ad4605a3c4aff120988def26b6a85eafc7799081ca56362"
+  },
+  "oec-led": {
+    "changed": false,
+    "sha256": "81945cf1d6742ae79f8e1cfaf7465ef03246fb3631a9bc026a4e2e4f41342e96"
+  },
+  "onecloud-led": {
+    "changed": false,
+    "sha256": "4f04ed01a0d1dcbcf45fb07f9b3e4af01765712588c748b21ffdfe8f6857697f"
+  },
+  "onlyoffice-personal": {
+    "changed": true,
+    "sha256": "74300dcb1ee8e7135eda81ebb3ca7840cac0a02482b6dbca34a8b06361be5199"
+  },
+  "openlist": {
+    "changed": true,
+    "sha256": "3e65ac2ceccd87b724720f26b6fb9343a4485b1f4bbd258f8072ade3e1e030d7"
+  },
+  "pansou": {
+    "changed": true,
+    "sha256": "9a828c51957f9df560b7914f78ce086c24a710ae885ce65ad52d7a1385ebfab3"
+  },
+  "phddns": {
+    "changed": false,
+    "sha256": "ceab26a1af0c4900c94cb6fd9ec66d23cc7bb9644afb78ca44cd264043545652"
+  },
+  "picoclaw": {
+    "changed": false,
+    "sha256": "69ac787dce1947ad4e10854706dc9c24b239f3d21b251cc5eaa08b02c14b9a2b"
+  },
+  "qinglong": {
+    "changed": true,
+    "sha256": "3234f145eec970213b47a66b6bb1232d1896c8fc7bad799492ab45fa817685ff"
+  },
+  "quark-auto-save": {
+    "changed": true,
+    "sha256": "83a4dfee8f8442fd38e5d4d3581e3dfa2cb5a028b92c47867e5e078978fa17e4"
+  },
+  "quarkpan-client": {
+    "changed": true,
+    "sha256": "4187fca044d7995feffad3cc9babee8514dfac3d561fd8a935ec3c5d71f63d01"
+  },
+  "sqlite-phpliteadmin": {
+    "changed": true,
+    "sha256": "a43dfe993664ab4b2b9a373460b3b3422104edbb9e59c846dcf6fda0d258d126"
+  },
+  "sub2api": {
+    "changed": true,
+    "sha256": "462364e29a19435c74f0f76df98fe05be905ecf27a01c82b094bf05775898034"
+  },
+  "syncthing": {
+    "changed": true,
+    "sha256": "d7e6659f138498db0c77957f0f58a3585ad59b499aaa0ef94ea518292b3e1ed2"
+  },
+  "tailscale": {
+    "changed": false,
+    "sha256": "a6ea1ecfc896a8602accb7f73902ce322fa0c78775b3740b8d2ebc196ab530a3"
+  },
+  "tiantang": {
+    "changed": true,
+    "sha256": "37a8a10289908249d7727f185e3ac7ace44bd48b8d3f0d7c2dc5506ac29defd5"
+  },
+  "typecho-blog": {
+    "changed": true,
+    "sha256": "08bc86b801fc34d93d9a5843e72b94184304e1be846c5a7b662ba8b7f2517c98"
+  },
+  "v2ray-proxy": {
+    "changed": false,
+    "sha256": "960801787db2e581851aaad45e20b39a97e141d066463e9f32ad2048cb9215a8"
+  },
+  "verysync": {
+    "changed": true,
+    "sha256": "9fc21edada06846a05b1c401e7b5e9dcaedcb8da33547d13440b6fc84b4972d6"
+  },
+  "wanos-ai-assistant": {
+    "changed": false,
+    "sha256": "6138f0ecec83fe5ba98b4a358df0d3fd5bb9a91437c921846e44923a70ab449a"
+  },
+  "wanos-cf-tunnel": {
+    "changed": true,
+    "sha256": "0e0d935802c130b06d63f1cf721e77fce7baec9c26be7baeb2708e62b32f9b03"
+  },
+  "wanos-ffstreamer": {
+    "changed": true,
+    "sha256": "9bbe4725b6958083642e5495a37438c136df0efb696ccfeb71f6e8108a2b3772"
+  },
+  "wanos-test-app": {
+    "changed": false,
+    "sha256": "c8fe9840e32c7996a0f91dcb19d609f9fe6e5057f7a735292e2e1bcf9ba7bfbf"
+  },
+  "wanos-wallpaper": {
+    "changed": true,
+    "sha256": "0f8fc1869c9efaec43e57620fcad8347c58b70d6644f986232d6bf52a1e7c853"
+  },
+  "wanos-wifi-drivers": {
+    "changed": false,
+    "sha256": "bc4d8ead4c6458f8faaa1bb6ae13d2f0081c269f22fba907d2b5d28d36c64ebe"
+  },
+  "webdav-server": {
+    "changed": false,
+    "sha256": "32167dbe272cb85059c0ad92547b3f8f7628ee93366e3b47f49107a5ebc99137"
+  },
+  "webview-tv-live": {
+    "changed": true,
+    "sha256": "8f04e4a35adc9af87469e549dc8299f06c19addee037864ea82688558d78e7fb"
+  },
+  "wol-network-wakeup": {
+    "changed": true,
+    "sha256": "dc026130c5c2f4adf89cc1eddb44825365ab978f6cce8a9bdffc1da49431480c"
+  },
+  "xianyu-autodelivery": {
+    "changed": true,
+    "sha256": "f1c2067d2d03da6e591401d9bcbacf9980aafdfad77b2e6e8dc35cc8892b2a3a"
+  },
+  "xiaoya-alist": {
+    "changed": false,
+    "sha256": "a09bdd42c8c2982dad64d9510d73f7e3310d07570afa30dec99b865d58fae380"
+  },
+  "xiaozhi-server": {
+    "changed": true,
+    "sha256": "45b66f2a998095ac473b7dda37fc7d56ca145994129e2ba0f6fa74300f59fd6e"
+  },
+  "xunlei": {
+    "changed": true,
+    "sha256": "9b13a2bc975c081fa152ec585fb1f719aeeddfce164bcc82c4a4a0755c27aaae"
+  },
+  "yt-dlp-web": {
+    "changed": true,
+    "sha256": "366c7453e240fe0893a6eb4492dad5ec0c07f4e6b53dcad0a31724dfc4e03990"
+  }
+}

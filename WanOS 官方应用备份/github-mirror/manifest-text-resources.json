@@ -1,0 +1,1538 @@
+{
+  "scripts": [
+    {
+      "id": "wanos-ai-assistant",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/wanos-ai-assistant/update.sh",
+      "file": "update-uninstall/wanos-ai-assistant-update.sh",
+      "sha256": "014115a884820a448adc45faeee5aace341d5ac6d00caa2f172d89020e5f1f00",
+      "size_bytes": 366
+    },
+    {
+      "id": "wanos-ai-assistant",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/wanos-ai-assistant/uninstall.sh",
+      "file": "update-uninstall/wanos-ai-assistant-uninstall.sh",
+      "sha256": "e1bec6b7645916bb5bb50acc19dde1cbd7c118e013c586340960cf38f254ed01",
+      "size_bytes": 674
+    },
+    {
+      "id": "wanos-wifi-drivers",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/wanos-wifi-drivers/update.sh",
+      "file": "update-uninstall/wanos-wifi-drivers-update.sh",
+      "sha256": "3be7dbb746b9b2ee4bddf238080bed85d5689cfa4e71412525782482c87c8c81",
+      "size_bytes": 589
+    },
+    {
+      "id": "wanos-wifi-drivers",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/wanos-wifi-drivers/uninstall.sh",
+      "file": "update-uninstall/wanos-wifi-drivers-uninstall.sh",
+      "sha256": "5ea96d3e0cc09e1a29242520cb1280e5e0237da697450cb5ab6546a7f2ea6ef3",
+      "size_bytes": 733
+    },
+    {
+      "id": "wanos-test-app",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/wanos-test-app/uninstall.sh",
+      "file": "update-uninstall/wanos-test-app-uninstall.sh",
+      "sha256": "a9f7bdf8bab5f5311f9ae7fc5b000361a2c01c4532c71b6a38e3ffbb80186cad",
+      "size_bytes": 274
+    },
+    {
+      "id": "picoclaw",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/picoclaw/uninstall.sh",
+      "file": "update-uninstall/picoclaw-uninstall.sh",
+      "sha256": "7b5471bdd083e81952b3042a8d2402fc6e0500a36e15368a3f14f41146664bcf",
+      "size_bytes": 409
+    },
+    {
+      "id": "ddns-go",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/ddns-go/uninstall.sh",
+      "file": "update-uninstall/ddns-go-uninstall.sh",
+      "sha256": "78f29ecb1aaaad14c3dc1050833a3265c7978fd9e2a2c53b4b1269f5d7aa3c67",
+      "size_bytes": 504
+    },
+    {
+      "id": "tailscale",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/tailscale/uninstall.sh",
+      "file": "update-uninstall/tailscale-uninstall.sh",
+      "sha256": "312084c57ab7dc75b8efe14b8b095ac62c1740349d7fb11b248480b142aff80f",
+      "size_bytes": 1739
+    },
+    {
+      "id": "openlist",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/openlist/update.sh",
+      "file": "update-uninstall/openlist-update.sh",
+      "sha256": "b5583ede23ba49e36007240ba5023f8a8f9f1abdd8999a59e04b591aed7e68e2",
+      "size_bytes": 5047
+    },
+    {
+      "id": "openlist",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/openlist/uninstall.sh",
+      "file": "update-uninstall/openlist-uninstall.sh",
+      "sha256": "e9cbaaccd06ca3ad53f719e489bff342be393074866e9957ba0bc1c1e97b95c0",
+      "size_bytes": 320
+    },
+    {
+      "id": "nut-ups",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/nut-ups/uninstall.sh",
+      "file": "update-uninstall/nut-ups-uninstall.sh",
+      "sha256": "552e17011051f0410d867dea384209fda1ae5ffc641e62f7a59e53170a85b18c",
+      "size_bytes": 541
+    },
+    {
+      "id": "xiaoya-alist",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/xiaoya-alist/update.sh",
+      "file": "update-uninstall/xiaoya-alist-update.sh",
+      "sha256": "c1333dd1410ce3cae72e571f8d2f3bc36d6207d6d9a3ef930c4cb0dd65a01ee5",
+      "size_bytes": 4122
+    },
+    {
+      "id": "xiaoya-alist",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/xiaoya-alist/uninstall.sh",
+      "file": "update-uninstall/xiaoya-alist-uninstall.sh",
+      "sha256": "00b1d8e2c6f4a631539bb94c3e5a071e143addae80092089f67cec0a514e7b09",
+      "size_bytes": 779
+    },
+    {
+      "id": "gopeed",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/gopeed/update.sh",
+      "file": "update-uninstall/gopeed-update.sh",
+      "sha256": "25032f07b9bf31d865abea3772ae9fa2e8df22c804b031034fb35a82d114817d",
+      "size_bytes": 2430
+    },
+    {
+      "id": "gopeed",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/gopeed/uninstall.sh",
+      "file": "update-uninstall/gopeed-uninstall.sh",
+      "sha256": "fe5e3f04c7829cde48d7166fc9f8a4cc941b540f16f428d5e62ff673cfb46f7a",
+      "size_bytes": 582
+    },
+    {
+      "id": "jiedianxiaobao",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/jiedianxiaobao/update.sh",
+      "file": "update-uninstall/jiedianxiaobao-update.sh",
+      "sha256": "fb05dde82412e07f0bfd6879c0e140ad560e4a928591bda5bac2e04941d1ccf1",
+      "size_bytes": 2497
+    },
+    {
+      "id": "jiedianxiaobao",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/jiedianxiaobao/uninstall.sh",
+      "file": "update-uninstall/jiedianxiaobao-uninstall.sh",
+      "sha256": "4dcb4048048292645194ea388ced5e87873225884508a8ad13d2baaf9aff5ee0",
+      "size_bytes": 612
+    },
+    {
+      "id": "phddns",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/phddns/update.sh",
+      "file": "update-uninstall/phddns-update.sh",
+      "sha256": "c689c1759b06833b6a8329786e21ad94999d802d34214234a51e278c4e3ea98a",
+      "size_bytes": 3181
+    },
+    {
+      "id": "phddns",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/phddns/uninstall.sh",
+      "file": "update-uninstall/phddns-uninstall.sh",
+      "sha256": "68481309c58dee41495a79ed0337d2ab51f8b926616853713bb224e03c52b577",
+      "size_bytes": 663
+    },
+    {
+      "id": "chromium-headless",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/chromium-headless/update.sh",
+      "file": "update-uninstall/chromium-headless-update.sh",
+      "sha256": "46bfbbd33f33547d9cb931a561bca962f69ed19440094a60ec6f40305d1c6aa6",
+      "size_bytes": 16208
+    },
+    {
+      "id": "chromium-headless",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/chromium-headless/uninstall.sh",
+      "file": "update-uninstall/chromium-headless-uninstall.sh",
+      "sha256": "d978865f280559baa5e6e3ddb563f168962d0f20c999fcad6fd764bb2de4f501",
+      "size_bytes": 723
+    },
+    {
+      "id": "v2ray-proxy",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/v2ray-proxy/update.sh",
+      "file": "update-uninstall/v2ray-proxy-update.sh",
+      "sha256": "de5c0fe1c36fac22b14d1a0b5fa7d3c1d5d10186171dead41106826676f19b70",
+      "size_bytes": 3038
+    },
+    {
+      "id": "v2ray-proxy",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/v2ray-proxy/uninstall.sh",
+      "file": "update-uninstall/v2ray-proxy-uninstall.sh",
+      "sha256": "1ffd57c4ae704b616b5c337100a5a99c8c61f8d0c116d22dfcc1213342866e2d",
+      "size_bytes": 668
+    },
+    {
+      "id": "kodbox",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/kodbox/update.sh",
+      "file": "update-uninstall/kodbox-update.sh",
+      "sha256": "d0613f72ac7e26a959f7ab7130607946cff06bce35405d1a87df2aa152953852",
+      "size_bytes": 4921
+    },
+    {
+      "id": "kodbox",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/kodbox/uninstall.sh",
+      "file": "update-uninstall/kodbox-uninstall.sh",
+      "sha256": "79f06186674c3824d8ccf153661e4bfc782404ba068a786639f6f4289afa2203",
+      "size_bytes": 459
+    },
+    {
+      "id": "ftp-server",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/ftp-server/update.sh",
+      "file": "update-uninstall/ftp-server-update.sh",
+      "sha256": "34407bd81cf94a226e44ca96e52b386e72d65b0d5bff6b03b880228b239ed2ee",
+      "size_bytes": 9066
+    },
+    {
+      "id": "ftp-server",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/ftp-server/uninstall.sh",
+      "file": "update-uninstall/ftp-server-uninstall.sh",
+      "sha256": "6f4d4ed2d7ebfa63f3ee1f23151822092a2e98510ebd25dfaaccc9c0d14b7e11",
+      "size_bytes": 931
+    },
+    {
+      "id": "webdav-server",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/webdav-server/update.sh",
+      "file": "update-uninstall/webdav-server-update.sh",
+      "sha256": "c4db4e896ff830565dc7f627af16dc200450d07bac154689583bd2709f3bcaef",
+      "size_bytes": 15988
+    },
+    {
+      "id": "webdav-server",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/webdav-server/uninstall.sh",
+      "file": "update-uninstall/webdav-server-uninstall.sh",
+      "sha256": "781e86acb871b12d7eaec0a8ad9c273cb0268af44f3a5def3a20d145f76cda7f",
+      "size_bytes": 811
+    },
+    {
+      "id": "cups-print",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/cups-print/update.sh?v=1.0.0-wanos.33",
+      "file": "update-uninstall/cups-print-update.sh",
+      "sha256": "ce4afad4f01ad2b3163b0a72a2b6f1c8714fa6112c0433010cd259bc26253ec2",
+      "size_bytes": 13231
+    },
+    {
+      "id": "cups-print",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/cups-print/uninstall.sh",
+      "file": "update-uninstall/cups-print-uninstall.sh",
+      "sha256": "fd1d44828874b073eafe0615f7d4d82404000c7e0120aa6d1ae6a78cfef51d46",
+      "size_bytes": 2039
+    },
+    {
+      "id": "adguard-home",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/adguard-home/update.sh",
+      "file": "update-uninstall/adguard-home-update.sh",
+      "sha256": "46e07f4cb90da8b6c26f20ae31d93292aebfe4e19464908a496b47cd360c87bc",
+      "size_bytes": 3240
+    },
+    {
+      "id": "adguard-home",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/adguard-home/uninstall.sh",
+      "file": "update-uninstall/adguard-home-uninstall.sh",
+      "sha256": "6f052d7408437a38128d3c989be13c797c2e1021ef6e26df82ee41896756ca4b",
+      "size_bytes": 500
+    },
+    {
+      "id": "minecraft-java",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/minecraft-java/update.sh",
+      "file": "update-uninstall/minecraft-java-update.sh",
+      "sha256": "a71c9044bd2dd5fdb82a1ef8f384c2a306c46f360599b24682f3964f3e34b20c",
+      "size_bytes": 9389
+    },
+    {
+      "id": "minecraft-java",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/minecraft-java/uninstall.sh",
+      "file": "update-uninstall/minecraft-java-uninstall.sh",
+      "sha256": "42b46d1194587dae63b51e9a92c0703eb8ccd3bc029dc310da02a09c4604520a",
+      "size_bytes": 699
+    },
+    {
+      "id": "syncthing",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/syncthing/update.sh",
+      "file": "update-uninstall/syncthing-update.sh",
+      "sha256": "d8df6cbc9d6a14db655b1c8b91ff2c71e3d8f394d0551af740b955ba796db170",
+      "size_bytes": 3129
+    },
+    {
+      "id": "syncthing",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/syncthing/uninstall.sh",
+      "file": "update-uninstall/syncthing-uninstall.sh",
+      "sha256": "2480949d91aaf9ba71e41be9c1d062439e6b6fcb0379b6987626ad6d61915fc6",
+      "size_bytes": 484
+    },
+    {
+      "id": "verysync",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/verysync/update.sh",
+      "file": "update-uninstall/verysync-update.sh",
+      "sha256": "81cd46dcb769bfc421159402896e825f5b02815beca7d73bdf938de077caf759",
+      "size_bytes": 3070
+    },
+    {
+      "id": "verysync",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/verysync/uninstall.sh",
+      "file": "update-uninstall/verysync-uninstall.sh",
+      "sha256": "f2cf0773854d8f5fb8c189f0bcb32b305a93eb449f16047f208933dfa55f4153",
+      "size_bytes": 479
+    },
+    {
+      "id": "linkease",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/linkease/update.sh",
+      "file": "update-uninstall/linkease-update.sh",
+      "sha256": "cf45836f5153581679bfbe42da94d78490d8f571bdce915a2ade02c1533d47fb",
+      "size_bytes": 3149
+    },
+    {
+      "id": "linkease",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/linkease/uninstall.sh",
+      "file": "update-uninstall/linkease-uninstall.sh",
+      "sha256": "1b660440d133445c5a009d0b29e7cbdd905a030cf8c74714078c5fa4b0f554dd",
+      "size_bytes": 657
+    },
+    {
+      "id": "typecho-blog",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/typecho-blog/update.sh",
+      "file": "update-uninstall/typecho-blog-update.sh",
+      "sha256": "f59f7aa35b29284b8a7a66f8f66f21bfba80f413c1a1215c17fbace1fdd1203e",
+      "size_bytes": 2971
+    },
+    {
+      "id": "typecho-blog",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/typecho-blog/uninstall.sh",
+      "file": "update-uninstall/typecho-blog-uninstall.sh",
+      "sha256": "87bd44524908f784e68cc58b1648bed22d7e513d48d6cd0af7b2a92585525530",
+      "size_bytes": 334
+    },
+    {
+      "id": "filebrowser",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/filebrowser/update.sh",
+      "file": "update-uninstall/filebrowser-update.sh",
+      "sha256": "e2cf626ddd18b4ab915eb0005456081e8d2f18efd9282a6fb9bedd4bebdf57de",
+      "size_bytes": 3179
+    },
+    {
+      "id": "filebrowser",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/filebrowser/uninstall.sh",
+      "file": "update-uninstall/filebrowser-uninstall.sh",
+      "sha256": "8827c49d8bfbc76bd5b7b7a9a8652baa79619b47a59bd569d469ebd5a16b6d85",
+      "size_bytes": 1251
+    },
+    {
+      "id": "gitea",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/gitea/update.sh",
+      "file": "update-uninstall/gitea-update.sh",
+      "sha256": "0d290833257309afdc49b6f5cd05ef0e394b0a2d135bf29d83a9855ab322e621",
+      "size_bytes": 3054
+    },
+    {
+      "id": "gitea",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/gitea/uninstall.sh",
+      "file": "update-uninstall/gitea-uninstall.sh",
+      "sha256": "435241e3f82840648d88b598f8dddea3a325da43a163d762aa22e89854690135",
+      "size_bytes": 297
+    },
+    {
+      "id": "mrdoc",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/mrdoc/update.sh",
+      "file": "update-uninstall/mrdoc-update.sh",
+      "sha256": "5c7644ae1dc6d0b6d6940a1972318f965226832d76905ade10fd1395ef92e7f6",
+      "size_bytes": 4823
+    },
+    {
+      "id": "mrdoc",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/mrdoc/uninstall.sh",
+      "file": "update-uninstall/mrdoc-uninstall.sh",
+      "sha256": "ae45555714befb4f2cdbe626f9cc1f3a32464c498fc6448fcd8718b3c3d2a608",
+      "size_bytes": 459
+    },
+    {
+      "id": "yt-dlp-web",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/yt-dlp-web/update.sh",
+      "file": "update-uninstall/yt-dlp-web-update.sh",
+      "sha256": "7d92735671c6e06b091c20d64b5c0dc03807fe945e06b8bbcd6362d5793cd651",
+      "size_bytes": 2875
+    },
+    {
+      "id": "yt-dlp-web",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/yt-dlp-web/uninstall.sh",
+      "file": "update-uninstall/yt-dlp-web-uninstall.sh",
+      "sha256": "1a4bdb664d43c5ad36b4b39444331d3ae01bb51b5a2c4eb5d989f3b5c8237ed4",
+      "size_bytes": 322
+    },
+    {
+      "id": "nvr-lite",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/nvr-lite/update.sh",
+      "file": "update-uninstall/nvr-lite-update.sh",
+      "sha256": "7f7caa0ffe4eb13a6aca297fc6ed16154a2fc0ddb8573db2094b4d28ebd3969c",
+      "size_bytes": 651
+    },
+    {
+      "id": "nvr-lite",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/nvr-lite/uninstall.sh",
+      "file": "update-uninstall/nvr-lite-uninstall.sh",
+      "sha256": "46ab0ca15bd5d98b505a2ff97a7f17020d34e762c96eef3ff4392914f9a9560b",
+      "size_bytes": 830
+    },
+    {
+      "id": "minidlna",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/minidlna/update.sh",
+      "file": "update-uninstall/minidlna-update.sh",
+      "sha256": "9a6b9071f8531e34e7141cb12f53805338665d5be6c78788b0e6a287eb002bee",
+      "size_bytes": 445
+    },
+    {
+      "id": "minidlna",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/minidlna/uninstall.sh",
+      "file": "update-uninstall/minidlna-uninstall.sh",
+      "sha256": "3f6d11aa92ef6a02adaae312609c576d85207b8cdaaff3571e0be8bf332b1f68",
+      "size_bytes": 516
+    },
+    {
+      "id": "onecloud-led",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/onecloud-led/update.sh",
+      "file": "update-uninstall/onecloud-led-update.sh",
+      "sha256": "c5da1a8217f82e4ab290c113c1128b6850ae0c52c85d9fc9a7966aa077037447",
+      "size_bytes": 403
+    },
+    {
+      "id": "onecloud-led",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/onecloud-led/uninstall.sh",
+      "file": "update-uninstall/onecloud-led-uninstall.sh",
+      "sha256": "9331e45e3f31b2889863aac8960e09f77eae85ea4f112b416b0a8cd8e90b9fec",
+      "size_bytes": 491
+    },
+    {
+      "id": "oec-led",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/oec-led/update.sh",
+      "file": "update-uninstall/oec-led-update.sh",
+      "sha256": "41fb6e75e41fa7f46ee961f41735656a8f6eb940e4d96e999f0d3de25ab940cd",
+      "size_bytes": 392
+    },
+    {
+      "id": "oec-led",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/oec-led/uninstall.sh",
+      "file": "update-uninstall/oec-led-uninstall.sh",
+      "sha256": "e993da2eeae460e6c78e3eb948a590ea36832b431e2cd454ce03980cc5cf5438",
+      "size_bytes": 475
+    },
+    {
+      "id": "sqlite-phpliteadmin",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/sqlite-phpliteadmin/update.sh",
+      "file": "update-uninstall/sqlite-phpliteadmin-update.sh",
+      "sha256": "eecffcca410a3f2cc009723b2f06ad7c91a27f07478422ebae39e367457a67ae",
+      "size_bytes": 7325
+    },
+    {
+      "id": "sqlite-phpliteadmin",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/sqlite-phpliteadmin/uninstall.sh",
+      "file": "update-uninstall/sqlite-phpliteadmin-uninstall.sh",
+      "sha256": "b2ba3d132eb25fffa84ec9089caa341616cf774446073587f6a6440c049f9920",
+      "size_bytes": 652
+    },
+    {
+      "id": "mariadb-adminer",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/mariadb-adminer/update.sh",
+      "file": "update-uninstall/mariadb-adminer-update.sh",
+      "sha256": "247f02867257781f26b0e2e439529ac31ea973f8913dca4035e3f8015e93a6e1",
+      "size_bytes": 8615
+    },
+    {
+      "id": "mariadb-adminer",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/mariadb-adminer/uninstall.sh",
+      "file": "update-uninstall/mariadb-adminer-uninstall.sh",
+      "sha256": "009d7b48fe163a98913a62a9d061c0751350ebff00ddd0d0b653bf13b4c8bf05",
+      "size_bytes": 825
+    },
+    {
+      "id": "home-assistant",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/home-assistant/update.sh",
+      "file": "update-uninstall/home-assistant-update.sh",
+      "sha256": "408f4c9d10842b41e8fe6c80a92260d644ee4140c4d6d2c00ed9c42e555e5f33",
+      "size_bytes": 8675
+    },
+    {
+      "id": "home-assistant",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/home-assistant/uninstall.sh",
+      "file": "update-uninstall/home-assistant-uninstall.sh",
+      "sha256": "0de1dcdbdb6a8d0fe8d0b76192d5a2ef823d9ca3c2fc8d7d3982d5196fd740a1",
+      "size_bytes": 823
+    },
+    {
+      "id": "daidai-panel",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/daidai-panel/update.sh",
+      "file": "update-uninstall/daidai-panel-update.sh",
+      "sha256": "6a2f9d3fd6ffd94a1082e6945238d53f194a313564a3362e4d0874b6d598d5d3",
+      "size_bytes": 3701
+    },
+    {
+      "id": "daidai-panel",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/daidai-panel/uninstall.sh",
+      "file": "update-uninstall/daidai-panel-uninstall.sh",
+      "sha256": "02c9c9a44c3a8252add5b2f6c5bd9f34c3c83dfdc97a66339c16fb5f0dcefd39",
+      "size_bytes": 592
+    },
+    {
+      "id": "qinglong",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/qinglong/update.sh",
+      "file": "update-uninstall/qinglong-update.sh",
+      "sha256": "d4264abc263eb2d03c82fbb90905b7b8ab5743ecc13e16182c0e0ef83469f3b5",
+      "size_bytes": 5068
+    },
+    {
+      "id": "qinglong",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/qinglong/uninstall.sh",
+      "file": "update-uninstall/qinglong-uninstall.sh",
+      "sha256": "20726258eadcfeb2878a4a3917536dcc4ea2d3b19b1072634746886552c3e527",
+      "size_bytes": 911
+    },
+    {
+      "id": "tiantang",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/tiantang/update.sh",
+      "file": "update-uninstall/tiantang-update.sh",
+      "sha256": "8f8e19bcde52c740f09412c7798da02c025940669efbdde58ec9400b86e943d5",
+      "size_bytes": 55
+    },
+    {
+      "id": "tiantang",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/tiantang/uninstall.sh",
+      "file": "update-uninstall/tiantang-uninstall.sh",
+      "sha256": "8c954a8b600245f491d274bc11b812de5ede2b30f50e20f7de0f68a1e405a20b",
+      "size_bytes": 1813
+    },
+    {
+      "id": "xianyu-autodelivery",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/xianyu-autodelivery/update.sh",
+      "file": "update-uninstall/xianyu-autodelivery-update.sh",
+      "sha256": "4df968ef17c717567576563beafd127f655bcbc1f3e19f2ede115809ba01eef8",
+      "size_bytes": 3949
+    },
+    {
+      "id": "xianyu-autodelivery",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/xianyu-autodelivery/uninstall.sh",
+      "file": "update-uninstall/xianyu-autodelivery-uninstall.sh",
+      "sha256": "4bc9160716f4323f80d059c5acb0817329bad96443b29718b6dd0f85723055db",
+      "size_bytes": 692
+    },
+    {
+      "id": "wol-network-wakeup",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/wol-network-wakeup/update.sh",
+      "file": "update-uninstall/wol-network-wakeup-update.sh",
+      "sha256": "5dd1abe3a73b1e12e9e2c2980b0ca69801976cbc1f9cfff40103151166c484c6",
+      "size_bytes": 4040
+    },
+    {
+      "id": "wol-network-wakeup",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/wol-network-wakeup/uninstall.sh",
+      "file": "update-uninstall/wol-network-wakeup-uninstall.sh",
+      "sha256": "83f91d20d35aa8c6de9e1ee1b3d8a0c7c8a42229d8f7b71bfdcf77adaebd85ad",
+      "size_bytes": 600
+    },
+    {
+      "id": "live-recorder",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/live-recorder/update.sh",
+      "file": "update-uninstall/live-recorder-update.sh",
+      "sha256": "dff5825fde128f58d9c0982d8ba627f7a16d59516972d75654eb0d8608698270",
+      "size_bytes": 4114
+    },
+    {
+      "id": "live-recorder",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/live-recorder/uninstall.sh",
+      "file": "update-uninstall/live-recorder-uninstall.sh",
+      "sha256": "8f511b33ce2cb99331473ba05b99378a465751295abfd364c1d6b17067c9bf73",
+      "size_bytes": 588
+    },
+    {
+      "id": "bt-panel",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/bt-panel/update.sh",
+      "file": "update-uninstall/bt-panel-update.sh",
+      "sha256": "64bc7885a97631e48091e31095e768491708c2348223879e2a09b1accd343528",
+      "size_bytes": 9403
+    },
+    {
+      "id": "bt-panel",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/bt-panel/uninstall.sh",
+      "file": "update-uninstall/bt-panel-uninstall.sh",
+      "sha256": "05d459c3f19700db330a848485055fc147334bafa58dffccb8aa7e89658c5558",
+      "size_bytes": 1287
+    },
+    {
+      "id": "baidupan-client",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/baidupan-client/update.sh",
+      "file": "update-uninstall/baidupan-client-update.sh",
+      "sha256": "daf7981f7dc50a078c758edaa31f7692eb08415ccdfd456c2466eb0349140d36",
+      "size_bytes": 5175
+    },
+    {
+      "id": "baidupan-client",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/baidupan-client/uninstall.sh",
+      "file": "update-uninstall/baidupan-client-uninstall.sh",
+      "sha256": "f382b8217c25e4089880bcc3483f998908e6e29bdc074a176789909e37a3c411",
+      "size_bytes": 576
+    },
+    {
+      "id": "new-api",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/new-api/update.sh",
+      "file": "update-uninstall/new-api-update.sh",
+      "sha256": "2e39fc0cb72aa6492b75d64b310006ff3c12d55f4341a12e555b762f45e8753a",
+      "size_bytes": 4303
+    },
+    {
+      "id": "new-api",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/new-api/uninstall.sh",
+      "file": "update-uninstall/new-api-uninstall.sh",
+      "sha256": "c85a14f15b9d0ac61033c63fa09f256fca164bb0ba4ae0a353c5076ff2279170",
+      "size_bytes": 601
+    },
+    {
+      "id": "lucky",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/lucky/update.sh",
+      "file": "update-uninstall/lucky-update.sh",
+      "sha256": "8b4cd1bc36f1a98a6d908e99481130c0ba588d214c504acd709bd5c03a31c02c",
+      "size_bytes": 4298
+    },
+    {
+      "id": "lucky",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/lucky/uninstall.sh",
+      "file": "update-uninstall/lucky-uninstall.sh",
+      "sha256": "d9f315a3d64fe1b495b793d0f92f9e2b742061b0d5ab20fa9c15fa548e5c8430",
+      "size_bytes": 633
+    },
+    {
+      "id": "sub2api",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/sub2api/update.sh",
+      "file": "update-uninstall/sub2api-update.sh",
+      "sha256": "b0e0261f6966d799ed9515ac9fd7baff1826b094ce3d02a526baac972cdb1499",
+      "size_bytes": 3807
+    },
+    {
+      "id": "sub2api",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/sub2api/uninstall.sh",
+      "file": "update-uninstall/sub2api-uninstall.sh",
+      "sha256": "6f08fe9e3703fc70b1a3bfb92490b564635cdca94a69fa810b6386f18c5df664",
+      "size_bytes": 633
+    },
+    {
+      "id": "bark-server",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/bark-server/update.sh",
+      "file": "update-uninstall/bark-server-update.sh",
+      "sha256": "fa66d0b8afeacb5c0017251f5b739c4dea0d44856e438aa5a83cc6bc23d807e8",
+      "size_bytes": 4094
+    },
+    {
+      "id": "bark-server",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/bark-server/uninstall.sh",
+      "file": "update-uninstall/bark-server-uninstall.sh",
+      "sha256": "593f7e50ee3291c2a639673cccdde6214800c73d71976054b3a4723570a3a832",
+      "size_bytes": 644
+    },
+    {
+      "id": "cloud189-client",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/cloud189-client/update.sh",
+      "file": "update-uninstall/cloud189-client-update.sh",
+      "sha256": "d5b706c02af0b2924afb73cd9932ab93805787ec4146f8353032f3c61d3ca5f3",
+      "size_bytes": 4154
+    },
+    {
+      "id": "cloud189-client",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/cloud189-client/uninstall.sh",
+      "file": "update-uninstall/cloud189-client-uninstall.sh",
+      "sha256": "6f8d3a876715b393927bce8075b984160ea1a7b622d88e187e459a13c46cb935",
+      "size_bytes": 651
+    },
+    {
+      "id": "cloud139-client",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/cloud139-client/update.sh",
+      "file": "update-uninstall/cloud139-client-update.sh",
+      "sha256": "14d8ffd8f25090e072034ca47011cd87cd07cac561b7510e3e4eea3a7e919095",
+      "size_bytes": 4154
+    },
+    {
+      "id": "cloud139-client",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/cloud139-client/uninstall.sh",
+      "file": "update-uninstall/cloud139-client-uninstall.sh",
+      "sha256": "9807e426bfcfdf42ebbe331509c5899003519243e2f1d4eabc4708c41ac5d61f",
+      "size_bytes": 651
+    },
+    {
+      "id": "quarkpan-client",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/quarkpan-client/update.sh",
+      "file": "update-uninstall/quarkpan-client-update.sh",
+      "sha256": "7b4046405ad7604972be6a015bf987a06b4b064f2b8bd5596fbe9a5f50da9348",
+      "size_bytes": 4154
+    },
+    {
+      "id": "quarkpan-client",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/quarkpan-client/uninstall.sh",
+      "file": "update-uninstall/quarkpan-client-uninstall.sh",
+      "sha256": "b7ce8a86d90a43a052912ca020d3860af9f342b28c4504eabdc1304d2f1fed94",
+      "size_bytes": 651
+    },
+    {
+      "id": "alipan-client",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/alipan-client/update.sh",
+      "file": "update-uninstall/alipan-client-update.sh",
+      "sha256": "f25efd4520f7f2b0adfdd9f3a395a5b65c8634ca216efbbe872c04fc56e901b6",
+      "size_bytes": 4116
+    },
+    {
+      "id": "alipan-client",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/alipan-client/uninstall.sh",
+      "file": "update-uninstall/alipan-client-uninstall.sh",
+      "sha256": "8c526839a5760dc8b297fe81bda57398a8d7b65436a59756c67d3e372a101d47",
+      "size_bytes": 647
+    },
+    {
+      "id": "xiaozhi-server",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/xiaozhi-server/update.sh",
+      "file": "update-uninstall/xiaozhi-server-update.sh",
+      "sha256": "70afdd43d0ead78048af5599b729b036c459374716c65eaa1b2d905aaa6dd4fd",
+      "size_bytes": 7944
+    },
+    {
+      "id": "xiaozhi-server",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/xiaozhi-server/uninstall.sh",
+      "file": "update-uninstall/xiaozhi-server-uninstall.sh",
+      "sha256": "cd529ca3c155586d3c4e0141c37ddb0b7d812f262def7642e02771e04f0b68a9",
+      "size_bytes": 654
+    },
+    {
+      "id": "wanos-ffstreamer",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/wanos-ffstreamer/update.sh",
+      "file": "update-uninstall/wanos-ffstreamer-update.sh",
+      "sha256": "4d9b1492a2be43d1f20a489abdef8366f901800421f557af8a10a11b684ec1da",
+      "size_bytes": 4152
+    },
+    {
+      "id": "wanos-ffstreamer",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/wanos-ffstreamer/uninstall.sh",
+      "file": "update-uninstall/wanos-ffstreamer-uninstall.sh",
+      "sha256": "030103e1f31c17662b77aad5de98e895e0a98c60996f9b293d1a8a8a3f89dce4",
+      "size_bytes": 653
+    },
+    {
+      "id": "115pan-client",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/115pan-client/update.sh",
+      "file": "update-uninstall/115pan-client-update.sh",
+      "sha256": "212c7f05bc0f0e68ebdeee57ba1ba66b8c6cddb0a41681a1302f11105c51514e",
+      "size_bytes": 4147
+    },
+    {
+      "id": "115pan-client",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/115pan-client/uninstall.sh",
+      "file": "update-uninstall/115pan-client-uninstall.sh",
+      "sha256": "d85e4800edb21aa61475f6ce05cca833cd3427a5157adb9f9bd5cb098302b511",
+      "size_bytes": 644
+    },
+    {
+      "id": "123pan-client",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/123pan-client/update.sh",
+      "file": "update-uninstall/123pan-client-update.sh",
+      "sha256": "d8a5bdef14ebdabcace28f76dc87fb1f6713628505d46a6d0d07b0f75c21f243",
+      "size_bytes": 4147
+    },
+    {
+      "id": "123pan-client",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/123pan-client/uninstall.sh",
+      "file": "update-uninstall/123pan-client-uninstall.sh",
+      "sha256": "52b9ad288de73ce01c13bfad3acecbe0f7486f4d1fde2f075c80b0fd60bd4cae",
+      "size_bytes": 644
+    },
+    {
+      "id": "quark-auto-save",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/quark-auto-save/update-v4.sh",
+      "file": "update-uninstall/quark-auto-save-update.sh",
+      "sha256": "2f1fb43508dee557c74c36a01c9cb73225190d949432ab03588f3630de26fd11",
+      "size_bytes": 6188
+    },
+    {
+      "id": "quark-auto-save",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/quark-auto-save/uninstall.sh",
+      "file": "update-uninstall/quark-auto-save-uninstall.sh",
+      "sha256": "8a186a30d26a6e974a579608ccc2748a9c278e924a0d315ca5992d68a6cdf2cf",
+      "size_bytes": 1018
+    },
+    {
+      "id": "pansou",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/pansou/update.sh",
+      "file": "update-uninstall/pansou-update.sh",
+      "sha256": "a1d0b63fd4e7edf43f7ce5de81c7e2e6c9dd337307a9d81a85fb4c3874d3fa22",
+      "size_bytes": 8921
+    },
+    {
+      "id": "pansou",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/pansou/uninstall.sh",
+      "file": "update-uninstall/pansou-uninstall.sh",
+      "sha256": "8bf6c5d51b363d82d5073f35c9f0adec61c3c05bc1467c171cf277338b127cde",
+      "size_bytes": 682
+    },
+    {
+      "id": "m3u8-downloader",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/m3u8-downloader/update.sh?v=1.0.0-wanos.4",
+      "file": "update-uninstall/m3u8-downloader-update.sh",
+      "sha256": "404a33880902032e8ae80fec12a331b70126cd9caf07eb117c0f838ed403cc70",
+      "size_bytes": 4823
+    },
+    {
+      "id": "m3u8-downloader",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/m3u8-downloader/uninstall.sh",
+      "file": "update-uninstall/m3u8-downloader-uninstall.sh",
+      "sha256": "965fe7039c075b6af5d0994f381dd3edf50813df34456dd660fbebae0884c310",
+      "size_bytes": 654
+    },
+    {
+      "id": "easytier",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/easytier/update.sh?v=2.6.4-wanos.2",
+      "file": "update-uninstall/easytier-update.sh",
+      "sha256": "87184021d792d0683d62d3770e5e3740a9b68a5ea582d414cc83c706f5e681c0",
+      "size_bytes": 459
+    },
+    {
+      "id": "easytier",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/easytier/uninstall.sh",
+      "file": "update-uninstall/easytier-uninstall.sh",
+      "sha256": "c6af8913bf5250fcdbb35cc2f9b86e9c1ea0b523f9b5651e3dbfe640e00ae6d3",
+      "size_bytes": 894
+    },
+    {
+      "id": "ntfy",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/ntfy/update.sh",
+      "file": "update-uninstall/ntfy-update.sh",
+      "sha256": "3bf89a46c95d5d46ca396381dbdce9b37db56fc82600c33f743286d6d90258b1",
+      "size_bytes": 4964
+    },
+    {
+      "id": "ntfy",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/ntfy/uninstall.sh",
+      "file": "update-uninstall/ntfy-uninstall.sh",
+      "sha256": "431ac093bb7178c53dda75347566755faae7264fed162772e7d74f1b0add5eb6",
+      "size_bytes": 634
+    },
+    {
+      "id": "gotify",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/gotify/update.sh",
+      "file": "update-uninstall/gotify-update.sh",
+      "sha256": "049291176c86028955ada01c85fb72ff70f48e31825a68105af472ad13f9651a",
+      "size_bytes": 5043
+    },
+    {
+      "id": "gotify",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/gotify/uninstall.sh",
+      "file": "update-uninstall/gotify-uninstall.sh",
+      "sha256": "72c60952e09e6a0297056379bf4cc59f46a7c6d858493640db336107a71d0ac3",
+      "size_bytes": 640
+    },
+    {
+      "id": "onlyoffice-personal",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/onlyoffice-personal/update.sh",
+      "file": "update-uninstall/onlyoffice-personal-update.sh",
+      "sha256": "301ab3e94ce2dd0d5a23f70d091afc01d62a79b567bf559a9b6d24d3bb229a27",
+      "size_bytes": 325
+    },
+    {
+      "id": "onlyoffice-personal",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/onlyoffice-personal/uninstall.sh",
+      "file": "update-uninstall/onlyoffice-personal-uninstall.sh",
+      "sha256": "714f3a6f58baffa6b5d02b2f47a801b4bf3d6d7ae23a085384a40043ab191cdd",
+      "size_bytes": 552
+    },
+    {
+      "id": "webview-tv-live",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/webview-tv-live/update.sh",
+      "file": "update-uninstall/webview-tv-live-update.sh",
+      "sha256": "cf7610b57064b6070eb064d3923450db709549005d79bd65ea23c714e620f189",
+      "size_bytes": 5063
+    },
+    {
+      "id": "webview-tv-live",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/webview-tv-live/uninstall.sh",
+      "file": "update-uninstall/webview-tv-live-uninstall.sh",
+      "sha256": "164c7b36584f7068d8872f7d583edf64ad361e4914a8d46959ee802367ac0a3e",
+      "size_bytes": 654
+    },
+    {
+      "id": "wanos-cf-tunnel",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/wanos-cf-tunnel/update-v4.sh",
+      "file": "update-uninstall/wanos-cf-tunnel-update.sh",
+      "sha256": "b9ba5fb91fea3db5edd31f1306e20a73aec3f2f1e2d90a73ec77f963bf37b76d",
+      "size_bytes": 4417
+    },
+    {
+      "id": "wanos-cf-tunnel",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/wanos-cf-tunnel/uninstall.sh",
+      "file": "update-uninstall/wanos-cf-tunnel-uninstall.sh",
+      "sha256": "33e817f1a320a2d531958961ab06a8407a996fe61599c48c71e6428b89608213",
+      "size_bytes": 912
+    },
+    {
+      "id": "xunlei",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/xunlei/update.sh?v=4.0.0-beta-wanos.9",
+      "file": "update-uninstall/xunlei-update.sh",
+      "sha256": "547ef3612f433a40ac03f9a4591a201d0148faa52e282e9fa6d33fdf2498cb40",
+      "size_bytes": 5774
+    },
+    {
+      "id": "xunlei",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/xunlei/uninstall.sh",
+      "file": "update-uninstall/xunlei-uninstall.sh",
+      "sha256": "c52f8cd6560212f07c8fd24bcc1e82bdd1f83693c933cd595dbda699fc20adff",
+      "size_bytes": 677
+    },
+    {
+      "id": "wanos-wallpaper",
+      "kind": "update",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/install-v4.sh",
+      "file": "update-uninstall/wanos-wallpaper-update.sh",
+      "sha256": "fad81150ef1a08edb8fe0044719e1b0628ba1ac67986a5a736cee2a804e56bc5",
+      "size_bytes": 3550
+    },
+    {
+      "id": "wanos-wallpaper",
+      "kind": "uninstall",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/uninstall-v4.sh",
+      "file": "update-uninstall/wanos-wallpaper-uninstall.sh",
+      "sha256": "86785f06d003333fabb3266314308ae25cc9aca23444a10a07b00ae90d826aa0",
+      "size_bytes": 355
+    },
+    {
+      "id": "lanzoupan-client",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/lanzoupan-client/update.sh?v=1.0.0-wanos.3",
+      "file": "update-uninstall/lanzoupan-client-update.sh",
+      "sha256": "a7809f869070430d850981c5837d5d6be8032c55531652ca39736dc90dda7b42",
+      "size_bytes": 4889
+    },
+    {
+      "id": "lanzoupan-client",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/lanzoupan-client/uninstall.sh",
+      "file": "update-uninstall/lanzoupan-client-uninstall.sh",
+      "sha256": "f1e9126e98e56d4223bff344aa01f16bea04ce7470456f5490587d994b421185",
+      "size_bytes": 653
+    },
+    {
+      "id": "happy-guandan",
+      "kind": "update",
+      "url": "https://wanos.xyz/downloads/apps/happy-guandan/update.sh?v=1.0.0-wanos.6",
+      "file": "update-uninstall/happy-guandan-update.sh",
+      "sha256": "b58b8ae26c46a5cb3c67f7b57b20f5a1cc8ed0a6b370350545136bf6ba4e43ed",
+      "size_bytes": 4560
+    },
+    {
+      "id": "happy-guandan",
+      "kind": "uninstall",
+      "url": "https://wanos.xyz/downloads/apps/happy-guandan/uninstall.sh",
+      "file": "update-uninstall/happy-guandan-uninstall.sh",
+      "sha256": "86f37802397198155fc102fe22a7b1a34cfe7bf130895bae720ecf8c5c3071f6",
+      "size_bytes": 644
+    }
+  ],
+  "scripts_failed": [],
+  "icons": [
+    {
+      "id": "wanos-ai-assistant",
+      "url": "https://wanos.xyz/downloads/apps/wanos-ai-assistant/icon.png",
+      "file": "icons/wanos-ai-assistant.png",
+      "sha256": "c1dd52f2fe0382667426b58d417c05bc72bedf75c8e49e52255d90ce4decbf7a",
+      "size_bytes": 4591
+    },
+    {
+      "id": "wanos-wifi-drivers",
+      "url": "https://wanos.xyz/downloads/apps/wanos-wifi-drivers/wifi-drivers.png",
+      "file": "icons/wanos-wifi-drivers.png",
+      "sha256": "0725fec3188fcf4d86102894980874526bae693769ca797e09928537e285a342",
+      "size_bytes": 3146
+    },
+    {
+      "id": "picoclaw",
+      "url": "https://wanos.xyz/downloads/apps/picoclaw/longxia.png",
+      "file": "icons/picoclaw.png",
+      "sha256": "f262b48a76e3c339960ab6ab629d9b759a379f86d33471124063cae54390b2c0",
+      "size_bytes": 7493
+    },
+    {
+      "id": "ddns-go",
+      "url": "https://wanos.xyz/downloads/apps/ddns-go/DDNS.png",
+      "file": "icons/ddns-go.png",
+      "sha256": "ced19eef1bc9f8280d489ba00ee5afabd892615e4a5647b2840279faeae02143",
+      "size_bytes": 4333
+    },
+    {
+      "id": "tailscale",
+      "url": "https://wanos.xyz/downloads/apps/tailscale/tailscale.png",
+      "file": "icons/tailscale.png",
+      "sha256": "19c810429c0978d74048166934d38938af00c414698bb689995c2a10942ad55b",
+      "size_bytes": 4999
+    },
+    {
+      "id": "openlist",
+      "url": "https://wanos.xyz/downloads/apps/openlist/openlist.svg",
+      "file": "icons/openlist.svg",
+      "sha256": "0aab9890d14881b8f88f262acd38918b90627abb6792b7879c07baf489048e8a",
+      "size_bytes": 1588
+    },
+    {
+      "id": "nut-ups",
+      "url": "https://wanos.xyz/downloads/apps/nut-ups/ups.png",
+      "file": "icons/nut-ups.png",
+      "sha256": "42a2f6625b5d8bf31df336cd4258c59e0edc999dccf62eb9bd8c003f196493bd",
+      "size_bytes": 3200
+    },
+    {
+      "id": "xiaoya-alist",
+      "url": "https://wanos.xyz/downloads/apps/xiaoya-alist/xiaoya-alist.png",
+      "file": "icons/xiaoya-alist.png",
+      "sha256": "8b83e93e7f486395d8aa4599fafc11d663050a11eae9585fcddd4518c60f130b",
+      "size_bytes": 16029
+    },
+    {
+      "id": "gopeed",
+      "url": "https://wanos.xyz/downloads/apps/gopeed/gopeed.png",
+      "file": "icons/gopeed.png",
+      "sha256": "19e2890b95ea07cd0719ac36f90cf13a8758cda962f9df99a779483ff0a59eaf",
+      "size_bytes": 3965
+    },
+    {
+      "id": "jiedianxiaobao",
+      "url": "https://wanos.xyz/downloads/apps/jiedianxiaobao/jiedianxiaobao.png",
+      "file": "icons/jiedianxiaobao.png",
+      "sha256": "1febf4391832402a81d50018849a2e49f3eaad354847b2eba20d136701cd698d",
+      "size_bytes": 8615
+    },
+    {
+      "id": "phddns",
+      "url": "https://wanos.xyz/downloads/apps/phddns/phddns.png",
+      "file": "icons/phddns.png",
+      "sha256": "ab2eb05b2b7ab5d3bc4efbaba67196cf628ed3e1fb1a2af1872c91f69fb0c766",
+      "size_bytes": 17482
+    },
+    {
+      "id": "chromium-headless",
+      "url": "https://wanos.xyz/downloads/apps/chromium-headless/chromium.png",
+      "file": "icons/chromium-headless.png",
+      "sha256": "5f422d240fbd4fdafdb3a0ec50db7603cd2567360a68fbe3bcb28161dea45ba4",
+      "size_bytes": 7836
+    },
+    {
+      "id": "v2ray-proxy",
+      "url": "https://wanos.xyz/downloads/apps/v2ray-proxy/v2rayN.png",
+      "file": "icons/v2ray-proxy.png",
+      "sha256": "6c36afc700e3b468f5963ac0e905203a93c210d91aef314e8b4ca685b62b178a",
+      "size_bytes": 3909
+    },
+    {
+      "id": "kodbox",
+      "url": "https://wanos.xyz/downloads/apps/kodbox/kodbox.png",
+      "file": "icons/kodbox.png",
+      "sha256": "74cd9656f4542caba079ede13e97ce0deb8ef904c3a276e09702cfdf6997cb7d",
+      "size_bytes": 53152
+    },
+    {
+      "id": "ftp-server",
+      "url": "https://wanos.xyz/downloads/apps/ftp-server/ftp.png",
+      "file": "icons/ftp-server.png",
+      "sha256": "9bdc4cb579c00089bf4f5694027e5b4084ab1142b50debf84a66e65fb64b5e4f",
+      "size_bytes": 3460
+    },
+    {
+      "id": "webdav-server",
+      "url": "https://wanos.xyz/downloads/apps/webdav-server/webdav.png",
+      "file": "icons/webdav-server.png",
+      "sha256": "d321cef99f580f4d2fc2598c8b7a810959a959f26b3e0221b7b32da553f737d2",
+      "size_bytes": 4372
+    },
+    {
+      "id": "cups-print",
+      "url": "https://wanos.xyz/downloads/apps/cups-print/printer.png",
+      "file": "icons/cups-print.png",
+      "sha256": "65e3308af60548f69e53fcce8b16ac40e7275af99483a6b799189ea14b816c3b",
+      "size_bytes": 4147
+    },
+    {
+      "id": "adguard-home",
+      "url": "https://wanos.xyz/downloads/apps/adguard-home/adguard-home.png",
+      "file": "icons/adguard-home.png",
+      "sha256": "2851044220c9877316d090bf5a588ef9b6cb4367a4450802ee61131eb47ec63d",
+      "size_bytes": 5457
+    },
+    {
+      "id": "minecraft-java",
+      "url": "https://wanos.xyz/downloads/apps/minecraft-java/minecraft.png",
+      "file": "icons/minecraft-java.png",
+      "sha256": "75b41639bd6716227846b6b00f9e89417e8dcad363806ee01fe02a2006e00b6e",
+      "size_bytes": 156289
+    },
+    {
+      "id": "syncthing",
+      "url": "https://wanos.xyz/downloads/apps/syncthing/syncthing.png",
+      "file": "icons/syncthing.png",
+      "sha256": "1d8869b3d5c8692b67260b24aefc617e38b1b269f07cee69ef85b4676d6d8866",
+      "size_bytes": 142328
+    },
+    {
+      "id": "verysync",
+      "url": "https://wanos.xyz/downloads/apps/verysync/verysync.png",
+      "file": "icons/verysync.png",
+      "sha256": "bdc5242bbc454629611a2f04c9e335045ca6c6ffa31afa164c85ec7d3385bdd6",
+      "size_bytes": 12746
+    },
+    {
+      "id": "linkease",
+      "url": "https://wanos.xyz/downloads/apps/linkease/linkease.jpg",
+      "file": "icons/linkease.jpg",
+      "sha256": "775af045162d795d398f63386904ffbd090df7ddb3fefda8c49fa62670841117",
+      "size_bytes": 4292
+    },
+    {
+      "id": "typecho-blog",
+      "url": "https://wanos.xyz/downloads/apps/typecho-blog/typecho.png",
+      "file": "icons/typecho-blog.png",
+      "sha256": "61804b633c3e3f4030c9d9abeb655ebdfb71a00cd1d60310a7bdb68d08fcc4a0",
+      "size_bytes": 3173
+    },
+    {
+      "id": "filebrowser",
+      "url": "https://wanos.xyz/downloads/apps/filebrowser/filebrowser.png",
+      "file": "icons/filebrowser.png",
+      "sha256": "53ec753d0f1610297fa3199543b2c26919983e56862425be40b6eda16c3feb74",
+      "size_bytes": 153173
+    },
+    {
+      "id": "gitea",
+      "url": "https://wanos.xyz/downloads/apps/gitea/gitea.png",
+      "file": "icons/gitea.png",
+      "sha256": "da4265ce0dda46671e516b0b43ea44ce6371b568f26da41665f9ac7f25d0392e",
+      "size_bytes": 3674
+    },
+    {
+      "id": "mrdoc",
+      "url": "https://wanos.xyz/downloads/apps/mrdoc/mrdoc.png",
+      "file": "icons/mrdoc.png",
+      "sha256": "f35cbdfef0eac2c181b0b986e759cb0e8940b56ab04aae5146c9cb5322bb81f8",
+      "size_bytes": 38191
+    },
+    {
+      "id": "yt-dlp-web",
+      "url": "https://wanos.xyz/downloads/apps/yt-dlp-web/yt-dlp.svg",
+      "file": "icons/yt-dlp-web.svg",
+      "sha256": "1ba8858dd46a83a553d1add5d68a200653ee566d9603de7c6830bb1ba69ae577",
+      "size_bytes": 386
+    },
+    {
+      "id": "nvr-lite",
+      "url": "https://wanos.xyz/downloads/apps/nvr-lite/camera.png",
+      "file": "icons/nvr-lite.png",
+      "sha256": "3c3ac9a0882a3b3be1fb151477f3c19e212e4dc6eaad2a9d1f95b10fa222e6d6",
+      "size_bytes": 6175
+    },
+    {
+      "id": "minidlna",
+      "url": "https://wanos.xyz/downloads/apps/minidlna/dlna.png",
+      "file": "icons/minidlna.png",
+      "sha256": "d23091a7de8b0f3fc1550c8326270f1153957b22de6c86dbde9c6527da3af43a",
+      "size_bytes": 4850
+    },
+    {
+      "id": "onecloud-led",
+      "url": "https://wanos.xyz/downloads/apps/onecloud-led/status-led-green.png",
+      "file": "icons/onecloud-led.png",
+      "sha256": "223c35f2ab01baa4357c1730e528d82913991fb745b47fc8aa126baf83de6441",
+      "size_bytes": 3029
+    },
+    {
+      "id": "oec-led",
+      "url": "https://wanos.xyz/downloads/apps/oec-led/status-led-green.png",
+      "file": "icons/oec-led.png",
+      "sha256": "223c35f2ab01baa4357c1730e528d82913991fb745b47fc8aa126baf83de6441",
+      "size_bytes": 3029
+    },
+    {
+      "id": "sqlite-phpliteadmin",
+      "url": "https://wanos.xyz/downloads/apps/sqlite-phpliteadmin/sqlite-phpliteadmin.svg",
+      "file": "icons/sqlite-phpliteadmin.svg",
+      "sha256": "cf2a22eae8e6f5d0e6d8b535bb81565bb08d4fd7d6ca7b76e04ecad14afb32c9",
+      "size_bytes": 527
+    },
+    {
+      "id": "mariadb-adminer",
+      "url": "https://wanos.xyz/downloads/apps/mariadb-adminer/DB-MariaDB.png",
+      "file": "icons/mariadb-adminer.png",
+      "sha256": "13abd716917683af201c16bef341db1b9de46630f04d09259cba1da14fe22953",
+      "size_bytes": 4680
+    },
+    {
+      "id": "home-assistant",
+      "url": "https://wanos.xyz/downloads/apps/home-assistant/home-assistant.png",
+      "file": "icons/home-assistant.png",
+      "sha256": "53364c781c24b684b0375018fadcbd4ea81c89f8616d7d9fc8f63ab8746ca0e5",
+      "size_bytes": 4078
+    },
+    {
+      "id": "daidai-panel",
+      "url": "https://wanos.xyz/downloads/apps/daidai-panel/icon.png",
+      "file": "icons/daidai-panel.png",
+      "sha256": "6da7053db3587f208f95cae8d36bfa4586dd90de918f0afd4696d805cb0fb4e2",
+      "size_bytes": 983283
+    },
+    {
+      "id": "qinglong",
+      "url": "https://wanos.xyz/downloads/apps/qinglong/appicon.png",
+      "file": "icons/qinglong.png",
+      "sha256": "55f674630be15527e73632edefcdc0474e38ad6fde2facb75ae57d43a355ec93",
+      "size_bytes": 526354
+    },
+    {
+      "id": "tiantang",
+      "url": "https://wanos.xyz/downloads/apps/tiantang/logo.png",
+      "file": "icons/tiantang.png",
+      "sha256": "e359b3c594730584cbb8d9b784bc7781cbfd37f2971a3a967a6b94c40fd9284e",
+      "size_bytes": 5614
+    },
+    {
+      "id": "xianyu-autodelivery",
+      "url": "https://wanos.xyz/downloads/apps/xianyu-autodelivery/icon.png",
+      "file": "icons/xianyu-autodelivery.png",
+      "sha256": "e0124559155b24b628a821e83c42f74c2a14c2c54f471ecff461fca24a9fdfb8",
+      "size_bytes": 4154
+    },
+    {
+      "id": "wol-network-wakeup",
+      "url": "https://wanos.xyz/downloads/apps/wol-network-wakeup/icon-small.png",
+      "file": "icons/wol-network-wakeup.png",
+      "sha256": "10a45b8639caaf1541137e30e6e60a7961712fa72324768ab16d9d098e1145f2",
+      "size_bytes": 39784
+    },
+    {
+      "id": "live-recorder",
+      "url": "https://wanos.xyz/downloads/apps/live-recorder/icon-small.png",
+      "file": "icons/live-recorder.png",
+      "sha256": "4e3a72eb3e746438efcaad1c801ac9eed0f2596aecc3899dd7f4eb5a7d61a58b",
+      "size_bytes": 31990
+    },
+    {
+      "id": "bt-panel",
+      "url": "https://wanos.xyz/downloads/apps/bt-panel/icon.png",
+      "file": "icons/bt-panel.png",
+      "sha256": "e58ecba7e4ec22168255923ccb4ecca6e32daa1d3ba1f07d8d6b47803dcf9397",
+      "size_bytes": 4716
+    },
+    {
+      "id": "baidupan-client",
+      "url": "https://wanos.xyz/downloads/apps/baidupan-client/icon.png",
+      "file": "icons/baidupan-client.png",
+      "sha256": "a3e6f60051d7e54c343d18dc80af12940ea073d3e074cf8e63f6bb3bb97b5e45",
+      "size_bytes": 6858
+    },
+    {
+      "id": "new-api",
+      "url": "https://wanos.xyz/downloads/apps/new-api/icon.png",
+      "file": "icons/new-api.png",
+      "sha256": "32132a307cad98d7f93b0384de87411f087bb34c148c932dcd5eea92101cbec3",
+      "size_bytes": 9597
+    },
+    {
+      "id": "lucky",
+      "url": "https://wanos.xyz/downloads/apps/lucky/icon.png",
+      "file": "icons/lucky.png",
+      "sha256": "0c1fa810721ee3c725b0f43ecc918a5a70aa97c0ac2949ca8e8fef44366fa1df",
+      "size_bytes": 13259
+    },
+    {
+      "id": "sub2api",
+      "url": "https://wanos.xyz/downloads/apps/sub2api/icon.png",
+      "file": "icons/sub2api.png",
+      "sha256": "0921a1ef22b5597aafd13a4a33009d551596966da65f10c450a20cb5812958d8",
+      "size_bytes": 274864
+    },
+    {
+      "id": "bark-server",
+      "url": "https://wanos.xyz/downloads/apps/bark-server/icon.png",
+      "file": "icons/bark-server.png",
+      "sha256": "c214e2797f5fb9724df25598b752401c6d443d8fb13942d46b6fed5523899e50",
+      "size_bytes": 7260
+    },
+    {
+      "id": "cloud189-client",
+      "url": "https://wanos.xyz/downloads/apps/cloud189-client/icon.png",
+      "file": "icons/cloud189-client.png",
+      "sha256": "0813e51e41eabd5216be85c946d6d983b30e2c504e8e5b4949289d33bffd86bc",
+      "size_bytes": 3965
+    },
+    {
+      "id": "cloud139-client",
+      "url": "https://wanos.xyz/downloads/apps/cloud139-client/icon.png",
+      "file": "icons/cloud139-client.png",
+      "sha256": "52e3430e065309bc417d9cf0992e5d8a038ff386b05002f281ac098070a32f59",
+      "size_bytes": 4416
+    },
+    {
+      "id": "quarkpan-client",
+      "url": "https://wanos.xyz/downloads/apps/quarkpan-client/icon.png",
+      "file": "icons/quarkpan-client.png",
+      "sha256": "58b31ab8dceb8a73dc93777a5399af43142889d4c03ad8fefb625f9264731365",
+      "size_bytes": 3887
+    },
+    {
+      "id": "alipan-client",
+      "url": "https://wanos.xyz/downloads/apps/alipan-client/icon.png",
+      "file": "icons/alipan-client.png",
+      "sha256": "fe8900cd6e653ee92ed312a47ebc4a058d6394aa0c8963fcbe30970960625fd3",
+      "size_bytes": 4305
+    },
+    {
+      "id": "xiaozhi-server",
+      "url": "https://wanos.xyz/downloads/apps/xiaozhi-server/icon.png",
+      "file": "icons/xiaozhi-server.png",
+      "sha256": "bb20c6437e2c3c9d6fffece8840ebca4495664a5a969aed5d01f8cd84960e896",
+      "size_bytes": 11135
+    },
+    {
+      "id": "wanos-ffstreamer",
+      "url": "https://wanos.xyz/downloads/apps/wanos-ffstreamer/icon.png",
+      "file": "icons/wanos-ffstreamer.png",
+      "sha256": "a506f6558eb170f42b955190db1f009f2286a9e8a33a87bc716a64fa39cc1db5",
+      "size_bytes": 5835
+    },
+    {
+      "id": "115pan-client",
+      "url": "https://wanos.xyz/downloads/apps/115pan-client/icon.png",
+      "file": "icons/115pan-client.png",
+      "sha256": "cd8b48f1451dc9b0f796e789a8f4f8daa5e88aad05a40ccbe9dcf2a7c9858157",
+      "size_bytes": 4471
+    },
+    {
+      "id": "123pan-client",
+      "url": "https://wanos.xyz/downloads/apps/123pan-client/icon.png",
+      "file": "icons/123pan-client.png",
+      "sha256": "3c4a70f17a48097cffc372e2b28eed151066546d60e492f4e4d7f2c66d2856f3",
+      "size_bytes": 3780
+    },
+    {
+      "id": "quark-auto-save",
+      "url": "https://wanos.xyz/downloads/apps/quark-auto-save/icon.png",
+      "file": "icons/quark-auto-save.png",
+      "sha256": "7504429870b120607f2ea192ced23f88aab2b28f8d11839d2b182fecacecf551",
+      "size_bytes": 4362
+    },
+    {
+      "id": "pansou",
+      "url": "https://wanos.xyz/downloads/apps/pansou/icon.png",
+      "file": "icons/pansou.png",
+      "sha256": "c2e890d7f6661e20ad7b8bf9ad66d0fd2d449a39631de1f062ccdc309569633c",
+      "size_bytes": 6137
+    },
+    {
+      "id": "m3u8-downloader",
+      "url": "https://wanos.xyz/downloads/apps/m3u8-downloader/icon.png",
+      "file": "icons/m3u8-downloader.png",
+      "sha256": "9e24b5c250f53121933d1baf7ec20e9453aee12053bea9c364ab74010bf68f61",
+      "size_bytes": 4606
+    },
+    {
+      "id": "easytier",
+      "url": "https://wanos.xyz/downloads/apps/easytier/icon.png",
+      "file": "icons/easytier.png",
+      "sha256": "be955729281ae6923a39502530c004bd7751de0cf2aa27be7f21475d442c91c2",
+      "size_bytes": 1420
+    },
+    {
+      "id": "ntfy",
+      "url": "https://wanos.xyz/downloads/apps/ntfy/icon.png",
+      "file": "icons/ntfy.png",
+      "sha256": "65b7048fa99ade480628a5c684267f71405a50235c60774bca8692aa773f3132",
+      "size_bytes": 18464
+    },
+    {
+      "id": "gotify",
+      "url": "https://wanos.xyz/downloads/apps/gotify/icon.png",
+      "file": "icons/gotify.png",
+      "sha256": "8ca415e72596669ce3bd05b97277af8a3dae2c4261c1a8f5a1c601b93dfe8954",
+      "size_bytes": 64843
+    },
+    {
+      "id": "onlyoffice-personal",
+      "url": "https://wanos.xyz/downloads/apps/onlyoffice-personal/icon.png",
+      "file": "icons/onlyoffice-personal.png",
+      "sha256": "14bc8d5454ea697bf656965b6fcb456b516e9234c731b20abfdfbb7d5775f661",
+      "size_bytes": 3425
+    },
+    {
+      "id": "webview-tv-live",
+      "url": "https://wanos.xyz/downloads/apps/webview-tv-live/icon.png",
+      "file": "icons/webview-tv-live.png",
+      "sha256": "f35161d646ffa3632a594c00e879937bd7d11976ccdded8ccda5b4a005d323a9",
+      "size_bytes": 2892
+    },
+    {
+      "id": "wanos-cf-tunnel",
+      "url": "https://wanos.xyz/downloads/apps/wanos-cf-tunnel/icon.png",
+      "file": "icons/wanos-cf-tunnel.png",
+      "sha256": "40b3f25585315c1f1a8da981001dc3e8d95549e9cdbd6d880c22d64bb23f8ca4",
+      "size_bytes": 6405
+    },
+    {
+      "id": "xunlei",
+      "url": "https://wanos.xyz/downloads/apps/xunlei/icon.png",
+      "file": "icons/xunlei.png",
+      "sha256": "9dbfef3b3a2f5aa97fd7962fcb8b38363bb16c57a28f44e1692550f4fb6da4fa",
+      "size_bytes": 4238
+    },
+    {
+      "id": "wanos-wallpaper",
+      "url": "https://wxqun988.vxjuejin.com/wanos/downloads/apps/wanos-wallpaper/icon-v3.png",
+      "file": "icons/wanos-wallpaper.png",
+      "sha256": "a8070e1659d711b59507d407c11ae13cb33588a829e386477467b74a8b75953c",
+      "size_bytes": 5295
+    },
+    {
+      "id": "wanos-2048",
+      "url": "https://wxqun988.vxjuejin.com/wanos/app-submissions/wanos-2048/wanos-2048-1784204854192/icon.png",
+      "file": "icons/wanos-2048.png",
+      "sha256": "cb780805d55c70270a828569413d93bca79ed437aa98cf882a01856b17684d20",
+      "size_bytes": 3327
+    },
+    {
+      "id": "lanzoupan-client",
+      "url": "https://wanos.xyz/downloads/apps/lanzoupan-client/icon.png",
+      "file": "icons/lanzoupan-client.png",
+      "sha256": "4d0744e339c1955fa73f54e4ad7b518a50fed620458a8614f196b32c4977b89e",
+      "size_bytes": 3321
+    },
+    {
+      "id": "happy-guandan",
+      "url": "https://wanos.xyz/downloads/apps/happy-guandan/icon.png",
+      "file": "icons/happy-guandan.png",
+      "sha256": "0c74dd39be538c6c3478f3786de83e073fcf1c8cc3a568d330eb24f75dbfe557",
+      "size_bytes": 264564
+    }
+  ],
+  "icons_failed": [],
+  "totals": {
+    "scripts": 131,
+    "scripts_bytes": 341309,
+    "icons": 68,
+    "icons_bytes": 3041220
+  }
+}

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WanOS 应用市场（镜像）</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:#f6f8fb;color:#172033}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #e5e7eb;padding:16px 20px;z-index:10}
+h1{margin:0;font-size:22px}header p{margin:6px 0 0;color:#667085;font-size:14px;line-height:1.6}
+.controls{max-width:1100px;margin:16px auto 0;padding:0 20px;display:flex;gap:10px;flex-wrap:wrap}
+.controls input,.controls select{height:40px;border:1px solid #d8e0e8;border-radius:8px;padding:0 12px;font-size:15px;background:#fff}
+.controls input{flex:1;min-width:220px}
+#count{max-width:1100px;margin:12px auto 0;padding:0 20px;color:#667085;font-size:14px}
+.grid{max-width:1100px;margin:12px auto 40px;padding:0 20px;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.card .top{display:flex;gap:12px;align-items:center}
+.card img{width:48px;height:48px;border-radius:12px;object-fit:cover;background:#eef2ff;flex:none}
+.card h2{margin:0;font-size:17px}.card .ver{color:#667085;font-size:13px;margin-top:2px}
+.card p.desc{margin:0;color:#475467;font-size:14px;line-height:1.6;flex:1}
+.meta{font-size:13px;color:#667085;display:flex;gap:12px;flex-wrap:wrap}
+.tag{display:inline-block;background:#eef2ff;border-radius:999px;padding:2px 8px;font-size:12px;color:#344054;margin:0 4px 4px 0}
+.btns{display:flex;gap:8px;flex-wrap:wrap}
+.btns a,.btns button{border:1px solid #d8e0e8;background:#fff;border-radius:8px;padding:7px 10px;font-size:13px;color:#172033;text-decoration:none;cursor:pointer}
+.btns a.primary{background:#1f6feb;border-color:#1f6feb;color:#fff}
+.sha{font-size:12px;color:#98a2b3;word-break:break-all}
+footer{max-width:1100px;margin:0 auto 40px;padding:0 20px;color:#98a2b3;font-size:13px;line-height:1.7}
+</style>
+</head>
+<body>
+<header>
+<h1>WanOS 应用市场（镜像）</h1>
+<p>目录克隆：官方应用目录 API + 2026-11-06 设备导出合并而成，共 81 个应用。
+安装包、安装脚本仍指向官方 CDN（wanos.xyz / wxqun988.vxjuejin.com），本仓库不重传二进制文件。
+仅供自己设备安装使用，与 WanOS 官方无关。</p>
+</header>
+<div class="controls">
+<input id="q" type="search" placeholder="搜索应用名 / ID / 描述 / 标签…" autocomplete="off">
+<select id="cat"><option value="">全部分类</option></select>
+<select id="has"><option value="">全部</option><option value="armv7">仅 ARMv7 能用</option><option value="pkg">有安装包直链</option><option value="wpk">有 .wpk</option><option value="installed">设备已安装</option></select>
+</div>
+<div id="count"></div>
+<div class="grid" id="grid"></div>
+<footer>
+<p>安装方式：在 WanOS 设备上以 root 执行安装脚本，例如 <code>curl -fsSL https://wanos.xyz/downloads/apps/openlist/install.sh | sh</code>，
+或点卡片里的“安装脚本”查看。不要在非 WanOS / 非 ARMv7 设备上直接跑这些脚本。</p>
+<p>数据来源：<code>app-store-api-20260721.json</code>（官方 API，更新于 2026-07-21）+ 设备导出 <code>upload.md</code>（2026-11-06）。
+更新方法：跑 <code>update.sh</code> 重新拉取官方 API 再生成 <code>apps.json</code>。</p>
+<p>本站点为 <strong>WanOS 官网资源离线镜像</strong>：安装包走 GitHub Releases，安装 / 更新 / 卸载脚本与图标走 GitHub raw，官网下线后仍可安装。原始官方目录见 <code>apps.json</code>，缺口见 <code>github-mirror/README.md</code>。</p>
+</footer>
+<script>
+let APPS=[];
+const grid=document.getElementById('grid'),count=document.getElementById('count');
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function fmtSize(b){if(!b)return '';return (b/1024/1024).toFixed(1)+' MB'}
+function render(){
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  const cat=document.getElementById('cat').value, has=document.getElementById('has').value;
+  const list=APPS.filter(a=>{
+    if(cat && a.category!==cat) return false;
+    if(has==='armv7' && a.id==='xunlei') return false;
+    if(has==='pkg' && !a.package_url) return false;
+    if(has==='wpk' && !a.wpk_url) return false;
+    if(has==='installed' && !a.installed_on_device) return false;
+    if(q && !(a.name+' '+a.id+' '+a.description+' '+(a.tags||[]).join(' ')).toLowerCase().includes(q)) return false;
+    return true;
+  });
+  count.textContent=`共 ${APPS.length} 个应用，当前显示 ${list.length} 个 · 带安装包 ${APPS.filter(a=>a.package_url).length} 个 · 带安装脚本 ${APPS.filter(a=>a.install_url).length} 个`;
+  grid.innerHTML=list.map(a=>`
+  <article class="card">
+    <div class="top">
+      ${a.icon?`<img loading="lazy" src="${esc(a.icon)}" alt="" onerror="this.style.display='none'">`:''}
+      <div><h2>${esc(a.name)}</h2><div class="ver">${esc(a.id)} · ${esc(a.version||'—')} ${a.installed_on_device?'· 已安装':''}</div></div>
+    </div>
+    <p class="desc">${esc(a.description||'暂无简介')}</p>
+    <div>${(a.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>
+    <div class="meta"><span>端口 ${a.port??'—'}</span><span>${esc(a.category||'未分类')}</span><span>${esc(a.size_display||fmtSize(a.package_size))}</span>${a.downloads?`<span>下载 ${a.downloads}</span>`:''}${(a.architectures||[]).length?`<span>架构 ${(a.architectures||[]).join(' / ')}</span>`:''}${(a.architectures||[]).length&&!a.architectures.some(x=>x==='armv7'||x==='linux-armv7')?`<span>ARMv7 设备暂不支持</span>`:''}</div>
+    <div class="btns">
+      ${a.install_url?`<a class="primary" href="${esc(a.install_url)}" target="_blank" rel="noopener">安装脚本</a>`:''}
+      ${a.package_url?`<a href="${esc(a.package_url)}" target="_blank" rel="noopener">下载安装包</a>`:''}
+      ${a.wpk_url?`<a href="${esc(a.wpk_url)}" target="_blank" rel="noopener">下载 .wpk</a>`:''}
+      ${a.install_url?`<button onclick="navigator.clipboard&&navigator.clipboard.writeText('curl -fsSL ${esc(a.install_url)} | sh');this.textContent='已复制安装命令'">复制安装命令</button>`:''}
+    </div>
+    ${a.package_sha256?`<div class="sha">SHA256 ${esc(a.package_sha256)}</div>`:''}
+  </article>`).join('') || '<p>没有匹配的应用。</p>';
+}
+fetch('github-mirror/app-store-github.json').then(r=>r.json()).then(d=>{
+  APPS=d.apps||[];
+  const cats=[...new Set(APPS.map(a=>a.category).filter(Boolean))].sort();
+  document.getElementById('cat').innerHTML='<option value="">全部分类</option>'+cats.map(c=>`<option>${esc(c)}</option>`).join('');
+  render();
+}).catch(e=>{grid.innerHTML='<p>app-store-github.json 加载失败：'+esc(e.message)+'</p>'});
+document.getElementById('q').addEventListener('input',render);
+document.getElementById('cat').addEventListener('change',render);
+document.getElementById('has').addEventListener('change',render);
+</script>
+</body>
+</html>
