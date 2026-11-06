@@ -1,10 +1,10 @@
 # WanOS 教程与文档合集（离线版）
 
-把 [wanos.xyz](https://www.wanos.xyz/) 官网上与玩客云刷机、系统使用、APP 下载、开发接入相关的六个页面，整理成了**可离线阅读**的 Markdown 文档。所有配图、二维码已下载到本地，断网、换设备、传到手机上都能正常显示。
+把 [wanos.xyz](https://www.wanos.xyz/) 官网上与玩客云刷机、系统使用、APP 下载、开发接入相关的六个页面，整理成了**可离线阅读**的 Markdown 文档。所有配图、二维码已下载到本地，断网、换设备、传到手机上都能正常显示。另外收录了官方应用市场的离线镜像（见下表最后一行）。
 
 - 整理时间：2026-11-05
 - 内容来源：<https://www.wanos.xyz/>
-- 文档数量：6 份，共约 1600 行，28 张本地配图
+- 文档数量：6 份，共约 1600 行，28 张本地配图；另有应用市场镜像 1 个
 
 ---
 
@@ -18,16 +18,18 @@
 | [系统能力与 API 接口](WanOS系统能力与API/WanOS系统能力与API.md) | 159 个后端接口清单，含悬浮窗口、文件预览、壁纸、公网访问等扩展能力 | 417 行 · 28 KB |
 | [WPK 应用开发文档](WPK应用开发文档/WPK应用开发文档.md) | 把应用打包成 `.wpk` 的完整流程：manifest 字段、脚本规则、打包测试、上架审核 | 478 行 · 20 KB |
 | [WanOS ID 登录鉴权](WanOS-登录鉴权OAuth/WanOS-登录鉴权OAuth.md) | OAuth 授权码接入，含换取 Token、扣积分、用户信息返回示例 | 150 行 · 8 KB |
+| [WanOS 应用市场（镜像）](WanOS-app-store/README.md) | 官方应用市场克隆：77 个应用的名称、介绍、图标与版本，安装包走 [Release](https://github.com/aabacada/wankeyunwanos/releases/tag/wanos-armv7-20261106)，安装脚本走改写后的 raw 地址，官网下线后仍可安装 | 77 个应用 · 60 个有安装包 · 67 个有安装脚本 · Release 128 个文件约 1.76 GiB |
 
 ---
 
 ## 阅读顺序建议
 
-**只是想用起来**（三条路，按设备情况选）
+**只是想用起来**（按设备情况选）
 
 1. 设备是没刷过的玩客云 → 先看 [刷机教程](玩客云刷WanOS教程/玩客云S805刷入WanOS教程.md)，刷完拿到 IP
 2. 已经能进 Web 面板 → 看 [使用说明](WanOS使用说明/WanOS使用说明.md) 熟悉各模块
 3. 手机/电视上想用 → 按 [APP 下载](WanOS%20APP下载页/WanOS-APP下载.md) 装客户端
+4. 想给设备装应用 → 看 [应用市场（镜像）](WanOS-app-store/README.md)，按应用目录里的安装包或安装脚本装
 
 **想接自己的脚本或做开发**
 
@@ -55,8 +57,12 @@
 │   └── WanOS系统能力与API.md
 ├── WPK应用开发文档/
 │   └── WPK应用开发文档.md
-└── WanOS-登录鉴权OAuth/
-    └── WanOS-登录鉴权OAuth.md
+├── WanOS-登录鉴权OAuth/
+│   └── WanOS-登录鉴权OAuth.md
+└── WanOS-app-store/                           ← 官方应用市场镜像（77 个应用目录 + 离线安装包）
+    ├── README.md                              ← 应用目录：名称、介绍、图标、版本、Release 安装包、安装脚本
+    ├── index.html                             ← 静态应用市场页
+    └── github-mirror/                         ← 改写后安装脚本、Release 文件清单（128 个文件约 1.76 GiB）
 ```
 
 ---
