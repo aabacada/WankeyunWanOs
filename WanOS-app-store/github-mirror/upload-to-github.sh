@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 # 把 WanOS 官网资源离线镜像传到 aabacada/wankeyunwanos：
-# 文本进仓库的 "WanOS 官方应用备份" 目录，大文件走同一个 Release。
+# 文本进仓库的 "WanOS-app-store" 目录，大文件走同一个 Release。
 # 需要先 gh auth login（账号 aabacada）。在 ~/workspace/wanos-market/ 下执行。
 set -euo pipefail
 REPO="aabacada/wankeyunwanos"
-DIR="WanOS 官方应用备份"
+DIR="WanOS-app-store"
 TAG="wanos-armv7-20261106"
 WORK="$HOME/workspace/wankeyunwanos"
 
 # 0) 生成脚本与目录已按真实仓库名 + 子目录生成过（REPO=aabacada/wankeyunwanos
-#    SUBDIR="WanOS 官方应用备份"）；改动后重跑：
+#    SUBDIR="WanOS-app-store"）；改动后重跑：
 #    REPO="$REPO" python3 github-mirror/rewrite-offline.py
 #    REPO="$REPO" SUBDIR="$DIR" python3 github-mirror/build-catalog-github.py
 #    python3 github-mirror/build-release-files.py
@@ -32,5 +32,5 @@ WORK="$HOME/workspace/wankeyunwanos"
 # 3) 核对
 # gh release view "$TAG" --repo "$REPO"   # 应为 128 个附件
 # curl -I "https://github.com/$REPO/releases/download/$TAG/ntfy-linux-armv7-v2.25.0"
-# curl -fsSL "https://raw.githubusercontent.com/$REPO/main/WanOS%20%E5%AE%98%E6%96%B9%E5%BA%94%E7%94%A8%E5%A4%87%E4%BB%BD/github-mirror/install-scripts-github/ntfy.sh" | head -n 5
+# curl -fsSL "https://raw.githubusercontent.com/$REPO/main/WanOS-app-store/github-mirror/install-scripts-github/ntfy.sh" | head -n 5
 echo "已按 aabacada/wankeyunwanos 配好：先 gh auth login，再按上面 1、2、3 步跑（命令都在注释里）"

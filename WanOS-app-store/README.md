@@ -1,6 +1,6 @@
 # WanOS 应用市场（镜像）
 
-一个可直接托管到 GitHub / GitHub Pages 的 WanOS 应用市场克隆，**含官网资源离线镜像**：安装包走 GitHub Releases，安装 / 更新 / 卸载脚本与图标走 GitHub raw，官网下线后仍可安装。详情与缺口见 `github-mirror/README.md`。
+一个可直接托管到 GitHub / GitHub Pages 的 WanOS 应用市场克隆，**含官网资源离线镜像**：安装包走 GitHub Releases，安装 / 更新 / 卸载脚本与图标走 GitHub raw，官网下线后仍可安装。3 个手动 `.wpk`（凤凰秀直播、直播源管理、YT直播）按要求排除在外。详情与缺口见 `github-mirror/README.md`。
 
 ## 里面有什么
 
@@ -18,7 +18,7 @@
 ## 数据
 
 - 官方 API：71 个应用，含名称、简介、分类、图标、端口、安装/更新/卸载脚本链接及 SHA256、多架构安装包链接及 SHA256、标签、下载量。
-- 设备导出（2026-11-06，`upload.md`）：81 个应用，补上 API 里没有的 10 个内置/手动安装应用（Alist、计算器、记事本、WanOS 音乐、媒体播放、下载中心、相册），以及 18 个“设备已安装”状态。
+- 设备导出（2026-11-06，`upload.md`）：81 个应用，补上 API 里没有的 10 个内置/手动安装应用（Alist、计算器、记事本、WanOS 音乐、媒体播放、下载中心、相册、凤凰秀直播、直播源管理、YT直播），以及 18 个“设备已安装”状态。
 - 合并后：**81 个应用，50 个带安装包直链，68 个带安装脚本，1 个带官方 .wpk（WanOS 壁纸）**。
 - 版本差异：API（2026-07-21）和设备导出（2026-11-06）核对过，71 个重叠应用的版本号没有差异。
 
@@ -29,13 +29,13 @@
 
 ## 托管到 GitHub
 
-目标仓库 `aabacada/wankeyunwanos`（main 分支），文本文件放在 `WanOS 官方应用备份` 目录下：
+目标仓库 `aabacada/wankeyunwanos`（main 分支），文本文件放在 `WanOS-app-store` 目录下：
 
 ```bash
 git clone https://github.com/aabacada/wankeyunwanos.git ~/workspace/wankeyunwanos
-rsync -a --delete ~/workspace/wanos-market/ ~/workspace/wankeyunwanos/"WanOS 官方应用备份"/
+rsync -a --delete ~/workspace/wanos-market/ ~/workspace/wankeyunwanos/"WanOS-app-store"/
 cd ~/workspace/wankeyunwanos
-git add "WanOS 官方应用备份"
+git add "WanOS-app-store"
 git commit -m "WanOS mirror: WanOS-official resources, offline (Releases + raw)"
 git push origin main
 ```
@@ -47,7 +47,7 @@ git push origin main
 在卡片上点“安装脚本”查看，或在设备上以 root 执行，例如（地址为改写后的 GitHub raw 脚本，包从 Releases 下）：
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS%20%E5%AE%98%E6%96%B9%E5%BA%94%E7%94%A8%E5%A4%87%E4%BB%BD/github-mirror/install-scripts-github/openlist.sh | sh
+curl -fsSL https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/install-scripts-github/openlist.sh | sh
 ```
 
 “复制安装命令”按钮就是复制这行。不要在非 WanOS、非 ARMv7 设备上跑这些脚本。

@@ -17,7 +17,7 @@ from urllib.parse import quote
 REPO = os.environ.get("REPO", "YOUR_USER/YOUR_REPO")
 TAG = os.environ.get("TAG", "wanos-armv7-20261106")
 
-# Subdirectory in the repo where the text files live, e.g. "WanOS 官方应用备份".
+# Subdirectory in the repo where the text files live, e.g. "WanOS-app-store".
 # Empty = repo root holds the market files. The value is URL-encoded for raw URLs.
 SUBDIR = os.environ.get("SUBDIR", "")
 

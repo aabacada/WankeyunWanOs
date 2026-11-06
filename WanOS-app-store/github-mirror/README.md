@@ -63,15 +63,15 @@ Home Assistant 的面板后端缺失已不列为缺口：它已被暂时排除�
 
 ## 上传步骤（见 upload-to-github.sh）
 
-仓库：`aabacada/wankeyunwanos`（公开库，main 分支）。文本文件进仓库的 `WanOS 官方应用备份` 目录，大文件走同一个 Release。
+仓库：`aabacada/wankeyunwanos`（公开库，main 分支）。文本文件进仓库的 `WanOS-app-store` 目录，大文件走同一个 Release。
 
 ```bash
 # 先 gh auth login（已在用的账号 aabacada）；目录与脚本已按真实仓库名生成过，不用再换占位符
 # 1) 文本进仓库（约 4 MB）：克隆已有仓库，把本地 wanos-market/ 内容同步进子目录后推
 git clone https://github.com/aabacada/wankeyunwanos.git ~/workspace/wankeyunwanos
-rsync -a --delete ~/workspace/wanos-market/ ~/workspace/wankeyunwanos/"WanOS 官方应用备份"/
+rsync -a --delete ~/workspace/wanos-market/ ~/workspace/wankeyunwanos/"WanOS-app-store"/
 cd ~/workspace/wankeyunwanos
-git add "WanOS 官方应用备份"
+git add "WanOS-app-store"
 git commit -m "WanOS mirror: WanOS-official resources, offline (Releases + raw)"
 git push origin main
 # 2) 建 Release 并上传 128 个文件（约 1.76 GiB），全部在同一个 Release 里
@@ -85,7 +85,7 @@ gh release create wanos-armv7-20261106 --repo aabacada/wankeyunwanos --title "Wa
 在另一台 WanOS 设备上以 root 执行改写后的脚本，例如 ntfy：
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS%20%E5%AE%98%E6%96%B9%E5%BA%94%E7%94%A8%E5%A4%87%E4%BB%BD/github-mirror/install-scripts-github/ntfy.sh | sh
+curl -fsSL https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/install-scripts-github/ntfy.sh | sh
 ```
 
 脚本默认就从你仓库的 Releases 下安装包。也可以直接在克隆站 `index.html` 里点“安装脚本”或复制安装命令。
