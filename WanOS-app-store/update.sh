@@ -13,4 +13,4 @@ else
   wget -qO "app-store-api-$DATE.json" "$API_URL"
 fi
 python3 -c "import json; d=json.load(open('app-store-api-$DATE.json')); print('apps:', len(d['apps']), 'updated_at:', d.get('updated_at'))"
-echo "saved app-store-api-$DATE.json; now regenerate apps.json from it + upload.md and verify total=81"
+echo "saved app-store-api-$DATE.json; now regenerate apps.json from it + upload.md and verify total=78"

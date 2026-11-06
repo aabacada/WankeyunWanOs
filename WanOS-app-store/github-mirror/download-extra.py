@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Download the extra WanOS-CDN files needed for a 100% WanOS-CDN offline mirror.
-Excludes the 3 manual .wpk apps (fengshows-live, live-manager, yt-live) - they have
-no public URL / install.sh and are not in this list.
+Manually-installed apps with no public URL / install.sh are not in this list.
 Excludes (documented gaps, not downloadable from WanOS CDN):
  - OnlyOffice assets zip: both CDN hosts return a 20KB HTML page, script itself
    says remote download is disabled and the zip must be supplied locally.

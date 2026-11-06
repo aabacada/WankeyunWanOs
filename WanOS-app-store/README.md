@@ -1,25 +1,25 @@
 # WanOS 应用市场（镜像）
 
-一个可直接托管到 GitHub / GitHub Pages 的 WanOS 应用市场克隆，**含官网资源离线镜像**：安装包走 GitHub Releases，安装 / 更新 / 卸载脚本与图标走 GitHub raw，官网下线后仍可安装。3 个手动 `.wpk`（凤凰秀直播、直播源管理、YT直播）按要求排除在外。详情与缺口见 `github-mirror/README.md`。
+一个可直接托管到 GitHub / GitHub Pages 的 WanOS 应用市场克隆，**含官网资源离线镜像**：安装包走 GitHub Releases，安装 / 更新 / 卸载脚本与图标走 GitHub raw，官网下线后仍可安装。详情与缺口见 `github-mirror/README.md`。
 
 ## 里面有什么
 
 | 文件 | 说明 |
 | --- | --- |
 | `index.html` | 静态应用市场页：搜索、按分类筛选、按“有安装包 / 有 .wpk / 已安装”筛选，打开即用，无需构建 |
-| `apps.json` | 合并后的应用目录，81 个应用（见下） |
+| `apps.json` | 合并后的应用目录，78 个应用（见下） |
 | `app-store-api-20260721.json` | 官方 API 原始快照，`https://wxqun988.vxjuejin.com/wanos/api/app-store`，更新于 2026-07-21 |
 | `update.sh` | 重新拉取官方 API、重新生成 `apps.json` 的脚本 |
 | `.nojekyll` | GitHub Pages 用，告诉 GitHub 不要用 Jekyll 处理 |
 | `armv7-apps.json` / `armv7-apps.md` | 玩客云 armv7 能用的应用单独整理：API 71 个中能用 70 个（有 armv7 安装包 48 个、.wpk 1 个、走 install.sh 19 个、已内置 2 个），排除迅雷 1 个；`index.html` 已加“仅 ARMv7 能用”筛选 |
 | `generate-armv7.py` | 从 `armv7-apps.json` 重新生成 `armv7-apps.md` 的脚本 |
-| `github-mirror/` | 传 GitHub 的离线镜像：67 个改写后 install.sh（官方 CDN 引用 0 个）、129 个 update/uninstall 脚本、67 个图标、47 个额外官网文件（`manifest-extra.json`）、`app-store-github.json`（80 个应用，安装包/脚本/图标地址全改成 GitHub；Home Assistant 已暂时排除）、`upload-to-github.sh` 与 `release-files.txt`（128 个 Release 文件，约 1.76 GiB） |
+| `github-mirror/` | 传 GitHub 的离线镜像：67 个改写后 install.sh（官方 CDN 引用 0 个）、129 个 update/uninstall 脚本、67 个图标、47 个额外官网文件（`manifest-extra.json`）、`app-store-github.json`（77 个应用，安装包/脚本/图标地址全改成 GitHub；Home Assistant 已暂时排除）、`upload-to-github.sh` 与 `release-files.txt`（128 个 Release 文件，约 1.76 GiB） |
 
 ## 数据
 
 - 官方 API：71 个应用，含名称、简介、分类、图标、端口、安装/更新/卸载脚本链接及 SHA256、多架构安装包链接及 SHA256、标签、下载量。
-- 设备导出（2026-11-06，`upload.md`）：81 个应用，补上 API 里没有的 10 个内置/手动安装应用（Alist、计算器、记事本、WanOS 音乐、媒体播放、下载中心、相册、凤凰秀直播、直播源管理、YT直播），以及 18 个“设备已安装”状态。
-- 合并后：**81 个应用，50 个带安装包直链，68 个带安装脚本，1 个带官方 .wpk（WanOS 壁纸）**。
+- 设备导出（2026-11-06，`upload.md`）中共 81 个应用，其中 API 里没有的 7 个内置应用（Alist、计算器、记事本、WanOS 音乐、媒体播放、下载中心、相册）已补入目录，另有 18 个“设备已安装”状态。
+- 合并后：**78 个应用，50 个带安装包直链，68 个带安装脚本，1 个带官方 .wpk（WanOS 壁纸）**。
 - 版本差异：API（2026-07-21）和设备导出（2026-11-06）核对过，71 个重叠应用的版本号没有差异。
 
 ## 为什么安装包走 Releases

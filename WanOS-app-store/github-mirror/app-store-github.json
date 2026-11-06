@@ -1,8 +1,8 @@
 {
   "repo_placeholder": "aabacada/wankeyunwanos",
   "tag": "wanos-armv7-20261106",
-  "note": "WanOS 官网资源离线镜像目录：安装包走 GitHub Releases，install/update/uninstall 脚本与图标进 git（raw 链接）。原官方地址见 app-store-api-20260721.json / apps.json。3 个手动 .wpk（凤凰秀直播、直播源管理、YT直播）按用户要求排除在外，无公网地址。文本文件在仓库的“WanOS-app-store”目录下。",
-  "total": 80,
+  "note": "WanOS 官网资源离线镜像目录：安装包走 GitHub Releases，install/update/uninstall 脚本与图标进 git（raw 链接）。原官方地址见 app-store-api-20260721.json / apps.json。文本文件在仓库的“WanOS-app-store”目录下。",
+  "total": 77,
   "rewritten_counts": {
     "pkg": 60,
     "install": 67,
@@ -929,35 +929,6 @@
       ]
     },
     {
-      "id": "fengshows-live",
-      "name": "凤凰秀直播",
-      "version": "1.1.22",
-      "description": "设备内置 / 手动安装应用，官方目录无公网直链。",
-      "category": "",
-      "tags": [],
-      "icon": "",
-      "port": null,
-      "path": "/",
-      "service": "",
-      "install_url": "",
-      "install_sha256": "",
-      "update_url": "",
-      "uninstall_url": "",
-      "package_url": "",
-      "package_sha256": "",
-      "package_size": 0,
-      "size_display": "",
-      "architectures": [],
-      "packages": [],
-      "wpk_url": "",
-      "wpk_sha256": "",
-      "downloads": 0,
-      "installed_on_device": true,
-      "device_status": "已安装",
-      "default_account": "",
-      "notes": ""
-    },
-    {
       "id": "filebrowser",
       "name": "Filebrowser 文件管理",
       "version": "2.63.10-wanos.4",
@@ -1494,35 +1465,6 @@
           "category": "extra-armv7"
         }
       ]
-    },
-    {
-      "id": "live-manager",
-      "name": "直播源管理",
-      "version": "1.0.11",
-      "description": "设备内置 / 手动安装应用，官方目录无公网直链。",
-      "category": "",
-      "tags": [],
-      "icon": "",
-      "port": null,
-      "path": "/",
-      "service": "",
-      "install_url": "",
-      "install_sha256": "",
-      "update_url": "",
-      "uninstall_url": "",
-      "package_url": "",
-      "package_sha256": "",
-      "package_size": 0,
-      "size_display": "",
-      "architectures": [],
-      "packages": [],
-      "wpk_url": "",
-      "wpk_sha256": "",
-      "downloads": 0,
-      "installed_on_device": true,
-      "device_status": "已安装",
-      "default_account": "",
-      "notes": ""
     },
     {
       "id": "live-recorder",
@@ -3961,35 +3903,6 @@
           "size_bytes": null
         }
       ]
-    },
-    {
-      "id": "yt-live",
-      "name": "YT直播",
-      "version": "1.4.2",
-      "description": "设备内置 / 手动安装应用，官方目录无公网直链。",
-      "category": "",
-      "tags": [],
-      "icon": "",
-      "port": null,
-      "path": "/",
-      "service": "",
-      "install_url": "",
-      "install_sha256": "",
-      "update_url": "",
-      "uninstall_url": "",
-      "package_url": "",
-      "package_sha256": "",
-      "package_size": 0,
-      "size_display": "",
-      "architectures": [],
-      "packages": [],
-      "wpk_url": "",
-      "wpk_sha256": "",
-      "downloads": 0,
-      "installed_on_device": true,
-      "device_status": "已安装",
-      "default_account": "",
-      "notes": ""
     }
   ]
 }

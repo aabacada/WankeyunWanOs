@@ -7,9 +7,9 @@ Every WanOS-official URL becomes a GitHub URL:
  - package -> Releases/<filename> (same TAG for all)
  - install/update/uninstall -> raw.githubusercontent/.../<path> (git-tracked text)
  - icon -> raw.githubusercontent/.../icons/<id>.<ext> (git-tracked)
-The 3 manual .wpk apps (fengshows-live, live-manager, yt-live) have no public
-URLs and are left exactly as in apps.json (excluded by user request).
 Un-mirrorable WanOS files are listed under top-level "mirror_gaps".
+Private manually-installed apps are excluded via EXCLUDED below and never
+enter the catalog.
 """
 import hashlib, json, os, pathlib
 from urllib.parse import quote
@@ -27,6 +27,9 @@ SUBDIR = os.environ.get("SUBDIR", "")
 # installs. Re-add by removing the id from this set (and from rewrite-offline.py
 # and build-release-files.py) and re-running the three generators; the 483 MB package
 # and panel frontend tar are still kept as local backups.
+# The private manually-installed .wpk apps removed 2026-11-06 are also excluded
+# here by virtue of being absent from apps.json. Do NOT re-merge device-only
+# apps with no public URL into the catalog without checking privacy first.
 EXCLUDED = {"home-assistant"}
 
 BASE = pathlib.Path(__file__).parent
@@ -136,7 +139,6 @@ doc = {
     "tag": TAG,
     "note": ("WanOS 官网资源离线镜像目录：安装包走 GitHub Releases，install/update/uninstall "
              "脚本与图标进 git（raw 链接）。原官方地址见 app-store-api-20260721.json / apps.json。"
-             "3 个手动 .wpk（凤凰秀直播、直播源管理、YT直播）按用户要求排除在外，无公网地址。"
              + (f"文本文件在仓库的“{SUBDIR}”目录下。" if SUBDIR else "")),
     "total": len(out_apps),
     "rewritten_counts": counts,
