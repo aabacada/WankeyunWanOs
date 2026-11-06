@@ -6,13 +6,13 @@
 
 | 东西 | 数量 | 大小 | 怎么传 |
 | --- | --- | --- | --- |
-| 主安装包（清单 50 个） | 50 | 约 1.69 GiB | GitHub Releases 附件 |
+| 主安装包（清单 51 个） | 51 | 约 1.70 GiB | GitHub Releases 附件 |
 | 额外官网文件（本轮补下） | 47 | 约 534 MiB | GitHub Releases 附件（48 个已下载，HA 面板前端包已排除、仅本地备份） |
 | 脚本里引用的图标 | 32 | 约 0.97 MiB | GitHub Releases 附件 |
-| **Release 合计** | **128** | **约 1.76 GiB** | `release-files.txt` 是全部 128 个文件清单 |
+| **Release 合计** | **129** | **约 1.77 GiB** | `release-files.txt` 是全部 129 个文件清单 |
 | 改写后 install.sh | 67 | 约 0.4 MB | 直接 `git push`（raw 链接） |
 | update / uninstall 脚本 | 129 | 约 0.34 MB | 直接 `git push` |
-| 目录图标（克隆站用） | 67 | 约 3.1 MB | 直接 `git push` |
+| 目录图标（克隆站用） | 68 | 约 3.1 MB | 直接 `git push` |
 | 目录与清单（app-store-github.json 等） | — | 约 0.5 MB | 直接 `git push` |
 
 克隆站 `index.html` 已改成读 `github-mirror/app-store-github.json`（镜像目录），按钮与安装命令都指向 GitHub，不再指向官网。
@@ -55,9 +55,9 @@ Home Assistant 的面板后端缺失已不列为缺口：它已被暂时排除�
 
 - 改写后 67 个脚本中 `wxqun988` / `wanos.xyz` 引用：**0 个**（`grep` 验证）。
 - 67 个脚本 `bash -n` 语法检查：**全部通过**（含修过的甜糖）。
-- 改写后脚本引用的 121 个不同 Releases 文件：除缺口的 2 个文件（OnlyOffice zip、测试应用二进制）外，**全部在上传清单里**（`release-files.txt` 128 个文件逐个核对都在本地）。
-- update / uninstall 脚本与目录图标共下载 131 个脚本、68 个图标，**全部下载成功，0 失败**（HTML 错误页会被识别并拒收）；其中 Home Assistant 的 update/uninstall 脚本与图标（3 个文件）已从镜像内排除，镜像内为 129 个 update/uninstall 脚本、67 个图标（另有改写后 install 脚本 67 个）。
-- 克隆站本地 HTTP 校验通过：`index.html` 200，镜像目录 total=80，其中 60 个有安装包地址。
+- 改写后脚本引用的 121 个不同 Releases 文件：除缺口的 2 个文件（OnlyOffice zip、测试应用二进制）外，**全部在上传清单里**（`release-files.txt` 129 个文件逐个核对都在本地）。
+- update / uninstall 脚本与目录图标共下载 131 个脚本、68 个图标，**全部下载成功，0 失败**（HTML 错误页会被识别并拒收）；其中 Home Assistant 的 update/uninstall 脚本与图标（3 个文件）已从镜像内排除，镜像内为 129 个 update/uninstall 脚本、68 个图标（另有改写后 install 脚本 67 个；清理大师图标从其 .wpk 内提取，非下载）。
+- 克隆站本地 HTTP 校验通过：`index.html` 200，镜像目录 total=78，其中 61 个有安装包地址。
 
 ## 上传步骤（见 upload-to-github.sh）
 
@@ -72,10 +72,10 @@ cd ~/workspace/wankeyunwanos
 git add "WanOS-app-store"
 git commit -m "WanOS mirror: WanOS-official resources, offline (Releases + raw)"
 git push origin main
-# 2) 建 Release 并上传 128 个文件（约 1.76 GiB），全部在同一个 Release 里
+# 2) 建 Release 并上传 129 个文件（约 1.77 GiB），全部在同一个 Release 里
 cd ~/workspace/wanos-market
 gh release create wanos-armv7-20261106 --repo aabacada/wankeyunwanos --title "WanOS armv7 2026-11-06 (offline mirror)" --notes-file github-mirror/README.md $(cat github-mirror/release-files.txt)
-# 3) 核对：gh release view wanos-armv7-20261106 --repo aabacada/wankeyunwanos（应为 128 个附件），再 curl -I 抽一个附件
+# 3) 核对：gh release view wanos-armv7-20261106 --repo aabacada/wankeyunwanos（应为 129 个附件），再 curl -I 抽一个附件
 ```
 
 ## 其他 WanOS 怎么装（传完之后）

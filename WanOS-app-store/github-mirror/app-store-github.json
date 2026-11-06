@@ -2,13 +2,13 @@
   "repo_placeholder": "aabacada/wankeyunwanos",
   "tag": "wanos-armv7-20261106",
   "note": "WanOS 官网资源离线镜像目录：安装包走 GitHub Releases，install/update/uninstall 脚本与图标进 git（raw 链接）。原官方地址见 app-store-api-20260721.json / apps.json。文本文件在仓库的“WanOS-app-store”目录下。",
-  "total": 77,
+  "total": 78,
   "rewritten_counts": {
-    "pkg": 60,
+    "pkg": 61,
     "install": 67,
     "update": 62,
     "uninstall": 67,
-    "icon": 67
+    "icon": 68
   },
   "excluded": [
     {
@@ -3070,6 +3070,54 @@
           "url": "https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/wano--2048.wpk",
           "sha256": null,
           "size_bytes": null
+        }
+      ]
+    },
+    {
+      "id": "wanos-cleaner",
+      "name": "清理大师",
+      "version": "1.0.0",
+      "version_api": "",
+      "description": "WanOS 系统清理工具，支持普通清理、强力清理和将大型运行目录转移到数据盘。",
+      "category": "",
+      "tags": [
+        "WPK",
+        "第三方"
+      ],
+      "icon": "https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/icons/wanos-cleaner.png",
+      "port": 18666,
+      "path": "/",
+      "service": "wanos-cleaner",
+      "install_url": "",
+      "install_sha256": "",
+      "update_url": "",
+      "uninstall_url": "",
+      "package_url": "https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/wanos-cleaner-1.0.0.wpk",
+      "package_sha256": "d564f08ba9b29817b29708d6542ce2e9b5e2253a8911e09c0c54b4d06acf4bb6",
+      "package_size": 9981717,
+      "size_display": "9.5 MB",
+      "architectures": [
+        "armv7",
+        "arm64",
+        "amd64"
+      ],
+      "packages": [],
+      "wpk_url": "",
+      "wpk_sha256": "",
+      "downloads": 0,
+      "installed_on_device": false,
+      "device_status": "可安装",
+      "default_account": "",
+      "notes": [
+        "WPK user submitted package",
+        "Version: 1.0.0"
+      ],
+      "packages_github": [
+        {
+          "filename": "wanos-cleaner-1.0.0.wpk",
+          "url": "https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/wanos-cleaner-1.0.0.wpk",
+          "sha256": "d564f08ba9b29817b29708d6542ce2e9b5e2253a8911e09c0c54b4d06acf4bb6",
+          "size_bytes": 9981717
         }
       ]
     },

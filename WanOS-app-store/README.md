@@ -7,26 +7,26 @@
 | 文件 | 说明 |
 | --- | --- |
 | `index.html` | 静态应用市场页：搜索、按分类筛选、按“有安装包 / 有 .wpk / 已安装”筛选，打开即用，无需构建 |
-| `apps.json` | 合并后的应用目录，78 个应用（见下） |
+| `apps.json` | 合并后的应用目录，79 个应用（见下） |
 | `app-store-api-20260721.json` | 官方 API 原始快照，`https://wxqun988.vxjuejin.com/wanos/api/app-store`，更新于 2026-07-21 |
 | `update.sh` | 重新拉取官方 API、重新生成 `apps.json` 的脚本 |
 | `.nojekyll` | GitHub Pages 用，告诉 GitHub 不要用 Jekyll 处理 |
-| `armv7-apps.json` / `armv7-apps.md` | 玩客云 armv7 能用的应用单独整理：API 71 个中能用 70 个（有 armv7 安装包 48 个、.wpk 1 个、走 install.sh 19 个、已内置 2 个），排除迅雷 1 个；`index.html` 已加“仅 ARMv7 能用”筛选 |
+| `armv7-apps.json` / `armv7-apps.md` | 玩客云 armv7 能用的应用单独整理：API 71 个中能用 70 个，另加用户提交 .wpk 清理大师，合计 71 个（有 armv7 安装包 48 个、.wpk 2 个、走 install.sh 19 个、已内置 2 个），排除迅雷 1 个；`index.html` 已加“仅 ARMv7 能用”筛选 |
 | `generate-armv7.py` | 从 `armv7-apps.json` 重新生成 `armv7-apps.md` 的脚本 |
 | `generate-readme.py` | 从 `github-mirror/app-store-github.json` 重新生成本文件“应用目录”一节的脚本 |
-| `github-mirror/` | 传 GitHub 的离线镜像：67 个改写后 install.sh（官方 CDN 引用 0 个）、129 个 update/uninstall 脚本、67 个图标、47 个额外官网文件（`manifest-extra.json`）、`app-store-github.json`（77 个应用，安装包/脚本/图标地址全改成 GitHub；Home Assistant 已暂时排除）、`upload-to-github.sh` 与 `release-files.txt`（128 个 Release 文件，约 1.76 GiB） |
+| `github-mirror/` | 传 GitHub 的离线镜像：67 个改写后 install.sh（官方 CDN 引用 0 个）、129 个 update/uninstall 脚本、68 个图标、47 个额外官网文件（`manifest-extra.json`）、`app-store-github.json`（78 个应用，安装包/脚本/图标地址全改成 GitHub；Home Assistant 已暂时排除）、`upload-to-github.sh` 与 `release-files.txt`（129 个 Release 文件，约 1.77 GiB） |
 
 ## 数据
 
 - 官方 API：71 个应用，含名称、简介、分类、图标、端口、安装/更新/卸载脚本链接及 SHA256、多架构安装包链接及 SHA256、标签、下载量。
 - 设备导出（2026-11-06，`upload.md`）中共 81 个应用，其中 API 里没有的 7 个内置应用（Alist、计算器、记事本、WanOS 音乐、媒体播放、下载中心、相册）已补入目录，另有 18 个“设备已安装”状态。
-- 合并后：**78 个应用，50 个带安装包直链，68 个带安装脚本，1 个带官方 .wpk（WanOS 壁纸）**。
+- 合并后：**79 个应用，51 个带安装包直链（含 2048、清理大师 2 个用户提交 .wpk 与 WanOS 壁纸 1 个官方 .wpk），68 个带安装脚本**。
 - 版本差异：API（2026-07-21）和设备导出（2026-11-06）核对过，71 个重叠应用的版本号没有差异。
 
 ## 应用目录
 
 <!-- APPS:START -->
-共 77 个应用（镜像目录；60 个有安装包，67 个有安装脚本）。
+共 78 个应用（镜像目录；61 个有安装包，67 个有安装脚本）。
 安装包链接指向 GitHub Releases 附件，安装脚本链接指向改写后的 raw 脚本，在 WanOS 设备上以 root 执行即可安装。安装包一栏为空的请用安装脚本安装；图标为空的是设备内置应用。
 
 | 图标 | 应用 | 介绍 | 版本 | 安装包 | 安装脚本 |
@@ -94,6 +94,7 @@
 | <img src="https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/icons/v2ray-proxy.png" width="48" alt="V2Ray 代理"> | **V2Ray 代理** | V2Ray ARMv7 离线版，提供本地 SOCKS5 10808、HTTP 10809 代理和中文 Web 配置面板，可编辑 config.json 并一键重启。 | 5.6.0-wanos.1 | [下载](https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/v2ray-proxy_v5.6.0_armv7_wanos.1.tar.gz) | [安装](https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/install-scripts-github/v2ray-proxy.sh) |
 | <img src="https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/icons/verysync.png" width="48" alt="微力同步"> | **微力同步** | 微力同步 ARMv6 兼容二进制版，可运行于 ARMv7/armv7l 设备，提供 8886 Web 管理面板；安装包固定从七牛下载并校验。 | 2.21.3-wanos.4 | [下载](https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/verysync-linux-armv6-v2.21.3.tar.gz) | [安装](https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/install-scripts-github/verysync.sh) |
 | <img src="https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/icons/wanos-2048.png" width="48" alt="2048小游戏"> | **2048小游戏** | 2048经典小游戏 | — | [下载](https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/wano--2048.wpk) | — |
+| <img src="https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/icons/wanos-cleaner.png" width="48" alt="清理大师"> | **清理大师** | WanOS 系统清理工具，支持普通清理、强力清理和将大型运行目录转移到数据盘。 | 1.0.0 | [下载](https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/wanos-cleaner-1.0.0.wpk) | — |
 | <img src="https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/icons/wanos-ai-assistant.png" width="48" alt="WanOS 智能助手"> | **WanOS 智能助手** | 独立运行的 WanOS AI 助手，可诊断系统、修复面板、重启服务、安装应用和组件，并通过 /ai 支持远程访问。 | 2026.07.09-6 | [下载](https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/wanos-ai-assistant-linux-armv7-v6) | [安装](https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/install-scripts-github/wanos-ai-assistant.sh) |
 | <img src="https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/icons/wanos-cf-tunnel.png" width="48" alt="Cloudflare 内网穿透"> | **Cloudflare 内网穿透** | WanOS Cloudflare Tunnel 管理面板，支持自动分配公网域名、安装 cloudflared 组件、配置多个本地 HTTP 端口映射并启动远程访问。 | 1.0.0-wanos.4 | [下载](https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/wanos-cf-tunnel-linux-armv7-v4) | [安装](https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/install-scripts-github/wanos-cf-tunnel.sh) |
 | <img src="https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/icons/wanos-ffstreamer.png" width="48" alt="直播推流"> | **直播推流** | 直播推流：基于 FFmpeg 的 WanOS 推流工具，支持通过网页管理推流任务。 | 1.0.0-wanos.2 | [下载](https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/wanos-ffstreamer-linux-armv7-v2) | [安装](https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/install-scripts-github/wanos-ffstreamer.sh) |
@@ -112,7 +113,7 @@
 
 ## 为什么安装包走 Releases
 
-50 个主安装包共约 1.69 GiB，其中 Home Assistant 483 MB、New API 133 MB、青龙 103 MB 都超 GitHub 100 MB 单文件上限，整批也超 1 GB 仓库建议值；加上本轮补下的 47 个额外官网文件（48 个已下载，HA 面板前端包已排除）与 32 个图标，Release 共 128 个文件、约 1.76 GiB，单个文件都 <2 GB。
+51 个主安装包共约 1.70 GiB，其中 Home Assistant 483 MB、New API 133 MB、青龙 103 MB 都超 GitHub 100 MB 单文件上限，整批也超 1 GB 仓库建议值；加上本轮补下的 47 个额外官网文件（48 个已下载，HA 面板前端包已排除）与 32 个图标，Release 共 129 个文件、约 1.77 GiB，单个文件都 <2 GB。
 所以文本（脚本、图标、目录、页面，约 4 MB）直接 `git push`，大文件走 GitHub Releases。`index.html` 读的是镜像目录 `github-mirror/app-store-github.json`，点“下载安装包”从 Releases 下，点“安装脚本”从 raw 下，不再经过官网 CDN。原始官方目录仍保留在 `apps.json`。
 
 ## 托管到 GitHub

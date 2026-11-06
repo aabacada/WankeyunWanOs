@@ -47,6 +47,7 @@
 /home/hatch/workspace/wanos-apps/wanos-2048/wano--2048.wpk
 /home/hatch/workspace/wanos-apps/lanzoupan-client/lanzoupan-client-linux-armv7-v1
 /home/hatch/workspace/wanos-apps/happy-guandan/happy-guandan-linux-armv7-v3
+/home/hatch/workspace/wanos-apps/wanos-cleaner/wanos-cleaner-1.0.0.wpk
 github-mirror/extra-downloads/adguard-home/AdGuardHome_linux_armv7_v0.107.76.tar.gz
 github-mirror/extra-downloads/ddns-go/ddns-go_6.13.3_linux_armv7.tar.gz
 github-mirror/extra-downloads/picoclaw/picoclaw_Linux_armv7.tar.gz

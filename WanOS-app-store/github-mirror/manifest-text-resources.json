@@ -1526,6 +1526,13 @@
       "file": "icons/happy-guandan.png",
       "sha256": "0c74dd39be538c6c3478f3786de83e073fcf1c8cc3a568d330eb24f75dbfe557",
       "size_bytes": 264564
+    },
+    {
+      "id": "wanos-cleaner",
+      "url": "https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/wanos-cleaner-1.0.0.wpk",
+      "file": "icons/wanos-cleaner.png",
+      "sha256": "d24a8b9102e5990b174446843499e0423e5044fb8df352344176cefe1ffb458a",
+      "size_bytes": 4097
     }
   ],
   "icons_failed": [],

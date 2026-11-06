@@ -4,9 +4,9 @@
 
 ## 结论
 
-- API 共 71 个，**armv7 能用 70 个**，排除 1 个：**迅雷**（见下）。
+- API 共 71 个，**armv7 能用 70 个**，排除 1 个：**迅雷**（见下）；另加用户提交的 .wpk **清理大师**（不在 API 里），合计 **71 个**。
 
-- 有 armv7 安装包直链 48 个（已全部下载到 `workspace/wanos-apps/` 并校验，48 个中 47 个 SHA 通过，1 个壁纸 SHA 与清单不符）；.wpk 直链 1 个（2048）；无直链、走 install.sh 安装 19 个；已内置、无需安装 2 个。
+- 有 armv7 安装包直链 48 个（已全部下载到 `workspace/wanos-apps/` 并校验，48 个中 47 个 SHA 通过，1 个壁纸 SHA 与清单不符）；.wpk 直链 2 个（2048、清理大师）；无直链、走 install.sh 安装 19 个；已内置、无需安装 2 个。
 
 - 筛选标准：API `architectures` 含 armv7 / linux-armv7，或有 linux-armv7 安装包，或 install.sh 明确支持 armv7/armhf，或为 armv7 .wpk / 设备内置。
 
@@ -114,11 +114,12 @@
 - **小智AI服务端** `xiaozhi-server`：已下载校验通过；SHA256 `2cb33a4998070502…`；API architectures: armv7; 安装包文件名含 armv7（xiaozhi-server-linux-armv7-v2）; install.sh 校验 uname 为 armv7/armhf
 - **YT-DLP 视频下载** `yt-dlp-web`：已下载校验通过；SHA256 `8d93f83e640d108b…`；安装包文件名含 armhf（yt-dlp-web-armhf-wanos.tar.gz）; install.sh 校验 uname 为 armv7/armhf
 
-## B. .wpk 直链（1 个）
+## B. .wpk 直链（2 个）
 
 | 应用 | ID | 版本 | 端口 | 大小 | 安装包 / 安装方式 |
 | --- | --- | --- | --- | --- | --- |
 | 2048小游戏 | `wanos-2048` | — | 42181 | 2.0 MB | [下载 .wpk](https://wxqun988.vxjuejin.com/wanos/app-submissions/wanos-2048/wanos-2048-1784204854192/wano--2048.wpk) |
+| 清理大师 | `wanos-cleaner` | 1.0.0 | 18666 | 9.5 MB | [下载 .wpk](https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/wanos-cleaner-1.0.0.wpk) |
 
 
 ## C. 无直链，走 install.sh 安装（19 个）
@@ -160,7 +161,7 @@
 | --- | --- | --- |
 | 迅雷远程下载 | `xunlei` | architectures 仅 linux-arm64 / linux-amd64；install.sh 只认 aarch64/arm64 与 x86_64/amd64，其余架构直接报错；上游 cnk3x/xunlei 只有 amd64/arm64 包，群晖 SPK 也只有 x86_64/armv8，无 armv7 |
 
-## 设备导出里另外的 7 个（不在 API 里，不计入上面 70 个）
+## 设备导出里另外的 7 个（不在 API 里，不计入上面 71 个）
 
 Alist、计算器、记事本、WanOS 音乐、媒体播放、下载中心、相册（7 个内置），都在 armv7 设备上，但官方 API 里没有、无公网直链。
 
@@ -168,6 +169,6 @@ Alist、计算器、记事本、WanOS 音乐、媒体播放、下载中心、相
 
 - `armv7-apps.json`：本清单的机器可读版，含每个应用的端口、简介、安装包/安装脚本链接、SHA256、已下载校验状态。
 
-- `apps.json`：78 个应用的完整合并目录（含上面 7 个设备应用 + 迅雷）。
+- `apps.json`：79 个应用的完整合并目录（含上面 7 个设备应用 + 迅雷）。
 
-- 克隆站 `index.html` 已加“仅 ARMv7 能用”筛选，选它就只显示这 70 个（合并目录里是 77 个，因为还含设备那 7 个）。
+- 克隆站 `index.html` 已加“仅 ARMv7 能用”筛选，选它就只显示这 71 个（合并目录里是 78 个，因为还含设备那 7 个）。

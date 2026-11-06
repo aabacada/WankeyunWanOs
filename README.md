@@ -18,7 +18,7 @@
 | [系统能力与 API 接口](WanOS系统能力与API/WanOS系统能力与API.md) | 159 个后端接口清单，含悬浮窗口、文件预览、壁纸、公网访问等扩展能力 | 417 行 · 28 KB |
 | [WPK 应用开发文档](WPK应用开发文档/WPK应用开发文档.md) | 把应用打包成 `.wpk` 的完整流程：manifest 字段、脚本规则、打包测试、上架审核 | 478 行 · 20 KB |
 | [WanOS ID 登录鉴权](WanOS-登录鉴权OAuth/WanOS-登录鉴权OAuth.md) | OAuth 授权码接入，含换取 Token、扣积分、用户信息返回示例 | 150 行 · 8 KB |
-| [WanOS 应用市场（镜像）](WanOS-app-store/README.md) | 官方应用市场克隆：77 个应用的名称、介绍、图标与版本，安装包走 [Release](https://github.com/aabacada/wankeyunwanos/releases/tag/wanos-armv7-20261106)，安装脚本走改写后的 raw 地址，官网下线后仍可安装 | 77 个应用 · 60 个有安装包 · 67 个有安装脚本 · Release 128 个文件约 1.76 GiB |
+| [WanOS 应用市场（镜像）](WanOS-app-store/README.md) | 官方应用市场克隆：78 个应用的名称、介绍、图标与版本，安装包走 [Release](https://github.com/aabacada/wankeyunwanos/releases/tag/wanos-armv7-20261106)，安装脚本走改写后的 raw 地址，官网下线后仍可安装 | 78 个应用 · 61 个有安装包 · 67 个有安装脚本 · Release 129 个文件约 1.77 GiB |
 
 ---
 
@@ -59,7 +59,7 @@
 │   └── WPK应用开发文档.md
 ├── WanOS-登录鉴权OAuth/
 │   └── WanOS-登录鉴权OAuth.md
-└── WanOS-app-store/                           ← 官方应用市场镜像（77 个应用目录 + 离线安装包）
+└── WanOS-app-store/                           ← 官方应用市场镜像（78 个应用目录 + 离线安装包）
     ├── README.md                              ← 应用目录：名称、介绍、图标、版本、Release 安装包、安装脚本
     ├── index.html                             ← 静态应用市场页
     └── github-mirror/                         ← 改写后安装脚本、Release 文件清单（128 个文件约 1.76 GiB）

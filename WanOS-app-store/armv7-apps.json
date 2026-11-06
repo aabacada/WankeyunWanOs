@@ -2,11 +2,11 @@
   "source": "app-store-api-20260721.json (71 apps, updated 2026-07-21) + device export 2026-11-06 for installed status",
   "criteria": "armv7 能用 = API architectures 含 armv7/linux-armv7，或有 linux-armv7 安装包，或 install.sh 明确支持 armv7/armhf，或为 armv7 .wpk / 设备内置；排除 architectures 仅 arm64/amd64 且 install.sh 拒绝 armv7 的迅雷",
   "total_api": 71,
-  "usable": 70,
+  "usable": 71,
   "excluded": 1,
   "by_tier": {
     "package": 48,
-    "wpk": 1,
+    "wpk": 2,
     "install_script": 19,
     "builtin": 2
   },
@@ -3254,6 +3254,51 @@
       "download_status": "ok",
       "download_size_bytes": 41548573,
       "armv7_evidence": "安装包文件名含 armhf（yt-dlp-web-armhf-wanos.tar.gz）; install.sh 校验 uname 为 armv7/armhf"
+    },
+    {
+      "id": "wanos-cleaner",
+      "name": "清理大师",
+      "version": "1.0.0",
+      "version_api": "",
+      "description": "WanOS 系统清理工具，支持普通清理、强力清理和将大型运行目录转移到数据盘。",
+      "category": "",
+      "tags": [
+        "WPK",
+        "第三方"
+      ],
+      "icon": "https://raw.githubusercontent.com/aabacada/wankeyunwanos/main/WanOS-app-store/github-mirror/icons/wanos-cleaner.png",
+      "port": 18666,
+      "path": "/",
+      "service": "wanos-cleaner",
+      "install_url": "",
+      "install_sha256": "",
+      "update_url": "",
+      "uninstall_url": "",
+      "package_url": "https://github.com/aabacada/wankeyunwanos/releases/download/wanos-armv7-20261106/wanos-cleaner-1.0.0.wpk",
+      "package_sha256": "d564f08ba9b29817b29708d6542ce2e9b5e2253a8911e09c0c54b4d06acf4bb6",
+      "package_size": 9981717,
+      "size_display": "9.5 MB",
+      "architectures": [
+        "armv7",
+        "arm64",
+        "amd64"
+      ],
+      "packages": [],
+      "wpk_url": "",
+      "wpk_sha256": "",
+      "downloads": 0,
+      "installed_on_device": false,
+      "device_status": "可安装",
+      "default_account": "",
+      "notes": [
+        "WPK user submitted package",
+        "Version: 1.0.0"
+      ],
+      "tier": "wpk",
+      "download_verified": true,
+      "download_status": "ok",
+      "download_size_bytes": 9981717,
+      "armv7_evidence": "WPK 包，内含 linux-armv7 二进制（实测 ELF 32-bit ARM），另含 arm64/amd64 二进制"
     }
   ],
   "excluded_apps": [
