@@ -1,6 +1,6 @@
 # WanOS 应用市场（镜像）
 
-一个可直接托管到 GitHub / GitHub Pages 的 WanOS 应用市场克隆，**含官网资源离线镜像**：安装包走 GitHub Releases，安装 / 更新 / 卸载脚本与图标走 GitHub raw，官网下线后仍可安装。3 个手动 `.wpk`（凤凰秀直播、直播源管理、YT直播）按要求排除在外。详情与缺口见 `github-mirror/README.md`。
+一个可直接托管到 GitHub / GitHub Pages 的 WanOS 应用市场克隆，**含官网资源离线镜像**：安装包走 GitHub Releases，安装 / 更新 / 卸载脚本与图标走 GitHub raw，官网下线后仍可安装。详情与缺口见 `github-mirror/README.md`。
 
 ## 里面有什么
 
