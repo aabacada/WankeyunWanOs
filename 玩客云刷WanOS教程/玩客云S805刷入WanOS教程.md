@@ -37,10 +37,18 @@
 视频会演示玩客云刷机的关键流程，包括工具准备、短接识别、导入镜像和首次启动。建议新手先完整看完，再按下面图文步骤操作。
 
 - B 站视频教程：<https://www.bilibili.com/video/BV191Vb6GEoA/>
+- 备份视频：https://github.com/aabacada/WankeyunWanOs/releases/download/v2026.11.5-002/WanOS-shuajishipin-jiaocheng.mp4
 
 ---
 
 ## 01 准备刷机工具
+#### 工具下载地址：
+
+>USB_Burning_Tool：https://github.com/aabacada/WankeyunWanOs/releases/download/v2026.11.5-002/USB_Burning_Tool_v2.1.3.exe
+
+>线刷固件包：https://github.com/aabacada/WankeyunWanOs/releases/download/v2026.11.5-002/wanos_s805_onecloud_v0.3.299.burn.img
+
+>升级包：https://github.com/aabacada/WankeyunWanOs/releases/download/v2026.11.5-002/wanos_update_v0.3.427_20260810_linux-armv7.bin
 
 你需要一台 Windows 电脑、一根双公头 USB 线、玩客云电源、晶晨 `USB_Burning_Tool.exe`，以及 WanOS 的 `.burn.img` 线刷镜像。
 
